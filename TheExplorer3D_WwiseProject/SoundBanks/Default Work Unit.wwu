@@ -4,8 +4,23 @@
 		<WorkUnit Name="Default Work Unit" ID="{7C7E78E5-EFA2-4BB2-AE0D-5A5E0E2B7F19}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="MC" ID="{28D8D285-AEF3-4293-8254-E01D750AAD94}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="TEST_DUCK" ID="{E2E7480B-258C-4102-8FF5-222A44C39CA4}" WorkUnitID="{E2E7480B-258C-4102-8FF5-222A44C39CA4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MC_WU" ID="{B65C6026-D797-4A94-A49A-21AFD9979A80}" WorkUnitID="{B65C6026-D797-4A94-A49A-21AFD9979A80}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Z_DEV" ID="{C0ABBBC3-31D2-4D37-BCC2-9EA596AFB503}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="20"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Z_DEV_WU" ID="{68869AB1-C286-44B8-87B9-7DCFE052782E}" WorkUnitID="{68869AB1-C286-44B8-87B9-7DCFE052782E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

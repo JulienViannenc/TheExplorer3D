@@ -3,7 +3,8 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{1279BB73-610B-4B39-833E-BEC908E07C89}" PersistMode="Standalone">
 			<ChildrenList>
-				<WorkUnit Name="TEST_DUCK" ID="{E2E7480B-258C-4102-8FF5-222A44C39CA4}" PersistMode="Reference"/>
+				<WorkUnit Name="Z_DEV_WU" ID="{68869AB1-C286-44B8-87B9-7DCFE052782E}" PersistMode="Reference"/>
+				<WorkUnit Name="MC_WU" ID="{B65C6026-D797-4A94-A49A-21AFD9979A80}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

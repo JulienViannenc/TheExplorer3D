@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{68869AB1-C286-44B8-87B9-7DCFE052782E}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}">
+	<Events>
+		<WorkUnit Name="Z_DEV_WU" ID="{68869AB1-C286-44B8-87B9-7DCFE052782E}" OwnerID="{1279BB73-610B-4B39-833E-BEC908E07C89}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="DuckSound" ID="{6FA9F563-631F-4920-8DC7-15226056D782}">
+					<ChildrenList>
+						<Action Name="" ID="{006469BF-08BE-422C-AAFB-798130CCE979}" ShortID="194316367">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_TheExplorer3D_SP_DuckSound_01" ID="{8EE3B38D-1A6B-4954-BC60-C509DDE95059}" WorkUnitID="{5D8A72B1-B93A-4825-AA81-1D3642962064}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="STOP_DuckSound" ID="{50E2BA25-B1FC-49CE-9051-D38A43D501F7}">
+					<ChildrenList>
+						<Action Name="" ID="{4663EC6A-AA26-4606-B54A-4C68B42AA14C}" ShortID="145488028">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_TheExplorer3D_SP_DuckSound_01" ID="{8EE3B38D-1A6B-4954-BC60-C509DDE95059}" WorkUnitID="{5D8A72B1-B93A-4825-AA81-1D3642962064}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

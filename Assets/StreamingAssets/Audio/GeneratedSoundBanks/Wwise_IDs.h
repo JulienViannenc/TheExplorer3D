@@ -13,13 +13,15 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID TEST = 3157003241U;
+        static const AkUniqueID DUCKSOUND = 3169408195U;
+        static const AkUniqueID STOP_DUCKSOUND = 973396280U;
     } // namespace EVENTS
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID MC = 1685527061U;
+        static const AkUniqueID Z_DEV = 3668529533U;
     } // namespace BANKS
 
     namespace BUSSES
