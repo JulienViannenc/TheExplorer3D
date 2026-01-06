@@ -29,6 +29,8 @@
 						<ActiveSource Name="SFX_TheExplorer3D_SP_DuckSound_01" ID="{83AD4E85-68DE-4C42-B170-320CD8FB8530}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<WorkUnit Name="Z_DEV_LVL_01" ID="{1DB6AB0B-3E79-482D-BE41-EFDD2AF10D49}" PersistMode="Reference"/>
+				<WorkUnit Name="Z_DEV_LVL_02" ID="{E1BEDE34-20D0-4C5F-815D-976204ABC7F8}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
