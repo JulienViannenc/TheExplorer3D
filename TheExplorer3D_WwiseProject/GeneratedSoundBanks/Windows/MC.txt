@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3157003241	Test			\Default Work Unit\TEST_DUCK\Test	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	375829352	SFX_TheExplorer3D_SP_DuckSound_01	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX_TheExplorer3D_SP_DuckSound_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\SFX_TheExplorer3D_SP_DuckSound_01		36120
+
