@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CS_AudioPostEvent : MonoBehaviour
+public class CS_FTS_AudioPostEvent : MonoBehaviour
 {
     
     public GameObject audioSource;
