@@ -52,8 +52,9 @@ namespace Gamekit3D
         public AK.Wwise.Event event_Ennemy_Chomper_Spotted_Play;
         
         [Header("Attack")]
-        public AK.Wwise.Event event_Ennemy_Chomper_Attack_Play;
-        public AK.Wwise.Event event_Ennemy_Chomper_Attack_Stop;
+        public AK.Wwise.Event event_Ennemy_Chomper_AttackBegin_Play;
+        public AK.Wwise.Event event_Ennemy_Chomper_AttackEnd_Play;
+        public AK.Wwise.Event event_Ennemy_Chomper_AttackAllStop_Play;
         
         [Header("Hit")]
         public AK.Wwise.Event event_Ennemy_Chomper_Hit_Play;
@@ -89,26 +90,26 @@ namespace Gamekit3D
             Debug.Log("Grunt Chomper Audio Trigger");
             event_Ennemy_Chomper_Grunt_Play.Post(AS_MOUTH);
         }
-        
-        public void SFX_Ennemy_Chomper_IdleScratch_Play(AnimationEvent animationEvent)
+
+        public void SFX_Ennemy_Chomper_IdleScratch_Play()
         {
             Debug.Log("Walk Audio Footstep Marche Chomper");
             event_Ennemy_Chomper_IdleScratch_Play.Post(AS_FTS);
         }
         
-        public void SFX_Ennemy_Chomper_FTSIdle_Play(AnimationEvent animationEvent)
+        public void SFX_Ennemy_Chomper_FTSIdle_Play()
         {
             Debug.Log("Walk Audio Idle Footstep Marche Chomper");
             event_Ennemy_Chomper_FTSIdle_Play.Post(AS_FTS);
         }
 
-        public void SFX_Ennemy_Chomper_FTSWalk_Play(AnimationEvent animationEvent)
+        public void SFX_Ennemy_Chomper_FTSWalk_Play()
         {
             Debug.Log("Walk Audio Footstep Marche Chomper");
             event_Ennemy_Chomper_FTSWalk_Play.Post(AS_FTS);
         }
         
-        public void SFX_Ennemy_Chomper_FTSRun_Play(AnimationEvent animationEvent)
+        public void SFX_Ennemy_Chomper_FTSRun_Play()
         {
             Debug.Log("Walk Audio Footstep Marche Chomper");
             event_Ennemy_Chomper_FTSRun_Play.Post(AS_FTS);
@@ -132,22 +133,26 @@ namespace Gamekit3D
             event_Ennemy_Chomper_Spotted_Play.Post(AS_MOUTH);
         }
         
-        /// <summary>
-        /// Called by animation events.
-        /// </summary>
-        /// <param name="frontFoot">Has a value of 1 when it's a front foot stepping and 0 when it's a back foot.</param>
-        // void PlayStep(int frontFoot)
-        // {
-        //     if (frontStepAudio != null && frontFoot == 1)
-        //         frontStepAudio.PlayRandomClip();
-        //     else if (backStepAudio != null && frontFoot == 0)
-        //         backStepAudio.PlayRandomClip ();
-        // }
-        //
-        // /// <summary>
-        // /// Called by animation events.
-        // /// </summary>
+        public void SFX_Ennemy_Chomper_AttackBegin_Play()
+        {
+            Debug.Log("Attack BEGIN Chomper Audio Trigger");
+            event_Ennemy_Chomper_AttackBegin_Play.Post(AS_MOUTH);
+        }
         
+        public void SFX_Ennemy_Chomper_AttackEnd_Play()
+        {
+            Debug.Log("Attack END Chomper Audio Trigger");
+            event_Ennemy_Chomper_AttackEnd_Play.Post(AS_MOUTH);
+        }
+        
+        public void SFX_Ennemy_Chomper_AttackAll_Stop()
+        {
+            Debug.Log("Attack ALL STOP Chomper Audio Trigger");
+            event_Ennemy_Chomper_AttackAllStop_Play.Post(AS_MOUTH);
+        }
+        
+
+
      // ----- END AUDIO MANAGEMENT ------ //  
      
         protected void OnDisable()

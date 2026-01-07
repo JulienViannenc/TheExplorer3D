@@ -21,16 +21,13 @@ namespace Gamekit3D
             m_MonoBehaviour.transform.forward = toTarget.normalized;
             m_MonoBehaviour.controller.SetForward(m_MonoBehaviour.transform.forward);
 
-            Debug.Log("Audio Attack Chomper Triggered");
-            m_MonoBehaviour.event_Ennemy_Chomper_Attack_Play.Post(m_MonoBehaviour.AS_MOUTH);
-
         }
 
         public override void OnSLStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             base.OnSLStateExit(animator, stateInfo, layerIndex);
 
-            m_MonoBehaviour.event_Ennemy_Chomper_Attack_Stop.Post(m_MonoBehaviour.AS_MOUTH);
+            m_MonoBehaviour.SFX_Ennemy_Chomper_AttackAll_Stop();
 
 
             m_MonoBehaviour.controller.SetFollowNavmeshAgent(true);

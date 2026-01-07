@@ -707,21 +707,21 @@ ModelImporter:
         intParameter: 1
         messageOptions: 0
       - time: 0.20378993
-        functionName: PlayFTSWalk
+        functionName: SFX_Ennemy_Chomper_FTSWalk_Play
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.5096466
-        functionName: PlayFTSWalk
+        functionName: SFX_Ennemy_Chomper_FTSWalk_Play
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.6876069
-        functionName: PlayFTSWalk
+        functionName: SFX_Ennemy_Chomper_FTSWalk_Play
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
