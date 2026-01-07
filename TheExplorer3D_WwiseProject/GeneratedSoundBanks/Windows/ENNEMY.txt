@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	278299119	FTS_Idle			\Default Work Unit\ENNEMY\CHOMPER\FTS_Idle	
+	300122239	STOP_Hit			\Default Work Unit\ENNEMY\CHOMPER\STOP_Hit	
+	1116398592	Hit			\Default Work Unit\ENNEMY\CHOMPER\Hit	
+	1280223711	STOP_FTS_Walk			\Default Work Unit\ENNEMY\CHOMPER\STOP_FTS_Walk	
+	1293984723	STOP_AttackEnd			\Default Work Unit\ENNEMY\CHOMPER\STOP_AttackEnd	
+	1328128341	STOP_AttackAll			\Default Work Unit\ENNEMY\CHOMPER\STOP_AttackAll	
+	1639835052	AttackEnd			\Default Work Unit\ENNEMY\CHOMPER\AttackEnd	
+	1848048310	STOP_Grunt			\Default Work Unit\ENNEMY\CHOMPER\STOP_Grunt	
+	2027509688	FTS_Run			\Default Work Unit\ENNEMY\CHOMPER\FTS_Run	
+	2508816088	AttackBegin			\Default Work Unit\ENNEMY\CHOMPER\AttackBegin	
+	2512384458	Fall			\Default Work Unit\ENNEMY\CHOMPER\Fall	
+	2695680267	STOP_Fall			\Default Work Unit\ENNEMY\CHOMPER\STOP_Fall	
+	2765578991	STOP_Spotted			\Default Work Unit\ENNEMY\CHOMPER\STOP_Spotted	
+	2837855987	STOP_AttackBegin			\Default Work Unit\ENNEMY\CHOMPER\STOP_AttackBegin	
+	2885577723	STOP_FTSIdle			\Default Work Unit\ENNEMY\CHOMPER\STOP_FTSIdle	
+	3144061710	FTS_Walk			\Default Work Unit\ENNEMY\CHOMPER\FTS_Walk	
+	3214304800	Spotted			\Default Work Unit\ENNEMY\CHOMPER\Spotted	
+	3463244419	STOP_FTS_Run			\Default Work Unit\ENNEMY\CHOMPER\STOP_FTS_Run	
+	3797621065	Grunt			\Default Work Unit\ENNEMY\CHOMPER\Grunt	
+

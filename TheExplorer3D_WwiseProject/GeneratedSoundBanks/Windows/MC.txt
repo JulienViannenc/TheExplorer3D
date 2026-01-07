@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2548270042	Landing			\Default Work Unit\MC\Landing	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	47380200	MC_LandingDirt_03	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\MC\FTS\MC_LandingDirt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\AM_MC\FTS\AM_FTS\RC_Landing\MC_LandingDirt_03		115296
+	57964426	MC_LandingDirt_04	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\MC\FTS\MC_LandingDirt_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\AM_MC\FTS\AM_FTS\RC_Landing\MC_LandingDirt_04		83296
+	63814283	MC_LandingDirt_02	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\MC\FTS\MC_LandingDirt_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\AM_MC\FTS\AM_FTS\RC_Landing\MC_LandingDirt_02		115296
+	440004500	MC_LandingDirt_06	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\MC\FTS\MC_LandingDirt_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\AM_MC\FTS\AM_FTS\RC_Landing\MC_LandingDirt_06		108896
+	638090160	MC_LandingDirt_01	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\MC\FTS\MC_LandingDirt_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\AM_MC\FTS\AM_FTS\RC_Landing\MC_LandingDirt_01		115296
+	675616308	MC_LandingDirt_07	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\MC\FTS\MC_LandingDirt_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\AM_MC\FTS\AM_FTS\RC_Landing\MC_LandingDirt_07		108896
+	873158197	MC_LandingDirt_05	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\MC\FTS\MC_LandingDirt_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\AM_MC\FTS\AM_FTS\RC_Landing\MC_LandingDirt_05		108896
+	911801410	MC_LandingDirt_08	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\MC\FTS\MC_LandingDirt_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\AM_MC\FTS\AM_FTS\RC_Landing\MC_LandingDirt_08		108896
+

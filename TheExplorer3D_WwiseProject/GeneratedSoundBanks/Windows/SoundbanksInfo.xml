@@ -9,9 +9,30 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="692772937" Type="User" Language="SFX" Hash="{F0E3AA8C-5645-0C30-C516-998E5B3020A1}">
+		<SoundBank Id="692772937" Type="User" Language="SFX" Hash="{428109A0-D890-6EE5-B3CF-2BCF57B1AD03}">
 			<ShortName>ENNEMY</ShortName>
 			<Path>ENNEMY.bnk</Path>
+			<Events>
+				<Event Id="2508816088" Name="AttackBegin" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1639835052" Name="AttackEnd" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2512384458" Name="Fall" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="278299119" Name="FTS_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2027509688" Name="FTS_Run" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3144061710" Name="FTS_Walk" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3797621065" Name="Grunt" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1116398592" Name="Hit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3214304800" Name="Spotted" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1328128341" Name="STOP_AttackAll" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2837855987" Name="STOP_AttackBegin" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1293984723" Name="STOP_AttackEnd" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2695680267" Name="STOP_Fall" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3463244419" Name="STOP_FTS_Run" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1280223711" Name="STOP_FTS_Walk" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2885577723" Name="STOP_FTSIdle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1848048310" Name="STOP_Grunt" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="300122239" Name="STOP_Hit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2765578991" Name="STOP_Spotted" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="831326253" Type="User" Language="SFX" Hash="{6FA9A330-9FA0-8485-0E4B-FB762B796F68}">
 			<ShortName>GPE</ShortName>
@@ -49,9 +70,57 @@
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{927AC34A-1CF1-050E-6DCC-87C42AA5FC04}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{860D8434-97FC-625E-E56F-D71586367F26}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
+			<Media>
+				<File Id="47380200" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_LandingDirt_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_LandingDirt_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="57964426" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_LandingDirt_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_LandingDirt_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="63814283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_LandingDirt_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_LandingDirt_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="440004500" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_LandingDirt_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_LandingDirt_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="638090160" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_LandingDirt_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_LandingDirt_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="675616308" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_LandingDirt_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_LandingDirt_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="873158197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_LandingDirt_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_LandingDirt_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="911801410" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_LandingDirt_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_LandingDirt_08_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2548270042" Name="Landing" DurationType="OneShot" DurationMin="0.43333334" DurationMax="0.6">
+					<MediaRefs>
+						<MediaRef Id="47380200"/>
+						<MediaRef Id="57964426"/>
+						<MediaRef Id="63814283"/>
+						<MediaRef Id="440004500"/>
+						<MediaRef Id="638090160"/>
+						<MediaRef Id="675616308"/>
+						<MediaRef Id="873158197"/>
+						<MediaRef Id="911801410"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="3668529533" Type="User" Language="SFX" Hash="{3343E93A-7C3B-3473-6F82-83928FB52525}">
 			<ShortName>Z_DEV</ShortName>
@@ -76,5 +145,5 @@
 			<Path>MUSIC.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8FA60BDE-0D45-82BB-2374-F9C49D60423C}</FileHash>
+	<FileHash>{C81E7EDE-F745-9153-4301-8462D16AB196}</FileHash>
 </SoundBanksInfo>

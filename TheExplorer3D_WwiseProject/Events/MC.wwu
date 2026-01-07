@@ -6,6 +6,19 @@
 				<Property Name="Color" Type="int16" Value="19"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Landing" ID="{CB013207-E65C-49D8-A122-B087518CE5EA}">
+					<ChildrenList>
+						<Action Name="" ID="{05AC5D8F-97AC-4434-9661-C0FC18F48B85}" ShortID="104083118">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Landing" ID="{A64FE2AE-37A4-4A9F-B698-4F9005381743}" WorkUnitID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>
