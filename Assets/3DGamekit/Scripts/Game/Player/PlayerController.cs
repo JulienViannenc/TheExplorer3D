@@ -13,30 +13,12 @@ namespace Gamekit3D
         public static PlayerController instance { get { return s_Instance; } }
 
         public bool respawning { get { return m_Respawning; } }
-
-        public float maxForwardSpeed = 8f;        // How fast Ellen can run.
-        public float gravity = 20f;               // How fast Ellen accelerates downwards when airborne.
-        public float jumpSpeed = 10f;             // How fast Ellen takes off when jumping.
-        public float minTurnSpeed = 400f;         // How fast Ellen turns when moving at maximum speed.
-        public float maxTurnSpeed = 1200f;        // How fast Ellen turns when stationary.
-        public float idleTimeout = 5f;            // How long before Ellen starts considering random idles.
-        public bool canAttack;                    // Whether or not Ellen can swing her staff.
-
-        public CameraSettings cameraSettings;            // Reference used to determine the camera's direction.
-        public MeleeWeapon meleeWeapon;                  // Reference used to (de)activate the staff when attacking. 
-        //public RandomAudioPlayer footstepPlayer;         // Random Audio Players used for various situations.
-        //public RandomAudioPlayer hurtAudioPlayer;
-        //public RandomAudioPlayer landingPlayer;
-        //public RandomAudioPlayer emoteLandingPlayer;
-        //public RandomAudioPlayer emoteDeathPlayer;
-        //public RandomAudioPlayer emoteAttackPlayer;
-        //public RandomAudioPlayer emoteJumpPlayer;
-
+        
         [Header("AUDIO MANAGEMENT")]
-        [Header("AUDIO SOURCE")]
+     
         public GameObject AS_FTS;
         public GameObject AS_MOUTH;
-        public GameObject AS_BODY;
+        public GameObject AS_BODY; 
         public GameObject AS_STICK;
 
 
@@ -48,11 +30,30 @@ namespace Gamekit3D
         public AK.Wwise.Event event_MC_Ellen_Combo_1_Play;
         public AK.Wwise.Event event_MC_Ellen_Combo_2_Play;
         public AK.Wwise.Event event_MC_Ellen_Combo_3_Play;
-        public AK.Wwise.Event event_MC_Ellen_Combo_4_Play;
+        public AK.Wwise.Event event_MC_Ellen_Combo_4_Play; 
+
+        [Header("GAME MANAGEMENT")]
+        public float maxForwardSpeed = 8f;        // How fast Ellen can run.
+        public float gravity = 20f;               // How fast Ellen accelerates downwards when airborne.
+        public float jumpSpeed = 10f;             // How fast Ellen takes off when jumping.
+        public float minTurnSpeed = 400f;         // How fast Ellen turns when moving at maximum speed.
+        public float maxTurnSpeed = 1200f;        // How fast Ellen turns when stationary.
+        public float idleTimeout = 5f;            // How long before Ellen starts considering random idles.
+        public bool canAttack;    
+        
+        
 
 
-
-
+        public CameraSettings cameraSettings;            // Reference used to determine the camera's direction.
+        public MeleeWeapon meleeWeapon;                  // Reference used to (de)activate the staff when attacking. 
+        //public RandomAudioPlayer footstepPlayer;         // Random Audio Players used for various situations.
+        //public RandomAudioPlayer hurtAudioPlayer;
+        //public RandomAudioPlayer landingPlayer;
+        //public RandomAudioPlayer emoteLandingPlayer;
+        //public RandomAudioPlayer emoteDeathPlayer;
+        //public RandomAudioPlayer emoteAttackPlayer;
+        //public RandomAudioPlayer emoteJumpPlayer;
+        
         protected AnimatorStateInfo m_CurrentStateInfo;    // Information about the base layer of the animator cached.
         protected AnimatorStateInfo m_NextStateInfo;
         protected bool m_IsAnimatorTransitioning;

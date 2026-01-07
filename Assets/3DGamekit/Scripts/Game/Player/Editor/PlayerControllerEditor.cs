@@ -18,19 +18,50 @@ namespace Gamekit3D
         SerializedProperty m_MaxTurnSpeedProp;
         SerializedProperty m_IdleTimeoutProp;
         SerializedProperty m_CanAttackProp;
-
         SerializedProperty m_MeleeWeaponProp;
         SerializedProperty m_CameraSettingsProp;
-        SerializedProperty m_FootstepPlayerProp;
-        SerializedProperty m_HurtAudioPlayerProp;
-        SerializedProperty m_LandingPlayerProp;
-        SerializedProperty m_EmoteLandingPlayerProp;
-        SerializedProperty m_EmoteDeathPlayerProp;
-        SerializedProperty m_EmoteAttackPlayerProp;
-        SerializedProperty m_EmoteJumpPlayerProp;
+        
+        SerializedProperty m_AS_FTSProp;
+        SerializedProperty m_AS_MOUTHProp;
+        SerializedProperty m_AS_BODYProp;
+        SerializedProperty m_AS_STICKProp;
+        
+        SerializedProperty m_event_MC_Ellen_Land_PlayProp;
+        SerializedProperty m_event_MC_Ellen_Jump_PlayProp;
+        SerializedProperty m_event_MC_Ellen_Hurt_PlayProp;
+        SerializedProperty m_event_MC_Ellen_Death_PlayProp;
+        SerializedProperty m_event_MC_Ellen_Combo_1_PlayProp;
+        SerializedProperty m_event_MC_Ellen_Combo_2_PlayProp;
+        SerializedProperty m_event_MC_Ellen_Combo_3_PlayProp;
+        SerializedProperty m_event_MC_Ellen_Combo_4_PlayProp;
+        
+        // SerializedProperty m_FootstepPlayerProp;
+        // SerializedProperty m_HurtAudioPlayerProp;
+        // SerializedProperty m_LandingPlayerProp;
+        // SerializedProperty m_EmoteLandingPlayerProp;
+        // SerializedProperty m_EmoteDeathPlayerProp;
+        // SerializedProperty m_EmoteAttackPlayerProp;
+        // SerializedProperty m_EmoteJumpPlayerProp;
 
+        
+        // Create Label and Tooltip
         GUIContent m_ScriptContent = new GUIContent("Script");
 
+        GUIContent m_AS_FTSContent =  new GUIContent("AS FTS","Put your Ellen FOOTSTEP Audio Source");
+        GUIContent m_AS_MOUTHContent =  new GUIContent("AS MOUTH","Put your Ellen MOUTH Audio Source");
+        GUIContent m_AS_BODYContent =  new GUIContent("AS BODY","Put your Ellen BODY Audio Source");
+        GUIContent m_AS_STICKContent =  new GUIContent("AS STICK","Put your Ellen STICK Audio Source");
+        
+        GUIContent m_event_MC_Ellen_Land_Play_Content =  new GUIContent("Wwise Land Event","Put your Wwise Ellen Land Event");
+        GUIContent m_event_MC_Ellen_Jump_Play_Content =  new GUIContent("Wwise Jump Event","Put your Wwise Ellen Jump Event");
+        GUIContent m_event_MC_Ellen_Hurt_Play_Content =  new GUIContent("Wwise Hurt Event","Put your Wwise Ellen Hurt Event");
+        GUIContent m_event_MC_Ellen_Death_Play_Content =  new GUIContent("Wwise Death Event","Put your Wwise Ellen Death Event");
+        GUIContent m_event_MC_Ellen_Combo_1_Play_Content =  new GUIContent("Wwise Combo 1 Event","Link your Combo 1 Wwise Event");
+        GUIContent m_event_MC_Ellen_Combo_2_Play_Content =  new GUIContent("Wwise Combo 2 Event","Link your Combo 2 Wwise Event");
+        GUIContent m_event_MC_Ellen_Combo_3_Play_Content =  new GUIContent("Wwise Combo 3 Event","Link your Combo 3 Wwise Event");
+        GUIContent m_event_MC_Ellen_Combo_4_Play_Content =  new GUIContent("Wwise Combo 4 Event","Link your Combo 4 Wwise Event");
+        
+        
         GUIContent m_MaxForwardSpeedContent = new GUIContent("Max Forward Speed", "How fast Ellen can run.");
         GUIContent m_GravityContent = new GUIContent("Gravity", "How fast Ellen falls when in the air.");
         GUIContent m_JumpSpeedContent = new GUIContent("Jump Speed", "How fast Ellen takes off when jumping.");
@@ -40,17 +71,35 @@ namespace Gamekit3D
 
         GUIContent m_MeleeWeaponContent = new GUIContent("Melee Weapon", "Used for damaging enemies when Ellen swings her staff.");
         GUIContent m_CameraSettingsContent = new GUIContent("Camera Settings", "Used to get the rotation of the current camera so that Ellen faces the correct direction.  Note: This is the only reference which is not part of the Ellen prefab.  It should automatically be set to the Camera Settings script of the CameraRig gameobject when the Prefab is instantiated.");
-        GUIContent m_FootstepPlayerContent = new GUIContent("Footstep Random Audio Player", "Used to play a random sound when Ellen takes a step.");
-        GUIContent m_HurtAudioPlayerContent = new GUIContent("Hurt Random Audio Player", "Used to play a random sound when Ellen gets hurt.");
-        GUIContent m_LandingPlayerContent = new GUIContent("Landing Random Audio Player", "Used to play a random sound when Ellen lands.");
-        GUIContent m_EmoteLandingPlayerContent = new GUIContent("Emote Landing Player", "Used to play a random vocal sound when Ellen lands.");
-        GUIContent m_EmoteDeathPlayerContent = new GUIContent("Emote Death Player", "Used to play a random vocal sound when Ellen dies.");
-        GUIContent m_EmoteAttackPlayerContent = new GUIContent("Emote Attack Player", "Used to play a random vocal sound when Ellen attacks.");
-        GUIContent m_EmoteJumpPlayerContent = new GUIContent("Emote Jump Player", "Used to play a random vocal sound when Ellen jumps.");
+        
+        
+        
+        // GUIContent m_FootstepPlayerContent = new GUIContent("Footstep Random Audio Player", "Used to play a random sound when Ellen takes a step.");
+        // GUIContent m_HurtAudioPlayerContent = new GUIContent("Hurt Random Audio Player", "Used to play a random sound when Ellen gets hurt.");
+        // GUIContent m_LandingPlayerContent = new GUIContent("Landing Random Audio Player", "Used to play a random sound when Ellen lands.");
+        // GUIContent m_EmoteLandingPlayerContent = new GUIContent("Emote Landing Player", "Used to play a random vocal sound when Ellen lands.");
+        // GUIContent m_EmoteDeathPlayerContent = new GUIContent("Emote Death Player", "Used to play a random vocal sound when Ellen dies.");
+        // GUIContent m_EmoteAttackPlayerContent = new GUIContent("Emote Attack Player", "Used to play a random vocal sound when Ellen attacks.");
+        // GUIContent m_EmoteJumpPlayerContent = new GUIContent("Emote Jump Player", "Used to play a random vocal sound when Ellen jumps.");
 
+        // Link Player Controller.Cs Variable
         void OnEnable()
         {
             m_ScriptProp = serializedObject.FindProperty("m_Script");
+            
+            m_AS_FTSProp = serializedObject.FindProperty("AS_FTS");
+            m_AS_MOUTHProp = serializedObject.FindProperty("AS_MOUTH");
+            m_AS_BODYProp = serializedObject.FindProperty("AS_BODY");
+            m_AS_STICKProp = serializedObject.FindProperty("AS_STICK");
+            
+            m_event_MC_Ellen_Land_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Land_Play");
+            m_event_MC_Ellen_Jump_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Jump_Play");
+            m_event_MC_Ellen_Hurt_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Hurt_Play");
+            m_event_MC_Ellen_Death_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Death_Play");
+            m_event_MC_Ellen_Combo_1_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Combo_1_Play");
+            m_event_MC_Ellen_Combo_2_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Combo_2_Play");
+            m_event_MC_Ellen_Combo_3_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Combo_3_Play");
+            m_event_MC_Ellen_Combo_4_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Combo_4_Play");
 
             m_MaxForwardSpeedProp = serializedObject.FindProperty("maxForwardSpeed");
             m_GravityProp = serializedObject.FindProperty("gravity");
@@ -62,32 +111,62 @@ namespace Gamekit3D
 
             m_MeleeWeaponProp = serializedObject.FindProperty("meleeWeapon");
             m_CameraSettingsProp = serializedObject.FindProperty("cameraSettings");
-            m_FootstepPlayerProp = serializedObject.FindProperty("footstepPlayer");
-            m_HurtAudioPlayerProp = serializedObject.FindProperty("hurtAudioPlayer");
-            m_LandingPlayerProp = serializedObject.FindProperty("landingPlayer");
-            m_EmoteLandingPlayerProp = serializedObject.FindProperty("emoteLandingPlayer");
-            m_EmoteDeathPlayerProp = serializedObject.FindProperty("emoteDeathPlayer");
-            m_EmoteAttackPlayerProp = serializedObject.FindProperty("emoteAttackPlayer");
-            m_EmoteJumpPlayerProp = serializedObject.FindProperty("emoteJumpPlayer");
+            
+
+            // m_FootstepPlayerProp = serializedObject.FindProperty("footstepPlayer");
+            // m_HurtAudioPlayerProp = serializedObject.FindProperty("hurtAudioPlayer");
+            // m_LandingPlayerProp = serializedObject.FindProperty("landingPlayer");
+            // m_EmoteLandingPlayerProp = serializedObject.FindProperty("emoteLandingPlayer");
+            // m_EmoteDeathPlayerProp = serializedObject.FindProperty("emoteDeathPlayer");
+            // m_EmoteAttackPlayerProp = serializedObject.FindProperty("emoteAttackPlayer");
+            // m_EmoteJumpPlayerProp = serializedObject.FindProperty("emoteJumpPlayer");
         }
 
+        // Display on Editor GUI -> Take Label and Tooltip as parameter and display it
         public override void OnInspectorGUI()
         {
             serializedObject.Update();
 
+            
             GUI.enabled = false;
             EditorGUILayout.PropertyField(m_ScriptProp, m_ScriptContent);
             GUI.enabled = true;
+            
+            // -- AUDIO GUI --- //
+            EditorGUILayout.PropertyField(m_AS_FTSProp, m_AS_FTSContent);
+            EditorGUILayout.PropertyField(m_AS_MOUTHProp, m_AS_MOUTHContent);
+            EditorGUILayout.PropertyField(m_AS_BODYProp, m_AS_BODYContent);
+            EditorGUILayout.PropertyField(m_AS_STICKProp, m_AS_STICKContent);
+            
+            EditorGUILayout.PropertyField(m_event_MC_Ellen_Land_PlayProp, m_event_MC_Ellen_Land_Play_Content);
+            EditorGUILayout.PropertyField(m_event_MC_Ellen_Jump_PlayProp, m_event_MC_Ellen_Jump_Play_Content);
+            EditorGUILayout.PropertyField(m_event_MC_Ellen_Hurt_PlayProp, m_event_MC_Ellen_Hurt_Play_Content);
+            EditorGUILayout.PropertyField(m_event_MC_Ellen_Death_PlayProp, m_event_MC_Ellen_Death_Play_Content);
+            EditorGUILayout.PropertyField(m_event_MC_Ellen_Combo_1_PlayProp, m_event_MC_Ellen_Combo_1_Play_Content);
+            EditorGUILayout.PropertyField(m_event_MC_Ellen_Combo_2_PlayProp, m_event_MC_Ellen_Combo_2_Play_Content);
+            EditorGUILayout.PropertyField(m_event_MC_Ellen_Combo_3_PlayProp, m_event_MC_Ellen_Combo_3_Play_Content);
+            EditorGUILayout.PropertyField(m_event_MC_Ellen_Combo_4_PlayProp, m_event_MC_Ellen_Combo_4_Play_Content);
+            
+            // -- END AUDIO GUI -- //
+            
+            
+            EditorGUILayout.Space();
 
+            EditorGUILayout.PropertyField(m_IdleTimeoutProp, m_IdleTimeoutContent);
+            EditorGUILayout.PropertyField(m_CanAttackProp, m_CanAttackContent);
+
+
+            
+            EditorGUILayout.Space();
+            
             m_MaxForwardSpeedProp.floatValue = EditorGUILayout.Slider(m_MaxForwardSpeedContent, m_MaxForwardSpeedProp.floatValue, 4f, 12f);
             m_GravityProp.floatValue = EditorGUILayout.Slider(m_GravityContent, m_GravityProp.floatValue, 10f, 30f);
             m_JumpSpeedProp.floatValue = EditorGUILayout.Slider(m_JumpSpeedContent, m_JumpSpeedProp.floatValue, 5f, 20f);
 
             MinMaxTurnSpeed();
 
-            EditorGUILayout.PropertyField(m_IdleTimeoutProp, m_IdleTimeoutContent);
-            EditorGUILayout.PropertyField(m_CanAttackProp, m_CanAttackContent);
 
+            
             EditorGUILayout.Space();
 
             m_MeleeWeaponProp.isExpanded = EditorGUILayout.Foldout(m_MeleeWeaponProp.isExpanded, "References");
@@ -97,16 +176,18 @@ namespace Gamekit3D
                 EditorGUI.indentLevel++;
                 EditorGUILayout.PropertyField(m_MeleeWeaponProp, m_MeleeWeaponContent);
                 EditorGUILayout.PropertyField(m_CameraSettingsProp, m_CameraSettingsContent);
-                EditorGUILayout.PropertyField(m_FootstepPlayerProp, m_FootstepPlayerContent);
-                EditorGUILayout.PropertyField(m_HurtAudioPlayerProp, m_HurtAudioPlayerContent);
-                EditorGUILayout.PropertyField(m_LandingPlayerProp, m_LandingPlayerContent);
-                EditorGUILayout.PropertyField(m_EmoteLandingPlayerProp, m_EmoteLandingPlayerContent);
-                EditorGUILayout.PropertyField(m_EmoteDeathPlayerProp, m_EmoteDeathPlayerContent);
-                EditorGUILayout.PropertyField(m_EmoteAttackPlayerProp, m_EmoteAttackPlayerContent);
-                EditorGUILayout.PropertyField(m_EmoteJumpPlayerProp, m_EmoteJumpPlayerContent);
+                // EditorGUILayout.PropertyField(m_FootstepPlayerProp, m_FootstepPlayerContent);
+                // EditorGUILayout.PropertyField(m_HurtAudioPlayerProp, m_HurtAudioPlayerContent);
+                // EditorGUILayout.PropertyField(m_LandingPlayerProp, m_LandingPlayerContent);
+                // EditorGUILayout.PropertyField(m_EmoteLandingPlayerProp, m_EmoteLandingPlayerContent);
+                // EditorGUILayout.PropertyField(m_EmoteDeathPlayerProp, m_EmoteDeathPlayerContent);
+                // EditorGUILayout.PropertyField(m_EmoteAttackPlayerProp, m_EmoteAttackPlayerContent);
+                // EditorGUILayout.PropertyField(m_EmoteJumpPlayerProp, m_EmoteJumpPlayerContent);
                 EditorGUI.indentLevel--;
             }
 
+
+            
             serializedObject.ApplyModifiedProperties();
         }
 
