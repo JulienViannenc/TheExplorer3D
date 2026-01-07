@@ -36,6 +36,7 @@ namespace Gamekit3D
         [Header("Audio")]
         public GameObject AS_FTS;
         public GameObject AS_MOUTH;
+        public GameObject AS_BODY;
         
         [Header("Grunt")]
         public AK.Wwise.Event event_Ennemy_Chomper_Grunt_Play;
@@ -124,7 +125,7 @@ namespace Gamekit3D
         public void SFX_Ennemy_Chomper_Hit_Play()
         {
             Debug.Log("Hit Chomper Audio Trigger");
-            event_Ennemy_Chomper_Hit_Play.Post(AS_MOUTH);
+            event_Ennemy_Chomper_Hit_Play.Post(AS_BODY);
         }
         
         public void SFX_Ennemy_Chomper_Spotted_Play()
