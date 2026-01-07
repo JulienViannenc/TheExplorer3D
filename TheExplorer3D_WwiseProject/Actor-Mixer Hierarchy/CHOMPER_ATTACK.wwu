@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DCB17EA3-3229-4968-AB04-218052A86344}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{23FAE0B1-7596-4680-9386-DC2AC1430F8F}">
+	<AudioObjects>
+		<WorkUnit Name="CHOMPER_ATTACK" ID="{DCB17EA3-3229-4968-AB04-218052A86344}" OwnerID="{747F1DF1-43DD-42FC-A1E3-F28D145DEDA6}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AC_ATTACK" ID="{4FAE00C8-7134-452A-9376-5D877858FAAB}" ShortID="932913217">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RC_ATTACK" ID="{373BF424-BFC2-4F7E-9802-661F7A2263EC}" ShortID="456291267">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{EDC34653-DF98-464A-A480-1D8C2EA086A6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="250"/>
+													<Property Name="Min" Type="Real64" Value="-250"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{651E3125-3062-4F2F-9DEB-EB8E32BAE783}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-6"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="ENNEMY" ID="{49AD0B39-0F22-4DF4-962C-D992068516AA}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_CHOMPER_ATTACK_01" ID="{ADFA875F-0FCB-4F2A-8347-9A3692527B1A}" ShortID="574326433">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_ATTACK_01" ID="{D4D537A0-09ED-4A87-95D6-DE6C295ABF86}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\ATTACK\ENNEMY_CHOMPER_ATTACK_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="270523450"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_ATTACK_01" ID="{D4D537A0-09ED-4A87-95D6-DE6C295ABF86}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

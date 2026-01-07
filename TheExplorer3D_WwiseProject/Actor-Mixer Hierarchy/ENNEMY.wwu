@@ -6,6 +6,35 @@
 				<Property Name="Color" Type="int16" Value="10"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="CHOMPER" ID="{24FD2B86-D7E1-4A26-AF1D-F7A65EEF2D50}" PersistMode="Reference"/>
+				<ActorMixer Name="AC_ENNEMY" ID="{43AB8FE9-1C06-4687-820B-8D245E1F9AE3}" ShortID="787566790">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="ENNEMY" ID="{49AD0B39-0F22-4DF4-962C-D992068516AA}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="AC_CHOMPER" ID="{747F1DF1-43DD-42FC-A1E3-F28D145DEDA6}" ShortID="7093315">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<WorkUnit Name="CHOMPER_ATTACK" ID="{DCB17EA3-3229-4968-AB04-218052A86344}" PersistMode="Reference"/>
+								<WorkUnit Name="CHOMPER_FTS" ID="{F5D03456-C443-4EB1-91AE-8ADDE7CDF3DF}" PersistMode="Reference"/>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

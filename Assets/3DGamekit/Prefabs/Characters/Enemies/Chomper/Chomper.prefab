@@ -2789,15 +2789,18 @@ MonoBehaviour:
   event_Ennemy_Chomper_FTSIdle_Play:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 33750ebb7a91c6d49982c36dfcd27a8c,
+      type: 2}
   event_Ennemy_Chomper_FTSWalk_Play:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 62e024503325c64438fbd5a9000715bf,
+      type: 2}
   event_Ennemy_Chomper_FTSRun_Play:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 6594156a11599dc449554b007a5c3c91,
+      type: 2}
   event_Ennemy_Chomper_Spotted_Play:
     idInternal: 0
     valueGuidInternal: 
@@ -2805,7 +2808,8 @@ MonoBehaviour:
   event_Ennemy_Chomper_AttackBegin_Play:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: f7fe86ba37efbfb42a6ccfcd444e2b80,
+      type: 2}
   event_Ennemy_Chomper_AttackEnd_Play:
     idInternal: 0
     valueGuidInternal: 

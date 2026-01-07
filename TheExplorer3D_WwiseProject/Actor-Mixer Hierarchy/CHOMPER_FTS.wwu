@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F5D03456-C443-4EB1-91AE-8ADDE7CDF3DF}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{23FAE0B1-7596-4680-9386-DC2AC1430F8F}">
+	<AudioObjects>
+		<WorkUnit Name="CHOMPER_FTS" ID="{F5D03456-C443-4EB1-91AE-8ADDE7CDF3DF}" OwnerID="{747F1DF1-43DD-42FC-A1E3-F28D145DEDA6}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AC_FTS" ID="{27ADE706-7157-4DF7-A72D-60C3A7891005}" ShortID="746829284">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RC_WalkIdle" ID="{434BB3A6-4F9A-41C5-A9AD-040EAF53AAF5}" ShortID="1016275389">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-23</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_WALK" ID="{EDB5E499-9C7A-4B9A-8C83-A7E90E029954}" WorkUnitID="{A497FE11-A645-4B41-A661-24E87662CF45}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalkIdle_09" ID="{AA497C8D-72D9-4612-8D2C-79870DF37071}" ShortID="476745025">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalkIdle_09" ID="{029B935D-DF5D-4AD6-AF66-D4DBDD98B314}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="334593036"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalkIdle_09" ID="{029B935D-DF5D-4AD6-AF66-D4DBDD98B314}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalkIdle_01" ID="{D811AAD6-FD44-4B67-8901-8612712D85C2}" ShortID="695049154">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalkIdle_01" ID="{D15C845E-984B-465E-B6ED-FF6765415B5A}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="280140999"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalkIdle_01" ID="{D15C845E-984B-465E-B6ED-FF6765415B5A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalkIdle_02" ID="{5210A3EE-30CD-450D-9C11-D5F260E99AD6}" ShortID="289557624">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalkIdle_02" ID="{D459E4A0-811B-4FA9-85B7-7A06C72B4AFF}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="490599858"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalkIdle_02" ID="{D459E4A0-811B-4FA9-85B7-7A06C72B4AFF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalkIdle_03" ID="{C7D0618E-339A-4173-8D41-E1EDC4C1D960}" ShortID="384666592">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalkIdle_03" ID="{327A41B6-6DFB-4E98-8FCE-E528AB231D37}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="440781482"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalkIdle_03" ID="{327A41B6-6DFB-4E98-8FCE-E528AB231D37}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalkIdle_04" ID="{D8FEB299-8F3C-4F40-B7E0-C5C41B99F2BF}" ShortID="492969414">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalkIdle_04" ID="{C86188A9-B2C1-420C-9B16-59D69F4DCB18}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="24599004"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalkIdle_04" ID="{C86188A9-B2C1-420C-9B16-59D69F4DCB18}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalkIdle_05" ID="{780E4681-2D97-4B68-88A5-22F9E8CCA298}" ShortID="716509284">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalkIdle_05" ID="{6F21EE82-A710-400E-915E-F8CC8A524BF1}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="705360444"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalkIdle_05" ID="{6F21EE82-A710-400E-915E-F8CC8A524BF1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalkIdle_06" ID="{E646E7C8-F7C1-4463-B14D-4D0C2CA86658}" ShortID="610742512">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalkIdle_06" ID="{DA207643-13A6-4897-8F1B-BF147287D390}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="858065054"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalkIdle_06" ID="{DA207643-13A6-4897-8F1B-BF147287D390}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalkIdle_07" ID="{BF50D297-C762-4670-A365-29ED512499CD}" ShortID="864860630">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalkIdle_07" ID="{F60BDB05-AF0E-4E30-AD33-85EC3BCE5765}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="741941590"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalkIdle_07" ID="{F60BDB05-AF0E-4E30-AD33-85EC3BCE5765}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalkIdle_08" ID="{68BE8C1C-4066-410B-8574-33D449F002ED}" ShortID="850901889">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalkIdle_08" ID="{3514797D-D34F-4049-8B70-717DB8E99C8F}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="522595347"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalkIdle_08" ID="{3514797D-D34F-4049-8B70-717DB8E99C8F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_Walk" ID="{479EB272-A154-496A-82CB-54882DB4EFEF}" ShortID="193439819">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_WALK" ID="{EDB5E499-9C7A-4B9A-8C83-A7E90E029954}" WorkUnitID="{A497FE11-A645-4B41-A661-24E87662CF45}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalk_01" ID="{3A596CB3-6839-4932-BE6C-9D224127EE90}" ShortID="370630557">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalk_01" ID="{DA51013A-B2AB-4DE5-9258-4752B66E1520}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="401616177"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalk_01" ID="{DA51013A-B2AB-4DE5-9258-4752B66E1520}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalk_02" ID="{A6F2D7B1-475A-4201-9FAE-8D5030588EC3}" ShortID="223588064">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalk_02" ID="{724D3878-18F7-4B1A-9858-7615C99BA718}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="501845526"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalk_02" ID="{724D3878-18F7-4B1A-9858-7615C99BA718}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalk_03" ID="{42F6FFB9-0655-4F11-B9C5-D589BB7D84B5}" ShortID="673690875">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalk_03" ID="{C74C7FC1-457D-4275-A4C8-D327FEAE34DF}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="568847364"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalk_03" ID="{C74C7FC1-457D-4275-A4C8-D327FEAE34DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalk_04" ID="{6214C38D-CE10-4696-8054-D6992CB33429}" ShortID="85929958">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalk_04" ID="{0AAD1875-EF27-4CAD-BDC8-D05A798E453C}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="665692407"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalk_04" ID="{0AAD1875-EF27-4CAD-BDC8-D05A798E453C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalk_05" ID="{3E9CDB56-F09F-4E62-A17E-1F0907DB817B}" ShortID="187525002">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalk_05" ID="{3946977B-0D34-4999-83F6-D64E73533BFC}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="432245855"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalk_05" ID="{3946977B-0D34-4999-83F6-D64E73533BFC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalk_06" ID="{A83FA51D-641D-451E-8715-4067989E1686}" ShortID="804972867">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalk_06" ID="{306D17E1-FE78-4F74-9AB8-8BAC6D110756}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="728467213"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalk_06" ID="{306D17E1-FE78-4F74-9AB8-8BAC6D110756}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalk_07" ID="{705FC5FD-1E04-431A-8DA2-2BF35D832716}" ShortID="264331457">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalk_07" ID="{1A3A8AE3-285A-4244-B97D-E9A1EC695920}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="245656151"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalk_07" ID="{1A3A8AE3-285A-4244-B97D-E9A1EC695920}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalk_08" ID="{3C1D78DF-9E3B-4332-A57F-09F81BC1D29B}" ShortID="947959205">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalk_08" ID="{3ACFEA21-F21D-4B2E-8ACA-5890C158BA94}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="350322160"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalk_08" ID="{3ACFEA21-F21D-4B2E-8ACA-5890C158BA94}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSWalk_09" ID="{B1FF260C-60A9-499F-99C1-6184CFA75764}" ShortID="639983252">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSWalk_09" ID="{1D30346B-49D2-44F1-88F0-4FF66B4F303A}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="218488844"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSWalk_09" ID="{1D30346B-49D2-44F1-88F0-4FF66B4F303A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_Run" ID="{340B4D24-1D6C-4648-BA21-090CE6144347}" ShortID="557294753">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_WALK" ID="{EDB5E499-9C7A-4B9A-8C83-A7E90E029954}" WorkUnitID="{A497FE11-A645-4B41-A661-24E87662CF45}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_CHOMPER_FTSRun_09" ID="{8E73FA69-E119-4A43-B85A-DBA7C5EE3F1B}" ShortID="717262727">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSRun_09" ID="{D245F00C-68D4-4013-A300-F997B0F0C51B}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="84950508"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSRun_09" ID="{D245F00C-68D4-4013-A300-F997B0F0C51B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSRun_01" ID="{9D31088A-3062-4E5F-AEB6-9771F0E36BC0}" ShortID="905777">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSRun_01" ID="{307C7A85-29AA-4D92-A6F4-A1664F65971A}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1048739544"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSRun_01" ID="{307C7A85-29AA-4D92-A6F4-A1664F65971A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSRun_02" ID="{9545B216-47E0-4656-8CFB-9271E3D6C5D5}" ShortID="29076374">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSRun_02" ID="{66C0E8D0-6D1B-4DA5-BA17-CEF5D2BACF44}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="344492013"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSRun_02" ID="{66C0E8D0-6D1B-4DA5-BA17-CEF5D2BACF44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSRun_03" ID="{8DBE6B91-5710-48CC-8B10-EA7663638D05}" ShortID="406406439">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSRun_03" ID="{A2B747A7-A71A-4416-BBB1-2DB65E902275}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="145325755"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSRun_03" ID="{A2B747A7-A71A-4416-BBB1-2DB65E902275}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSRun_04" ID="{03AC43CC-A583-4458-8130-8D9C73102204}" ShortID="347049855">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSRun_04" ID="{89FB3619-D92C-40FB-96CB-6030A19BAFB6}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="250390199"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSRun_04" ID="{89FB3619-D92C-40FB-96CB-6030A19BAFB6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSRun_05" ID="{F827D8DC-8DC3-4907-B555-6B443C029669}" ShortID="95499829">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSRun_05" ID="{B292FF5A-AB2E-403C-9BEA-F9F5CA062CB0}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="934949877"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSRun_05" ID="{B292FF5A-AB2E-403C-9BEA-F9F5CA062CB0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSRun_06" ID="{73C00773-62A2-42CF-BA95-4A40D41FB2AE}" ShortID="87722575">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSRun_06" ID="{A5842056-C474-4F62-AB78-D4126AC043EF}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1063619942"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSRun_06" ID="{A5842056-C474-4F62-AB78-D4126AC043EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSRun_07" ID="{6685F1C3-78DE-419B-B650-148EFE472787}" ShortID="244039436">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSRun_07" ID="{A2460E3A-56AC-4B17-A87F-2D11CF6214CC}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="660471508"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSRun_07" ID="{A2460E3A-56AC-4B17-A87F-2D11CF6214CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_FTSRun_08" ID="{AB1923CE-ADA8-4621-B132-63975C7631B0}" ShortID="786341812">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_FTSRun_08" ID="{D4E92614-6913-43F2-AA21-FF8CE105F36D}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="374938770"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_FTSRun_08" ID="{D4E92614-6913-43F2-AA21-FF8CE105F36D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
