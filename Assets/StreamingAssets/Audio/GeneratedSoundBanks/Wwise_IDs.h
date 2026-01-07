@@ -20,14 +20,32 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID AMB = 1117531639U;
+        static const AkUniqueID ENNEMY = 692772937U;
+        static const AkUniqueID GPE = 831326253U;
         static const AkUniqueID MC = 1685527061U;
+        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID UI = 1551306167U;
         static const AkUniqueID Z_DEV = 3668529533U;
     } // namespace BANKS
 
     namespace BUSSES
     {
+        static const AkUniqueID AMB = 1117531639U;
+        static const AkUniqueID ENNEMY = 692772937U;
+        static const AkUniqueID GPE = 831326253U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MC = 1685527061U;
+        static const AkUniqueID SEND = 803249283U;
+        static const AkUniqueID UI = 1551306167U;
+        static const AkUniqueID Z_DEV = 3668529533U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID DELAY = 357718954U;
+        static const AkUniqueID REVERB = 348963605U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

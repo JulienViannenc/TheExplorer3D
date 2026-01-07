@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5DEF7B1A-A127-401F-8922-E1DF8B64E71F}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{5DEF7B1A-A127-401F-8922-E1DF8B64E71F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5DEF7B1A-A127-401F-8922-E1DF8B64E71F}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="AMB" ID="{D5F111D3-C654-46AE-B52D-820183A99497}" PersistMode="Reference"/>
+				<WorkUnit Name="MC" ID="{A29394A8-FA88-41CA-A8B6-974B08F3E41A}" PersistMode="Reference"/>
+				<WorkUnit Name="ENNEMY" ID="{147E1D0A-068D-4328-B4E9-9C85C687DD14}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE" ID="{8F59BBCA-77A0-4907-8DC2-9FEAADE2644C}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{088240A0-DC93-44EB-8ADC-C79EE3B6139A}" PersistMode="Reference"/>
+				<WorkUnit Name="MUSIC" ID="{66B7E4FE-DC5D-4564-9E86-6057F3E501CE}" PersistMode="Reference"/>
+				<WorkUnit Name="Z_DEV" ID="{0033A8D7-804B-4B2D-869F-B82C6B385D39}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

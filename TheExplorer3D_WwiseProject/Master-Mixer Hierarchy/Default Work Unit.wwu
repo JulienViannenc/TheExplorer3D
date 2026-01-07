@@ -9,6 +9,11 @@
 							<ObjectRef Name="System" ID="{444E507B-EC69-4E82-9AE0-06481BFBD1D6}" WorkUnitID="{D40E7D4D-363B-456E-8530-168E81A489C7}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="ALLSFX" ID="{E791EC8E-0EA1-4B4C-86B2-F6F228E238DE}" PersistMode="Reference"/>
+						<WorkUnit Name="SEND" ID="{FC29BC07-7A78-4354-86E9-CF0E6C9504E7}" PersistMode="Reference"/>
+						<WorkUnit Name="MUSIC" ID="{7AC4EB36-18F0-4B04-A411-F986E01D91E0}" PersistMode="Reference"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

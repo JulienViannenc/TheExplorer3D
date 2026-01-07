@@ -9,7 +9,19 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+		<SoundBank Id="692772937" Type="User" Language="SFX" Hash="{F0E3AA8C-5645-0C30-C516-998E5B3020A1}">
+			<ShortName>ENNEMY</ShortName>
+			<Path>ENNEMY.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="831326253" Type="User" Language="SFX" Hash="{6FA9A330-9FA0-8485-0E4B-FB762B796F68}">
+			<ShortName>GPE</ShortName>
+			<Path>GPE.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{28A3EC5D-4474-9802-AA85-BDACC5B50C51}">
+			<ShortName>AMB</ShortName>
+			<Path>AMB.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{46DAB3A2-2475-9A48-CAD9-6B811080B13B}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -19,31 +31,50 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="692772937" Name="ENNEMY"/>
+				<Bus Id="803249283" Name="SEND"/>
+				<Bus Id="831326253" Name="GPE"/>
+				<Bus Id="1117531639" Name="AMB"/>
+				<Bus Id="1551306167" Name="UI"/>
+				<Bus Id="1685527061" Name="MC"/>
+				<Bus Id="3668529533" Name="Z_DEV"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="348963605" Name="REVERB"/>
+				<AuxBus Id="357718954" Name="DELAY"/>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{35B5385F-5F9C-9D65-775B-45CA20991969}">
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{927AC34A-1CF1-050E-6DCC-87C42AA5FC04}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3668529533" Type="User" Language="SFX" Hash="{8651F574-47EB-37AF-D1C6-294602881F1F}">
+		<SoundBank Id="3668529533" Type="User" Language="SFX" Hash="{3343E93A-7C3B-3473-6F82-83928FB52525}">
 			<ShortName>Z_DEV</ShortName>
 			<Path>Z_DEV.bnk</Path>
 			<Media>
-				<File Id="375829352" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_TheExplorer3D_SP_DuckSound_01.wav</ShortName>
-					<CachePath>SFX/SFX_TheExplorer3D_SP_DuckSound_01_10C4C929.wem</CachePath>
+				<File Id="648575922" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Z_DEV\DEVSFX_DuckSound_01.wav</ShortName>
+					<CachePath>SFX/Z_DEV/DEVSFX_DuckSound_01_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="3169408195" Name="DuckSound" DurationType="OneShot" DurationMin="0.187625" DurationMax="0.187625">
 					<MediaRefs>
-						<MediaRef Id="375829352"/>
+						<MediaRef Id="648575922"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="973396280" Name="STOP_DuckSound" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{0E3E9487-2562-8161-CF73-30D6CFA3E27A}">
+			<ShortName>MUSIC</ShortName>
+			<Path>MUSIC.bnk</Path>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1103479B-A94F-78F6-470D-B557BED047A0}</FileHash>
+	<FileHash>{8FA60BDE-0D45-82BB-2374-F9C49D60423C}</FileHash>
 </SoundBanksInfo>

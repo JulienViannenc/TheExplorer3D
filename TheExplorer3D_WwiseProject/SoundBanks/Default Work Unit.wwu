@@ -9,18 +9,73 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="MC_WU" ID="{B65C6026-D797-4A94-A49A-21AFD9979A80}" WorkUnitID="{B65C6026-D797-4A94-A49A-21AFD9979A80}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MC" ID="{B65C6026-D797-4A94-A49A-21AFD9979A80}" WorkUnitID="{B65C6026-D797-4A94-A49A-21AFD9979A80}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Z_DEV" ID="{C0ABBBC3-31D2-4D37-BCC2-9EA596AFB503}">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="20"/>
+						<Property Name="Color" Type="int16" Value="3"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="Z_DEV_WU" ID="{68869AB1-C286-44B8-87B9-7DCFE052782E}" WorkUnitID="{68869AB1-C286-44B8-87B9-7DCFE052782E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Z_DEV" ID="{68869AB1-C286-44B8-87B9-7DCFE052782E}" WorkUnitID="{68869AB1-C286-44B8-87B9-7DCFE052782E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="AMB" ID="{CDDFB16F-2973-49BF-8E58-7A9B1B30121F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="18"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="AMB" ID="{6204544C-96E6-418D-B2BC-B0C49B1C386F}" WorkUnitID="{6204544C-96E6-418D-B2BC-B0C49B1C386F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="ENNEMY" ID="{EBE05656-34C6-4753-A105-0213B1EBA203}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="ENNEMY" ID="{6439793F-91D7-4108-9205-DEB409E2996F}" WorkUnitID="{6439793F-91D7-4108-9205-DEB409E2996F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI" ID="{6F7319C3-9E69-4932-92AE-B5F38606D9C6}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="UI" ID="{84FB5F13-34FF-461B-B856-3A6A8ECDE160}" WorkUnitID="{84FB5F13-34FF-461B-B856-3A6A8ECDE160}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="GPE" ID="{0D4DA880-2632-4EA5-B972-B7359038DB0F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="GPE" ID="{8DD24F24-DB22-47AA-9452-797272C92CFC}" WorkUnitID="{8DD24F24-DB22-47AA-9452-797272C92CFC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MUSIC" ID="{2D4830A5-1B47-41BD-9B7A-F0E208992366}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="22"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="MUSIC" ID="{D35FF2A8-832B-4F12-B8B6-37BC4BB286EB}" WorkUnitID="{D35FF2A8-832B-4F12-B8B6-37BC4BB286EB}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

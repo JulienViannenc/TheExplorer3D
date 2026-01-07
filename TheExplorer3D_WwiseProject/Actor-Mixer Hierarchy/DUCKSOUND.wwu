@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7187874E-DC43-4563-ADD0-8DF511C77370}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{5D8A72B1-B93A-4825-AA81-1D3642962064}">
+	<AudioObjects>
+		<WorkUnit Name="DUCKSOUND" ID="{7187874E-DC43-4563-ADD0-8DF511C77370}" OwnerID="{5D8A72B1-B93A-4825-AA81-1D3642962064}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="SFX_TheExplorer3D_SP_DuckSound_01" ID="{DDE27C31-1AEA-4163-ABAC-833F9ABA1ABE}" ShortID="799371968">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DEVSFX_DuckSound_01" ID="{D83FF6B7-4FAD-48F8-92DD-A9D4892B7491}">
+							<Language>SFX</Language>
+							<AudioFile>Z_DEV\DEVSFX_DuckSound_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="648575922"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DEVSFX_DuckSound_01" ID="{D83FF6B7-4FAD-48F8-92DD-A9D4892B7491}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8DDDDDDB-3801-479D-96DF-FFC0AD19C0CC}" SchemaVersion="110" RootDocumentID="{F954EDC7-9B4D-4DBA-846A-98B437DFA412}" ParentDocumentID="{F954EDC7-9B4D-4DBA-846A-98B437DFA412}">
+	<Modulators>
+		<WorkUnit Name="GPE" ID="{8DDDDDDB-3801-479D-96DF-FFC0AD19C0CC}" OwnerID="{F954EDC7-9B4D-4DBA-846A-98B437DFA412}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

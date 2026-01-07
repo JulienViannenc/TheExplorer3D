@@ -1,5 +1,16 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	692772937	ENNEMY			\Default Work Unit\Master Audio Bus\ALLSFX\ENNEMY\ENNEMY	
+	803249283	SEND			\Default Work Unit\Master Audio Bus\SEND\SEND	
+	831326253	GPE			\Default Work Unit\Master Audio Bus\ALLSFX\GPE\GPE	
+	1117531639	AMB			\Default Work Unit\Master Audio Bus\ALLSFX\AMB\AMB	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\ALLSFX\UI\UI	
+	1685527061	MC			\Default Work Unit\Master Audio Bus\ALLSFX\MC\MC	
+	3668529533	Z_DEV			\Default Work Unit\Master Audio Bus\ALLSFX\Z_DEV\Z_DEV	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	REVERB			\Default Work Unit\Master Audio Bus\SEND\SEND\REVERB	
+	357718954	DELAY			\Default Work Unit\Master Audio Bus\SEND\SEND\DELAY	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

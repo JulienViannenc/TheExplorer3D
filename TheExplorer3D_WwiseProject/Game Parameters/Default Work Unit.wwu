@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8D31F9AD-E442-4E2B-9FD6-657C0D3F3968}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{8D31F9AD-E442-4E2B-9FD6-657C0D3F3968}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8D31F9AD-E442-4E2B-9FD6-657C0D3F3968}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="AMB" ID="{6A51EE7F-A742-4B05-8F4A-E31AFB762D8C}" PersistMode="Reference"/>
+				<WorkUnit Name="MC" ID="{EA5333A5-8D38-4B8F-8798-57BD42BEE629}" PersistMode="Reference"/>
+				<WorkUnit Name="ENNEMY" ID="{348DAC15-0A5D-404F-BEF6-6F68D636219A}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE" ID="{C6EBF9B2-14B0-407E-B3EB-C2D8D652E87E}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{2192E61A-8DE3-4556-9458-403E1F453A79}" PersistMode="Reference"/>
+				<WorkUnit Name="MUSIC" ID="{E275FFC1-BB59-4D05-B243-F2E0B98A79A9}" PersistMode="Reference"/>
+				<WorkUnit Name="Z_DEV" ID="{C0397D4B-830D-4AB1-8C1F-0937B752684F}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

@@ -1,7 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
-	973396280	STOP_DuckSound			\Default Work Unit\Z_DEV_WU\STOP_DuckSound	
-	3169408195	DuckSound			\Default Work Unit\Z_DEV_WU\DuckSound	
+	973396280	STOP_DuckSound			\Default Work Unit\Z_DEV\STOP_DuckSound	
+	3169408195	DuckSound			\Default Work Unit\Z_DEV\DuckSound	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	375829352	SFX_TheExplorer3D_SP_DuckSound_01	J:\PROJET\Slope\Wwise\Project\4_TheExplorer3D\Unity\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\SFX_TheExplorer3D_SP_DuckSound_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Z_DEV_WU\SFX_TheExplorer3D_SP_DuckSound_01		36120
+	648575922	SFX_TheExplorer3D_SP_DuckSound_01	J:\PROJET\Slope\Wwise\Project\4_TheExplorer3D\Unity\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\Z_DEV\DEVSFX_DuckSound_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Z_DEV\DUCKSOUND\SFX_TheExplorer3D_SP_DuckSound_01		36120
 

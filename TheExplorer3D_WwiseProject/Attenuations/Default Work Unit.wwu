@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{02BB433D-162D-45EB-A324-44557F149908}" SchemaVersion="110">
 	<Attenuations>
-		<WorkUnit Name="Default Work Unit" ID="{02BB433D-162D-45EB-A324-44557F149908}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{02BB433D-162D-45EB-A324-44557F149908}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="AMB" ID="{CCB63076-0230-4927-B0AC-B887D1342349}" PersistMode="Reference"/>
+				<WorkUnit Name="MC" ID="{596C90C6-C8F4-4C7A-950E-3E6885F8B87F}" PersistMode="Reference"/>
+				<WorkUnit Name="ENNEMY" ID="{263E11D2-F259-4B42-AF4D-CCF71DF50676}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE" ID="{AF91FA2F-0A0A-4889-82E6-9BF3CD3B5DFE}" PersistMode="Reference"/>
+				<WorkUnit Name="MUSIC" ID="{63C22436-5456-4681-8D25-398AD5EFE608}" PersistMode="Reference"/>
+				<WorkUnit Name="Z_DEV" ID="{4D562C3C-F38C-48AA-8E5C-A7CFDAFB70F4}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{AA9B3E39-9BF1-4BDD-866D-94BE6425110B}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Attenuations>
 </WwiseDocument>

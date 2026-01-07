@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E791EC8E-0EA1-4B4C-86B2-F6F228E238DE}" SchemaVersion="110" RootDocumentID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}" ParentDocumentID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}">
+	<Busses>
+		<WorkUnit Name="ALLSFX" ID="{E791EC8E-0EA1-4B4C-86B2-F6F228E238DE}" OwnerID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="AMB" ID="{F5AC1258-EFE8-4E3B-B8D5-24C3D2D69A63}" PersistMode="Reference"/>
+				<WorkUnit Name="MC" ID="{8504E28F-8E18-4D3F-9B03-A31F912C486C}" PersistMode="Reference"/>
+				<WorkUnit Name="ENNEMY" ID="{33298EAF-729A-4258-A331-E630B572A4D5}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE" ID="{74AB6A32-C097-4D6E-98DD-5F785D8D80CD}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{344C7B8A-C738-4D30-BFE6-DBF9C7F41612}" PersistMode="Reference"/>
+				<WorkUnit Name="Z_DEV" ID="{1CCBE82A-24F9-41EA-B6CB-67AF6ED1AF45}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

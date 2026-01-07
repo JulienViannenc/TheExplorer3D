@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F5AC1258-EFE8-4E3B-B8D5-24C3D2D69A63}" SchemaVersion="110" RootDocumentID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}" ParentDocumentID="{E791EC8E-0EA1-4B4C-86B2-F6F228E238DE}">
+	<Busses>
+		<WorkUnit Name="AMB" ID="{F5AC1258-EFE8-4E3B-B8D5-24C3D2D69A63}" OwnerID="{E791EC8E-0EA1-4B4C-86B2-F6F228E238DE}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Bus Name="AMB" ID="{A3AC1B4D-EBB6-4002-9D8E-7730F47AD404}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

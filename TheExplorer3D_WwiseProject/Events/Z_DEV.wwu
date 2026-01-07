@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{68869AB1-C286-44B8-87B9-7DCFE052782E}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}">
 	<Events>
-		<WorkUnit Name="Z_DEV_WU" ID="{68869AB1-C286-44B8-87B9-7DCFE052782E}" OwnerID="{1279BB73-610B-4B39-833E-BEC908E07C89}" PersistMode="Nested">
+		<WorkUnit Name="Z_DEV" ID="{68869AB1-C286-44B8-87B9-7DCFE052782E}" OwnerID="{1279BB73-610B-4B39-833E-BEC908E07C89}" PersistMode="Nested">
 			<PropertyList>
-				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="Color" Type="int16" Value="3"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
@@ -12,7 +12,7 @@
 						<Action Name="" ID="{006469BF-08BE-422C-AAFB-798130CCE979}" ShortID="194316367">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_TheExplorer3D_SP_DuckSound_01" ID="{8EE3B38D-1A6B-4954-BC60-C509DDE95059}" WorkUnitID="{5D8A72B1-B93A-4825-AA81-1D3642962064}"/>
+									<ObjectRef Name="SFX_TheExplorer3D_SP_DuckSound_01" ID="{DDE27C31-1AEA-4163-ABAC-833F9ABA1ABE}" WorkUnitID="{7187874E-DC43-4563-ADD0-8DF511C77370}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -26,7 +26,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_TheExplorer3D_SP_DuckSound_01" ID="{8EE3B38D-1A6B-4954-BC60-C509DDE95059}" WorkUnitID="{5D8A72B1-B93A-4825-AA81-1D3642962064}"/>
+									<ObjectRef Name="SFX_TheExplorer3D_SP_DuckSound_01" ID="{DDE27C31-1AEA-4163-ABAC-833F9ABA1ABE}" WorkUnitID="{7187874E-DC43-4563-ADD0-8DF511C77370}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

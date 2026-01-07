@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FC29BC07-7A78-4354-86E9-CF0E6C9504E7}" SchemaVersion="110" RootDocumentID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}" ParentDocumentID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}">
+	<Busses>
+		<WorkUnit Name="SEND" ID="{FC29BC07-7A78-4354-86E9-CF0E6C9504E7}" OwnerID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="20"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Bus Name="SEND" ID="{A1FBB54E-DC58-4B03-9F95-5362F587D8D1}">
+					<ChildrenList>
+						<AuxBus Name="REVERB" ID="{C1C64910-4309-4400-8CB1-1D87FA5D9931}"/>
+						<AuxBus Name="DELAY" ID="{79A6FC3A-40B2-4FAD-AB24-7A4CB1962EBD}"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

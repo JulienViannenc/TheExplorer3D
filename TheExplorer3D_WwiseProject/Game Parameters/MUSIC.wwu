@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E275FFC1-BB59-4D05-B243-F2E0B98A79A9}" SchemaVersion="110" RootDocumentID="{8D31F9AD-E442-4E2B-9FD6-657C0D3F3968}" ParentDocumentID="{8D31F9AD-E442-4E2B-9FD6-657C0D3F3968}">
+	<GameParameters>
+		<WorkUnit Name="MUSIC" ID="{E275FFC1-BB59-4D05-B243-F2E0B98A79A9}" OwnerID="{8D31F9AD-E442-4E2B-9FD6-657C0D3F3968}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="21"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

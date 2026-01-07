@@ -3,8 +3,13 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{67120D0F-7B64-4064-B540-8126AB07DC91}" PersistMode="Standalone">
 			<ChildrenList>
-				<WorkUnit Name="MC_WU" ID="{CEA892CB-24EF-41D3-9628-E4A79F4DFCE2}" PersistMode="Reference"/>
-				<WorkUnit Name="Z_DEV_WU" ID="{5D8A72B1-B93A-4825-AA81-1D3642962064}" PersistMode="Reference"/>
+				<WorkUnit Name="MC" ID="{CEA892CB-24EF-41D3-9628-E4A79F4DFCE2}" PersistMode="Reference"/>
+				<WorkUnit Name="Z_DEV" ID="{5D8A72B1-B93A-4825-AA81-1D3642962064}" PersistMode="Reference"/>
+				<WorkUnit Name="AMB" ID="{58BDC157-9DD0-4C08-8EF4-ABAA0DBA6A75}" PersistMode="Reference"/>
+				<WorkUnit Name="ENNEMY" ID="{23FAE0B1-7596-4680-9386-DC2AC1430F8F}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE" ID="{D0D0515D-40C9-41DB-AD72-D2813A9FEE83}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{D4EFDD2E-1939-4F73-9F24-B033526E8B2A}" PersistMode="Reference"/>
+				<WorkUnit Name="MUSIC" ID="{D47DF287-5CB1-4B6B-A4FE-D506E6AE7077}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F954EDC7-9B4D-4DBA-846A-98B437DFA412}" SchemaVersion="110">
 	<Modulators>
-		<WorkUnit Name="Default Work Unit" ID="{F954EDC7-9B4D-4DBA-846A-98B437DFA412}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F954EDC7-9B4D-4DBA-846A-98B437DFA412}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="AMB" ID="{7214752B-E439-48F5-B93D-0EC86C82B8F8}" PersistMode="Reference"/>
+				<WorkUnit Name="ENNEMY" ID="{DC7F127F-99DB-484C-BE13-A1811442F8E0}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE" ID="{8DDDDDDB-3801-479D-96DF-FFC0AD19C0CC}" PersistMode="Reference"/>
+				<WorkUnit Name="MC" ID="{9A81D781-B3AC-4310-B531-75DA80C30F28}" PersistMode="Reference"/>
+				<WorkUnit Name="MUSIC" ID="{F5181200-3F27-44AE-987E-BC02300E78DF}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{79F1EAC5-D843-459B-9544-AEDE0B92DDF5}" PersistMode="Reference"/>
+				<WorkUnit Name="Z_DEV" ID="{A53E7410-4B68-4059-81E6-376A4E5BE6F6}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Modulators>
 </WwiseDocument>

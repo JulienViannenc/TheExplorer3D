@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EA5333A5-8D38-4B8F-8798-57BD42BEE629}" SchemaVersion="110" RootDocumentID="{8D31F9AD-E442-4E2B-9FD6-657C0D3F3968}" ParentDocumentID="{8D31F9AD-E442-4E2B-9FD6-657C0D3F3968}">
+	<GameParameters>
+		<WorkUnit Name="MC" ID="{EA5333A5-8D38-4B8F-8798-57BD42BEE629}" OwnerID="{8D31F9AD-E442-4E2B-9FD6-657C0D3F3968}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
