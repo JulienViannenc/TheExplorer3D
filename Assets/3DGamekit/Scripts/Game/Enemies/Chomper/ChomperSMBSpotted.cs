@@ -8,7 +8,7 @@ namespace Gamekit3D
     {
         public override void OnSLStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
-            m_MonoBehaviour.Spotted();
+            m_MonoBehaviour.SFX_Ennemy_Chomper_Spotted_Play();
         }
 
         public override void OnSLStateNoTransitionUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

@@ -12,6 +12,7 @@ namespace Gamekit3D
             // Since we only want the chomper to fall, we add zero force, the call just allow to make it move through rigidbody
             if(m_MonoBehaviour != null && m_MonoBehaviour.controller != null)
                 m_MonoBehaviour.controller.AddForce(Vector3.zero);
+            m_MonoBehaviour.SFX_Ennemy_Chomper_Fall_Play();
         }
 
         public override void OnSLStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

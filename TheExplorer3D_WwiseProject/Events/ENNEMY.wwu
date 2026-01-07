@@ -6,6 +6,9 @@
 				<Property Name="Color" Type="int16" Value="10"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="CHOMPER" ID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" PersistMode="Reference"/>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

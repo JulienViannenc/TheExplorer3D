@@ -34,14 +34,35 @@ namespace Gamekit3D
         public float timeToStopPursuit;
 
         [Header("Audio")]
-        public RandomAudioPlayer attackAudio;
-        public RandomAudioPlayer frontStepAudio;
-        public RandomAudioPlayer backStepAudio;
-        public RandomAudioPlayer hitAudio;
-        public RandomAudioPlayer gruntAudio;
-        public RandomAudioPlayer deathAudio;
-        public RandomAudioPlayer spottedAudio;
+        public GameObject AS_FTS;
+        public GameObject AS_MOUTH;
+        
+        [Header("Grunt")]
+        public AK.Wwise.Event event_Ennemy_Chomper_Grunt_Play;
+        
+        [Header("Idle Scratch")]
+        public AK.Wwise.Event event_Ennemy_Chomper_IdleScratch_Play;
+        
+        [Header("FTS")]
+        public AK.Wwise.Event event_Ennemy_Chomper_FTSIdle_Play;
+        public AK.Wwise.Event event_Ennemy_Chomper_FTSWalk_Play;
+        public AK.Wwise.Event event_Ennemy_Chomper_FTSRun_Play;
+        
+        [Header("Spotted")]
+        public AK.Wwise.Event event_Ennemy_Chomper_Spotted_Play;
+        
+        [Header("Attack")]
+        public AK.Wwise.Event event_Ennemy_Chomper_Attack_Play;
+        public AK.Wwise.Event event_Ennemy_Chomper_Attack_Stop;
+        
+        [Header("Hit")]
+        public AK.Wwise.Event event_Ennemy_Chomper_Hit_Play;
+        
+        [Header("Falll/Death")]
+        public AK.Wwise.Event event_Ennemy_Chomper_Fall_Play;
+        
 
+        
         protected float m_TimerSinceLostTarget = 0.0f;
 
         protected PlayerController m_Target = null;
@@ -60,34 +81,75 @@ namespace Gamekit3D
 
             SceneLinkedSMB<ChomperBehavior>.Initialise(m_Controller.animator, this);
         }
+        
+        // ----- AUDIO MANAGEMENT ----- //
+        
+        public void SFX_Ennemy_Chomper_Grunt_Play()
+        {
+            Debug.Log("Grunt Chomper Audio Trigger");
+            event_Ennemy_Chomper_Grunt_Play.Post(AS_MOUTH);
+        }
+        
+        public void SFX_Ennemy_Chomper_IdleScratch_Play(AnimationEvent animationEvent)
+        {
+            Debug.Log("Walk Audio Footstep Marche Chomper");
+            event_Ennemy_Chomper_IdleScratch_Play.Post(AS_FTS);
+        }
+        
+        public void SFX_Ennemy_Chomper_FTSIdle_Play(AnimationEvent animationEvent)
+        {
+            Debug.Log("Walk Audio Idle Footstep Marche Chomper");
+            event_Ennemy_Chomper_FTSIdle_Play.Post(AS_FTS);
+        }
 
+        public void SFX_Ennemy_Chomper_FTSWalk_Play(AnimationEvent animationEvent)
+        {
+            Debug.Log("Walk Audio Footstep Marche Chomper");
+            event_Ennemy_Chomper_FTSWalk_Play.Post(AS_FTS);
+        }
+        
+        public void SFX_Ennemy_Chomper_FTSRun_Play(AnimationEvent animationEvent)
+        {
+            Debug.Log("Walk Audio Footstep Marche Chomper");
+            event_Ennemy_Chomper_FTSRun_Play.Post(AS_FTS);
+        }
+        
+        public void SFX_Ennemy_Chomper_Fall_Play()
+        {
+            Debug.Log("Fall Chomper Audio Trigger");
+            event_Ennemy_Chomper_Fall_Play.Post(AS_MOUTH);
+        }
+        
+        public void SFX_Ennemy_Chomper_Hit_Play()
+        {
+            Debug.Log("Hit Chomper Audio Trigger");
+            event_Ennemy_Chomper_Hit_Play.Post(AS_MOUTH);
+        }
+        
+        public void SFX_Ennemy_Chomper_Spotted_Play()
+        {
+            Debug.Log("Spotted Chomper Audio Trigger");
+            event_Ennemy_Chomper_Spotted_Play.Post(AS_MOUTH);
+        }
+        
         /// <summary>
         /// Called by animation events.
         /// </summary>
         /// <param name="frontFoot">Has a value of 1 when it's a front foot stepping and 0 when it's a back foot.</param>
-        void PlayStep(int frontFoot)
-        {
-            if (frontStepAudio != null && frontFoot == 1)
-                frontStepAudio.PlayRandomClip();
-            else if (backStepAudio != null && frontFoot == 0)
-                backStepAudio.PlayRandomClip ();
-        }
-
-        /// <summary>
-        /// Called by animation events.
-        /// </summary>
-        public void Grunt ()
-        {
-            if (gruntAudio != null)
-                gruntAudio.PlayRandomClip ();
-        }
-
-        public void Spotted()
-        {
-            if (spottedAudio != null)
-                spottedAudio.PlayRandomClip();
-        }
-
+        // void PlayStep(int frontFoot)
+        // {
+        //     if (frontStepAudio != null && frontFoot == 1)
+        //         frontStepAudio.PlayRandomClip();
+        //     else if (backStepAudio != null && frontFoot == 0)
+        //         backStepAudio.PlayRandomClip ();
+        // }
+        //
+        // /// <summary>
+        // /// Called by animation events.
+        // /// </summary>
+        
+     // ----- END AUDIO MANAGEMENT ------ //  
+     
         protected void OnDisable()
         {
             if (m_FollowerInstance != null)
@@ -243,10 +305,10 @@ namespace Gamekit3D
             controller.animator.SetTrigger(hashHit);
             controller.animator.SetTrigger(hashThrown);
 
-            //We unparent the hit source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
-            deathAudio.transform.SetParent(null, true);
-            deathAudio.PlayRandomClip();
-            GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);
+            // HERE -> We unparent the hit source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
+            // deathAudio.transform.SetParent(null, true);
+            // deathAudio.PlayRandomClip();
+            // GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);
         }
 
         public void ApplyDamage(Damageable.DamageMessage msg)
@@ -270,7 +332,7 @@ namespace Gamekit3D
 
             controller.animator.SetTrigger(hashHit);
 
-            hitAudio.PlayRandomClip();
+            // HERE -> hitAudio.PlayRandomClip();
         }
 
 #if UNITY_EDITOR
