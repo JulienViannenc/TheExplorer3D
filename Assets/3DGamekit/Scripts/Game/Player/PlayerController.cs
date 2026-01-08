@@ -443,27 +443,31 @@ namespace Gamekit3D
         {
             float footfallCurve = m_Animator.GetFloat(m_HashFootFall);
 
-            //if (footfallCurve > 0.01f && !footstepPlayer.playing && footstepPlayer.canPlay)
+            //if (m_CanPlayFootstep && footfallCurve > 0.01f && m_IsGrounded && m_ForwardSpeed > 0.1f)
             //{
-            //    footstepPlayer.playing = true;
-            //    footstepPlayer.canPlay = false;
-            //    footstepPlayer.PlayRandomClip(m_CurrentWalkingSurface, m_ForwardSpeed < 4 ? 0 : 1);
+            //    event_MC_Ellen_Footstep_Play.Post(AS_FTS);
+
+            //    m_CanPlayFootstep = false;
+            //    m_FootstepTimer = 0f;
             //}
-            //else if (footstepPlayer.playing)
+
+            //if (!m_CanPlayFootstep)
             //{
-            //    footstepPlayer.playing = false;
+            //    m_FootstepTimer += Time.deltaTime;
+            //    if (m_FootstepTimer >= k_FootstepCooldown)
+            //    {
+            //        m_CanPlayFootstep = true;
+            //    }
             //}
-            //else if (footfallCurve < 0.01f && !footstepPlayer.canPlay)
+
+            //if (footfallCurve < 0.01f)
             //{
-            //    footstepPlayer.canPlay = true;
+            //    m_CanPlayFootstep = true;
             //}
 
             if (m_IsGrounded && !m_PreviouslyGrounded)
             {
-                //landingPlayer.PlayRandomClip(m_CurrentWalkingSurface, bankId: m_ForwardSpeed < 4 ? 0 : 1);
-
                 event_MC_Ellen_Land_Play.Post(AS_FTS);
-
             }
 
             if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
@@ -491,12 +495,12 @@ namespace Gamekit3D
                 event_MC_Ellen_Combo_2_Play.Post(AS_STICK);
             }
 
-            if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo2 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo3)
+            if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo3 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo3)
             {
                 event_MC_Ellen_Combo_3_Play.Post(AS_STICK);
             }
-            
-            if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo2 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo4)
+
+            if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo4 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo4)
             {
                 event_MC_Ellen_Combo_4_Play.Post(AS_STICK);
             }

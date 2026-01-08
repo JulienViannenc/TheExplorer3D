@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3407FC33-92A2-47EA-8784-859F2A5CB842}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{CEA892CB-24EF-41D3-9628-E4A79F4DFCE2}">
+	<AudioObjects>
+		<WorkUnit Name="FOLEYS" ID="{3407FC33-92A2-47EA-8784-859F2A5CB842}" OwnerID="{BFCE8F20-BD4D-4133-8214-9D4C180F084D}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AM_FOLEYS" ID="{65A2E22A-E794-4221-A7A8-FD772806260E}" ShortID="588462712">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RC_Jumps" ID="{10A3DBF0-F08D-4126-AC3A-20BF1CC1B6D7}" ShortID="701878851">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_JumpFoley_01" ID="{EDFAEF5D-6DE8-4CA1-994E-DAF95D248DD8}" ShortID="59329895">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_JumpFoley_01" ID="{1E15B9F9-5A2F-46CB-B272-5A4D43E1E77F}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_JumpFoley_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="538946627"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_JumpFoley_01" ID="{1E15B9F9-5A2F-46CB-B272-5A4D43E1E77F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_JumpFoley_02" ID="{E376FF10-3A78-42AB-9B70-9F4EB4EE0EC5}" ShortID="649173262">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_JumpFoley_02" ID="{3BE33C0C-E38A-41F4-9CEE-8BA8C1020302}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_JumpFoley_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="993896960"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_JumpFoley_02" ID="{3BE33C0C-E38A-41F4-9CEE-8BA8C1020302}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_JumpFoley_03" ID="{4FE8DFEF-5AB0-4BE5-84B5-642F5324A44F}" ShortID="719609750">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_JumpFoley_03" ID="{8D814235-AEFA-421A-9BD4-58415350217A}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_JumpFoley_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="854258803"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_JumpFoley_03" ID="{8D814235-AEFA-421A-9BD4-58415350217A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_JumpFoley_04" ID="{9A5B259F-AEDF-40BD-99DC-80CE20680B49}" ShortID="674133379">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_JumpFoley_04" ID="{4455492A-82F2-4F9C-85E0-C7CF996EE6AD}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_JumpFoley_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="357388528"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_JumpFoley_04" ID="{4455492A-82F2-4F9C-85E0-C7CF996EE6AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_JumpFoley_05" ID="{3C260E80-B810-4780-AD66-7C6F26CAFC7F}" ShortID="411728259">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_JumpFoley_05" ID="{F1D85CBC-7878-4AE0-ADB0-4B300478C3F6}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_JumpFoley_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977622821"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_JumpFoley_05" ID="{F1D85CBC-7878-4AE0-ADB0-4B300478C3F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_JumpFoley_06" ID="{170044BF-30B6-4310-B7C3-B36562445AB7}" ShortID="238053042">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_JumpFoley_06" ID="{EF0EE892-30DD-49E2-9B13-8F61171673AE}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_JumpFoley_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="690235628"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_JumpFoley_06" ID="{EF0EE892-30DD-49E2-9B13-8F61171673AE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_JumpFoley_07" ID="{F7940439-CBF1-4E72-B593-335A6F93E07F}" ShortID="348029138">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_JumpFoley_07" ID="{FD025EBC-EC03-412F-B06D-EA16066EBFC5}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_JumpFoley_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="378332864"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_JumpFoley_07" ID="{FD025EBC-EC03-412F-B06D-EA16066EBFC5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_JumpFoley_08" ID="{DB7CE378-8294-440E-A15C-3F404F8057C4}" ShortID="792581251">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_JumpFoley_08" ID="{7336295B-19A4-4479-A29F-E8C8EF8B0B51}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_JumpFoley_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="707832245"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_JumpFoley_08" ID="{7336295B-19A4-4479-A29F-E8C8EF8B0B51}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_Landing" ID="{B3BED9F8-1847-48C6-8647-23A68F3BBE96}" ShortID="225461214">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_LandFoley_01" ID="{384E5107-B745-4139-A83E-5ED69CDD310E}" ShortID="737227456">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_LandFoley_01" ID="{1A70A11E-43B0-432B-91AD-1071D5F1C70B}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_LandFoley_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="958002249"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_LandFoley_01" ID="{1A70A11E-43B0-432B-91AD-1071D5F1C70B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_LandFoley_02" ID="{11452497-CB98-44FF-9E78-4CA7AD47206E}" ShortID="603829186">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_LandFoley_02" ID="{2B0659F6-03D9-4CCA-BA25-343FC5607140}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_LandFoley_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="501857198"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_LandFoley_02" ID="{2B0659F6-03D9-4CCA-BA25-343FC5607140}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_LandFoley_03" ID="{C04006F2-C430-4190-9834-FC4E90A44C88}" ShortID="87980299">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_LandFoley_03" ID="{AE847C78-664E-42CC-86A9-DE25B221399D}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_LandFoley_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="85728621"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_LandFoley_03" ID="{AE847C78-664E-42CC-86A9-DE25B221399D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_LandFoley_04" ID="{E7181B4F-671E-47A9-91F6-0F8E2D03A717}" ShortID="792733994">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_LandFoley_04" ID="{005993DB-960D-4B00-ADEE-0CAF23EF1171}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_LandFoley_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="161936738"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_LandFoley_04" ID="{005993DB-960D-4B00-ADEE-0CAF23EF1171}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_LandFoley_05" ID="{1604C409-68DF-4181-89C8-DC09644BAC49}" ShortID="703145480">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_LandFoley_05" ID="{97DB2587-E0E8-45D9-9EF5-A245955DB737}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_LandFoley_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="367314623"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_LandFoley_05" ID="{97DB2587-E0E8-45D9-9EF5-A245955DB737}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_LandFoley_06" ID="{3D733C75-487B-4914-BEA7-447F40F3A11F}" ShortID="925028979">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_LandFoley_06" ID="{8CFFE34B-70EF-4EEE-8408-032AF580BBD4}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_LandFoley_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1039550687"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_LandFoley_06" ID="{8CFFE34B-70EF-4EEE-8408-032AF580BBD4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_LandFoley_07" ID="{544F8AB3-172A-4A2F-9609-2308E76EBF32}" ShortID="173875327">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_LandFoley_07" ID="{5E0106D6-939B-4B24-B848-AAA32AB355A5}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_LandFoley_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="933215265"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_LandFoley_07" ID="{5E0106D6-939B-4B24-B848-AAA32AB355A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_LandFoley_08" ID="{1C6A8EC0-9D9D-4AFD-BF18-8EA0EA1C9D48}" ShortID="391958626">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_LandFoley_08" ID="{669913B3-C31E-4A01-BD90-7DDE6F75EB43}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_LandFoley_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="125633221"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_LandFoley_08" ID="{669913B3-C31E-4A01-BD90-7DDE6F75EB43}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_Walks" ID="{1579C604-2390-4D1F-8174-D284E68BE14C}" ShortID="1020797686">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_WalkFoley_01" ID="{E1D1E67F-E91C-489F-B0F8-0E2FAB471E9E}" ShortID="346939521">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkFoley_01" ID="{7F254DA2-7143-4ACA-BF99-7B7E0A42FCFC}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_WalkFoley_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="23279494"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkFoley_01" ID="{7F254DA2-7143-4ACA-BF99-7B7E0A42FCFC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkFoley_02" ID="{7DC84C0B-9BC7-4BDD-AD41-5F0A660AF486}" ShortID="618212390">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkFoley_02" ID="{BB0CF6EE-FE84-4829-ADB8-FBAAD5E43A2A}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_WalkFoley_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="366576201"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkFoley_02" ID="{BB0CF6EE-FE84-4829-ADB8-FBAAD5E43A2A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkFoley_03" ID="{EC748107-62D2-4C57-8B29-9D27CB050166}" ShortID="748377992">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkFoley_03" ID="{5DDBA349-DB1E-4B6F-A3FA-4FE5D35FAF37}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_WalkFoley_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="57182368"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkFoley_03" ID="{5DDBA349-DB1E-4B6F-A3FA-4FE5D35FAF37}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkFoley_04" ID="{879FF3EE-6C04-4E0F-9294-1C9539D83F37}" ShortID="731978574">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkFoley_04" ID="{AD39D922-EC4A-42EF-B628-830F212F2BD2}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_WalkFoley_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="952887419"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkFoley_04" ID="{AD39D922-EC4A-42EF-B628-830F212F2BD2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkFoley_05" ID="{3D1842AA-15DF-467C-A7AA-9F7E2C95A8C0}" ShortID="128627793">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkFoley_05" ID="{F632DAB6-4A37-4277-932A-743F16B90E14}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_WalkFoley_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="78698306"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkFoley_05" ID="{F632DAB6-4A37-4277-932A-743F16B90E14}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkFoley_06" ID="{B131130E-C1B4-4E0E-BD9F-5B9F395D1BB0}" ShortID="694739690">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkFoley_06" ID="{52D7F26A-4DAC-4E02-8455-2F35AE02D86C}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_WalkFoley_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="151591415"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkFoley_06" ID="{52D7F26A-4DAC-4E02-8455-2F35AE02D86C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkFoley_07" ID="{04815E3C-D7A8-45EB-825E-AAB32ACE13E9}" ShortID="5491638">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkFoley_07" ID="{20B145BA-CD3A-4E56-B3AF-3FCDAB0926AD}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_WalkFoley_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="985977682"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkFoley_07" ID="{20B145BA-CD3A-4E56-B3AF-3FCDAB0926AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkFoley_08" ID="{0D6D5C98-341B-42FF-8655-76DC527CF869}" ShortID="42645539">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkFoley_08" ID="{E887FD65-0CF8-4373-A8BC-C9B2C5380A24}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_WalkFoley_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="978903047"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkFoley_08" ID="{E887FD65-0CF8-4373-A8BC-C9B2C5380A24}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkFoley_09" ID="{DE91939D-7CC1-4157-8146-58883EFB59D3}" ShortID="708692199">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkFoley_09" ID="{B0C257E7-D466-46AE-BB25-5B9C5B653D58}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_WalkFoley_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="606580950"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkFoley_09" ID="{B0C257E7-D466-46AE-BB25-5B9C5B653D58}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkFoley_10" ID="{102D52DE-041D-48EF-A259-51DB5F73ACDB}" ShortID="432448914">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkFoley_10" ID="{CE8ABFA1-9C17-4AA8-9FD5-56232B02CF86}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_WalkFoley_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="498153667"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkFoley_10" ID="{CE8ABFA1-9C17-4AA8-9FD5-56232B02CF86}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_Death" ID="{3C1EC3C3-0786-4F7D-A5D9-0066E9ED2831}" ShortID="566033683">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_Death_01" ID="{8164AAE1-35C0-478F-969E-5E167C250A50}" ShortID="952805216">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Death_01" ID="{A981FD68-54FD-465A-9D51-F41F518E9760}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_Death_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="872621625"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Death_01" ID="{A981FD68-54FD-465A-9D51-F41F518E9760}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Death_02" ID="{6EB8E272-88BC-40DD-A382-838B0A19A3DC}" ShortID="982792804">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Death_02" ID="{B111EF09-381A-4D73-8CFD-9FF1504D3B90}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_Death_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1016452198"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Death_02" ID="{B111EF09-381A-4D73-8CFD-9FF1504D3B90}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Death_03" ID="{A88415D0-82C5-4EBA-829D-C1CCC69752AF}" ShortID="273110834">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Death_03" ID="{63EB5896-8F69-4923-9E61-12F83CF0D152}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_Death_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="95442416"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Death_03" ID="{63EB5896-8F69-4923-9E61-12F83CF0D152}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Death_04" ID="{D0C0A2FA-BC60-4EEE-906F-95F2D4920C58}" ShortID="459284093">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Death_04" ID="{BCDCED0C-10A3-4FF8-A5FA-31CB23768F88}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_Death_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="753166037"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Death_04" ID="{BCDCED0C-10A3-4FF8-A5FA-31CB23768F88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Death_05" ID="{96614AF1-037F-4D30-800D-6E135AC95AE1}" ShortID="76541392">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Death_05" ID="{AAED3F3F-6546-47AE-AF5D-E7A1044CDC57}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_Death_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="934433514"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Death_05" ID="{AAED3F3F-6546-47AE-AF5D-E7A1044CDC57}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_Hurt" ID="{69FE31A8-30F0-4B21-BE44-7707BA3375DF}" ShortID="352583274">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_Hurt_01" ID="{A755FA82-0584-4374-9F07-1ED6FFEC98FC}" ShortID="300581996">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Hurt_01" ID="{851B0CD3-97C3-4141-A634-2831794DD2B2}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_Hurt_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="987795356"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Hurt_01" ID="{851B0CD3-97C3-4141-A634-2831794DD2B2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Hurt_02" ID="{92A2ACF3-4708-4310-83BB-5BDF682F1D66}" ShortID="59990492">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Hurt_02" ID="{A90A90A2-F7A4-4280-A50B-A166863ACEF9}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_Hurt_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="158952069"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Hurt_02" ID="{A90A90A2-F7A4-4280-A50B-A166863ACEF9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Hurt_03" ID="{81C3E0C3-3E4F-47EC-9BB9-E7398947B93C}" ShortID="572437531">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Hurt_03" ID="{54E55685-D171-430E-8977-BE107A941EE3}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_Hurt_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="181616242"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Hurt_03" ID="{54E55685-D171-430E-8977-BE107A941EE3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Hurt_04" ID="{8C1AFAB7-CF7B-4FD1-B14B-0F568F40BF17}" ShortID="803930018">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Hurt_04" ID="{C30BC9C6-5C19-4993-BB1E-6D6A8102D934}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEYS\MC_Hurt_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="677176115"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Hurt_04" ID="{C30BC9C6-5C19-4993-BB1E-6D6A8102D934}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

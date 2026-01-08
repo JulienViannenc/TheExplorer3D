@@ -18,6 +18,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<WorkUnit Name="FTS" ID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}" PersistMode="Reference"/>
+						<WorkUnit Name="FOLEYS" ID="{3407FC33-92A2-47EA-8784-859F2A5CB842}" PersistMode="Reference"/>
+						<WorkUnit Name="SFX" ID="{4C957C45-1EB4-47E8-8948-A8ED6B325867}" PersistMode="Reference"/>
+						<WorkUnit Name="IDLE" ID="{46CF4378-F916-45A2-B02D-E5355C28DE75}" PersistMode="Reference"/>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

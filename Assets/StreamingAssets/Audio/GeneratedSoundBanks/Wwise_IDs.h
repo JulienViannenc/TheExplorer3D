@@ -15,6 +15,11 @@ namespace AK
     {
         static const AkUniqueID ATTACKBEGIN = 2508816088U;
         static const AkUniqueID ATTACKEND = 1639835052U;
+        static const AkUniqueID COMBO1 = 2932016822U;
+        static const AkUniqueID COMBO2 = 2932016821U;
+        static const AkUniqueID COMBO3 = 2932016820U;
+        static const AkUniqueID COMBO4 = 2932016819U;
+        static const AkUniqueID DEATH = 779278001U;
         static const AkUniqueID DUCKSOUND = 3169408195U;
         static const AkUniqueID FALL = 2512384458U;
         static const AkUniqueID FTS_IDLE = 278299119U;
@@ -22,6 +27,8 @@ namespace AK
         static const AkUniqueID FTS_WALK = 3144061710U;
         static const AkUniqueID GRUNT = 3797621065U;
         static const AkUniqueID HIT = 1116398592U;
+        static const AkUniqueID HURT = 3193947170U;
+        static const AkUniqueID JUMP = 3833651337U;
         static const AkUniqueID LANDING = 2548270042U;
         static const AkUniqueID SPOTTED = 3214304800U;
         static const AkUniqueID STOP_ATTACKALL = 1328128341U;

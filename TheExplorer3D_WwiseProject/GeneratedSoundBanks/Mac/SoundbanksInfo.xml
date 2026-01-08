@@ -224,13 +224,17 @@
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{860D8434-97FC-625E-E56F-D71586367F26}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{1F472BD4-BE7C-BDE0-13F4-7E377EBF2C3D}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
 				<File Id="47380200" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_LandingDirt_03.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_LandingDirt_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="49612686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\SFX\MC_Combo_01.wav</ShortName>
+					<CachePath>SFX/MC/SFX/MC_Combo_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="57964426" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_LandingDirt_04.wav</ShortName>
@@ -240,17 +244,89 @@
 					<ShortName>MC\FTS\MC_LandingDirt_02.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_LandingDirt_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="95442416" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_Death_03.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_Death_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="131692650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\SFX\MC_Combo_02.wav</ShortName>
+					<CachePath>SFX/MC/SFX/MC_Combo_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="158952069" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_Hurt_02.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_Hurt_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="181616242" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_Hurt_03.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_Hurt_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="357388528" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_JumpFoley_04.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_JumpFoley_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="378332864" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_JumpFoley_07.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_JumpFoley_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="398643456" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\SFX\MC_Combo_04.wav</ShortName>
+					<CachePath>SFX/MC/SFX/MC_Combo_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="427162155" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_Jump_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_Jump_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="440004500" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_LandingDirt_06.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_LandingDirt_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="538946627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_JumpFoley_01.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_JumpFoley_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="638090160" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_LandingDirt_01.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_LandingDirt_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="674510321" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_Jump_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_Jump_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="675616308" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_LandingDirt_07.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_LandingDirt_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="677176115" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_Hurt_04.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_Hurt_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="690235628" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_JumpFoley_06.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_JumpFoley_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="707832245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_JumpFoley_08.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_JumpFoley_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="753166037" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_Death_04.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_Death_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="791078962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_Jump_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_Jump_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="828688824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_Jump_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_Jump_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="854258803" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_JumpFoley_03.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_JumpFoley_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="872621625" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_Death_01.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_Death_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="873158197" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_LandingDirt_05.wav</ShortName>
@@ -260,8 +336,105 @@
 					<ShortName>MC\FTS\MC_LandingDirt_08.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_LandingDirt_08_10C4C929.wem</CachePath>
 				</File>
+				<File Id="918065042" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\SFX\MC_Combo_03.wav</ShortName>
+					<CachePath>SFX/MC/SFX/MC_Combo_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="929964914" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_Jump_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_Jump_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="934433514" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_Death_05.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_Death_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="961263980" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_Jump_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_Jump_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="977622821" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_JumpFoley_05.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_JumpFoley_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="987795356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_Hurt_01.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_Hurt_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="993896960" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_JumpFoley_02.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_JumpFoley_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1005972915" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_Jump_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_Jump_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1016452198" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEYS\MC_Death_02.wav</ShortName>
+					<CachePath>SFX/MC/FOLEYS/MC_Death_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1070523256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_Jump_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_Jump_07_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="2932016822" Name="Combo1" DurationType="OneShot" DurationMin="0.7" DurationMax="0.7">
+					<MediaRefs>
+						<MediaRef Id="49612686"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2932016821" Name="Combo2" DurationType="OneShot" DurationMin="0.78333336" DurationMax="0.78333336">
+					<MediaRefs>
+						<MediaRef Id="131692650"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2932016820" Name="Combo3" DurationType="OneShot" DurationMin="1.0833334" DurationMax="1.0833334">
+					<MediaRefs>
+						<MediaRef Id="918065042"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2932016819" Name="Combo4" DurationType="OneShot" DurationMin="1.1166667" DurationMax="1.1166667">
+					<MediaRefs>
+						<MediaRef Id="398643456"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="779278001" Name="Death" DurationType="OneShot" DurationMin="1.25" DurationMax="1.25">
+					<MediaRefs>
+						<MediaRef Id="95442416"/>
+						<MediaRef Id="753166037"/>
+						<MediaRef Id="872621625"/>
+						<MediaRef Id="934433514"/>
+						<MediaRef Id="1016452198"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3193947170" Name="Hurt" DurationType="OneShot" DurationMin="0.9" DurationMax="0.9">
+					<MediaRefs>
+						<MediaRef Id="158952069"/>
+						<MediaRef Id="181616242"/>
+						<MediaRef Id="677176115"/>
+						<MediaRef Id="987795356"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3833651337" Name="Jump" DurationType="OneShot" DurationMin="0.46666667" DurationMax="0.46666667">
+					<MediaRefs>
+						<MediaRef Id="357388528"/>
+						<MediaRef Id="378332864"/>
+						<MediaRef Id="427162155"/>
+						<MediaRef Id="538946627"/>
+						<MediaRef Id="674510321"/>
+						<MediaRef Id="690235628"/>
+						<MediaRef Id="707832245"/>
+						<MediaRef Id="791078962"/>
+						<MediaRef Id="828688824"/>
+						<MediaRef Id="854258803"/>
+						<MediaRef Id="929964914"/>
+						<MediaRef Id="961263980"/>
+						<MediaRef Id="977622821"/>
+						<MediaRef Id="993896960"/>
+						<MediaRef Id="1005972915"/>
+						<MediaRef Id="1070523256"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2548270042" Name="Landing" DurationType="OneShot" DurationMin="0.43333334" DurationMax="0.6">
 					<MediaRefs>
 						<MediaRef Id="47380200"/>
@@ -299,5 +472,5 @@
 			<Path>MUSIC.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A900624A-3480-98FE-0BC1-7D4F9E37D0A3}</FileHash>
+	<FileHash>{A3DEEF00-EB14-CD44-84C4-ABEB88ED0CCC}</FileHash>
 </SoundBanksInfo>

@@ -16,6 +16,97 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{36C9F98C-9A90-4851-86EB-2B757AF6E84E}" ShortID="776973632">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Landing" ID="{A64FE2AE-37A4-4A9F-B698-4F9005381743}" WorkUnitID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Combo1" ID="{BFDD73B4-782D-4B1D-9986-45238FA2F6CA}">
+					<ChildrenList>
+						<Action Name="" ID="{C13C78EA-C5C8-46B0-A90B-01EB5375448F}" ShortID="1035282647">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Combo_01" ID="{18457ADE-2C4A-49E8-AC3A-12C8694E48E6}" WorkUnitID="{4C957C45-1EB4-47E8-8948-A8ED6B325867}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Combo2" ID="{A0A12898-E658-4D18-B9E7-87B78EFDBB51}">
+					<ChildrenList>
+						<Action Name="" ID="{648FC493-61D6-4A17-861C-85077CCA9128}" ShortID="325556095">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Combo_02" ID="{E8CAA858-54D0-40C5-88A3-61333F3F5CA1}" WorkUnitID="{4C957C45-1EB4-47E8-8948-A8ED6B325867}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Combo3" ID="{3E734F1C-B0EA-46CF-9968-F6E40FB16C55}">
+					<ChildrenList>
+						<Action Name="" ID="{CEF1631D-2D4B-423E-9C8B-CD26371F5329}" ShortID="597124146">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Combo_03" ID="{0E06C9CB-543F-4F0E-90FC-EF1CB2465E42}" WorkUnitID="{4C957C45-1EB4-47E8-8948-A8ED6B325867}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Combo4" ID="{844D1392-3A30-4458-9DAD-4485F2B6D6BE}">
+					<ChildrenList>
+						<Action Name="" ID="{428279F2-4435-4166-A68E-C26C99E8FC0B}" ShortID="822375832">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Combo_04" ID="{2E804395-5F16-4A08-9208-EA34379A9575}" WorkUnitID="{4C957C45-1EB4-47E8-8948-A8ED6B325867}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hurt" ID="{7AD50D50-D506-4091-A975-CAC4BC3ACE12}">
+					<ChildrenList>
+						<Action Name="" ID="{2535DD46-0B70-43B3-B0DF-24AED5E7C4EE}" ShortID="915987200">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Hurt" ID="{69FE31A8-30F0-4B21-BE44-7707BA3375DF}" WorkUnitID="{3407FC33-92A2-47EA-8784-859F2A5CB842}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Jump" ID="{F78BA9DC-E828-44BD-A222-A1725DECBAF8}">
+					<ChildrenList>
+						<Action Name="" ID="{A8E82D76-F5B2-40C9-A28C-FF1106431F98}" ShortID="955727033">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Jumps" ID="{10A3DBF0-F08D-4126-AC3A-20BF1CC1B6D7}" WorkUnitID="{3407FC33-92A2-47EA-8784-859F2A5CB842}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8392AFB9-9C16-4A1E-8895-ABA43DD21655}" ShortID="297031502">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Jumps" ID="{9FFB6D19-F2F1-40AA-83CC-0CB8E3BCBFEC}" WorkUnitID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Death" ID="{81347408-32BE-4C2E-92B1-ACB175A3505F}">
+					<ChildrenList>
+						<Action Name="" ID="{9B606EAC-C08F-4765-A293-89A515C6C7BF}" ShortID="944609184">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Death" ID="{3C1EC3C3-0786-4F7D-A5D9-0066E9ED2831}" WorkUnitID="{3407FC33-92A2-47EA-8784-859F2A5CB842}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

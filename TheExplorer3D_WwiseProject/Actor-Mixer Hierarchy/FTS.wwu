@@ -201,6 +201,426 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_Walks" ID="{6C02212C-630E-4E36-BC9F-CEC992BE5C51}" ShortID="946265882">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_WalkDirt_07" ID="{6966127B-8D54-46F5-9358-996D2EAFB938}" ShortID="523634749">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkDirt_07" ID="{B38CF77F-4F38-4173-B3B7-7BE7BC869390}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_WalkDirt_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="388465223"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkDirt_07" ID="{B38CF77F-4F38-4173-B3B7-7BE7BC869390}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkDirt_08" ID="{BF653382-5997-4C74-801D-7421953763E6}" ShortID="236993221">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkDirt_08" ID="{3BD57BA0-9D32-4687-981E-046EC09020EF}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_WalkDirt_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="822659861"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkDirt_08" ID="{3BD57BA0-9D32-4687-981E-046EC09020EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkDirt_09" ID="{2BC3C194-1069-466F-8BA3-5162E79E9832}" ShortID="740065498">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkDirt_09" ID="{5146162D-209B-4B69-8510-675B9BB06A3A}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_WalkDirt_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="557986134"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkDirt_09" ID="{5146162D-209B-4B69-8510-675B9BB06A3A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkDirt_10" ID="{760BDD39-B9C3-4720-8300-EE00AC26E18B}" ShortID="818915161">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkDirt_10" ID="{3987134F-FC8D-433E-8C1E-4EE37AF2B79A}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_WalkDirt_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="649016280"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkDirt_10" ID="{3987134F-FC8D-433E-8C1E-4EE37AF2B79A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkDirt_01" ID="{DCD58B1A-2996-4FA3-AF76-FA82A3B160AE}" ShortID="926035759">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkDirt_01" ID="{6373D37C-8B41-4DF3-A285-F99E9E2D4CFB}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_WalkDirt_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1024307660"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkDirt_01" ID="{6373D37C-8B41-4DF3-A285-F99E9E2D4CFB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkDirt_02" ID="{E3F13630-F86B-46C1-8959-3D8D4D240BA6}" ShortID="1047333551">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkDirt_02" ID="{C24A3848-DDDE-4A51-A4E6-191FAC662BF7}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_WalkDirt_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="774541856"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkDirt_02" ID="{C24A3848-DDDE-4A51-A4E6-191FAC662BF7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkDirt_03" ID="{0835423C-F4C9-4600-87D2-9B212A25ABBF}" ShortID="93917842">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkDirt_03" ID="{73ECF723-C959-4874-AF95-CE2C7E4CF447}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_WalkDirt_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="462402740"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkDirt_03" ID="{73ECF723-C959-4874-AF95-CE2C7E4CF447}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkDirt_04" ID="{6DB63D0E-2FF4-416A-B8F9-5ACCCC68263D}" ShortID="316177710">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkDirt_04" ID="{99677818-8D05-4CFA-94C3-BE234BE66FF4}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_WalkDirt_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="288852085"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkDirt_04" ID="{99677818-8D05-4CFA-94C3-BE234BE66FF4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkDirt_05" ID="{BF727EC5-CE86-410C-935B-4A590B1A26AA}" ShortID="534331929">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkDirt_05" ID="{9B03A6A3-EC69-4803-95C5-26CF7F701BD2}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_WalkDirt_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="326866970"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkDirt_05" ID="{9B03A6A3-EC69-4803-95C5-26CF7F701BD2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_WalkDirt_06" ID="{15CC7559-527F-42C1-BD85-BB370D9F0484}" ShortID="727243841">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_WalkDirt_06" ID="{15165258-9AEC-4465-BF3C-56A0C06BFAB8}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_WalkDirt_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="627806534"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_WalkDirt_06" ID="{15165258-9AEC-4465-BF3C-56A0C06BFAB8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_Jumps" ID="{9FFB6D19-F2F1-40AA-83CC-0CB8E3BCBFEC}" ShortID="997088694">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_Jump_01" ID="{CDC7DE33-13F7-48C8-81D9-427627E5C04D}" ShortID="67196661">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Jump_01" ID="{F6BBB31B-F3DC-4E98-8355-781C4409CE1A}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_Jump_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="427162155"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Jump_01" ID="{F6BBB31B-F3DC-4E98-8355-781C4409CE1A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Jump_02" ID="{0584A107-59B2-44EE-994A-9CBD35D4D5A3}" ShortID="365701733">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Jump_02" ID="{165B2376-B82C-4EDF-AF99-91B67FB4A5EA}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_Jump_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="791078962"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Jump_02" ID="{165B2376-B82C-4EDF-AF99-91B67FB4A5EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Jump_03" ID="{C59D83FA-F73B-4078-B16F-DFC681259AA9}" ShortID="914005959">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Jump_03" ID="{29F61890-A550-4EB9-BA68-3E160C454B43}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_Jump_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="828688824"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Jump_03" ID="{29F61890-A550-4EB9-BA68-3E160C454B43}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Jump_04" ID="{5989DEB7-72ED-4EFC-904D-75FDF864E2B8}" ShortID="412586318">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Jump_04" ID="{F73A4837-EE4C-4658-9F87-783A3CAC1BFF}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_Jump_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="674510321"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Jump_04" ID="{F73A4837-EE4C-4658-9F87-783A3CAC1BFF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Jump_05" ID="{3B3ED0BD-78F8-4FEC-9602-8C8134D2A31F}" ShortID="613146245">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Jump_05" ID="{381992CB-F1D1-4050-9B15-DC8FB6A35A15}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_Jump_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="929964914"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Jump_05" ID="{381992CB-F1D1-4050-9B15-DC8FB6A35A15}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Jump_06" ID="{63A0FC20-A9DD-4C0C-AAF1-91F23854267B}" ShortID="14941114">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Jump_06" ID="{D6ABDCBF-5C37-4B03-B07F-4B400BFA67CC}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_Jump_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="961263980"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Jump_06" ID="{D6ABDCBF-5C37-4B03-B07F-4B400BFA67CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Jump_07" ID="{0AC4373B-66C8-4758-B533-21E717F6AF8F}" ShortID="125176392">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Jump_07" ID="{3AD68065-96F8-4848-B0A8-E0F68BA62AB6}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_Jump_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1070523256"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Jump_07" ID="{3AD68065-96F8-4848-B0A8-E0F68BA62AB6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Jump_08" ID="{0956BC9A-3137-4ACB-91EC-FDAFE71E259E}" ShortID="159312982">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Jump_08" ID="{99A47EC3-FED4-4D4E-845E-B8DCB73DA4FF}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FTS\MC_Jump_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1005972915"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Jump_08" ID="{99A47EC3-FED4-4D4E-845E-B8DCB73DA4FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
