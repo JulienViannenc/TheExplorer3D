@@ -24,6 +24,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="MC_SpawnerFoleys_01" ID="{C4F59F7B-D8E1-4972-8FC9-38F8D3C085D2}" ShortID="180270327">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
