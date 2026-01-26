@@ -6,6 +6,11 @@
 				<Property Name="Color" Type="int16" Value="12"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="GPE_COMMON" ID="{219367C2-E8C9-43C2-8FDE-EC597AC22E4A}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE_LVL_01" ID="{05951F2D-F2FB-4DCF-91D1-B55A87637E44}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE_LVL_02" ID="{3FDE78F9-B477-466B-BB8A-3AEF57C9AD5B}" PersistMode="Reference"/>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

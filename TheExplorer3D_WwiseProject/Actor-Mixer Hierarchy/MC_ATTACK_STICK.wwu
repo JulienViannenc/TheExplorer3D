@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5B419FC8-D98A-4899-BFC8-1DEEC81439C6}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{4C957C45-1EB4-47E8-8948-A8ED6B325867}">
 	<AudioObjects>
-		<WorkUnit Name="MC_ATTACK_STICK" ID="{5B419FC8-D98A-4899-BFC8-1DEEC81439C6}" OwnerID="{4C957C45-1EB4-47E8-8948-A8ED6B325867}" PersistMode="Nested">
+		<WorkUnit Name="MC_ATTACK_STICK" ID="{5B419FC8-D98A-4899-BFC8-1DEEC81439C6}" OwnerID="{B90DDFB9-99B9-4B02-A6EA-5CAE2C6C7BD9}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="AM_STICK" ID="{EA513363-CC80-4AE6-AFD1-0035E5793AE4}" ShortID="132133454">
 					<ReferenceList>

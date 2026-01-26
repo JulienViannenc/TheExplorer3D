@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="MC_FOLEY_HIT" ID="{3C3D3414-7942-43F0-B55F-7DD711C97514}" OwnerID="{95486E1B-D63B-4FD9-9B55-8DABB18B1D3B}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="MC_HIT" ID="{0BA418B4-0954-4FA3-8CE0-6F57794087B3}"/>
+				<Event Name="MC_FOLEY_HIT" ID="{0BA418B4-0954-4FA3-8CE0-6F57794087B3}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

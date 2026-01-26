@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{38FC18E3-0FAE-427F-BF04-0D87489B5A5B}" SchemaVersion="110" RootDocumentID="{3E23E372-BF3D-42F4-9A70-74BC0271FA62}" ParentDocumentID="{10C23930-5C0C-433C-9620-4D1DB9A6ED3D}">
+	<Switches>
+		<WorkUnit Name="FTS" ID="{38FC18E3-0FAE-427F-BF04-0D87489B5A5B}" OwnerID="{10C23930-5C0C-433C-9620-4D1DB9A6ED3D}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="SW_FTS_SURFACETYPE" ID="{C3208BAD-9AA1-4CEE-B05E-1FF7A0408C67}">
+					<ChildrenList>
+						<Switch Name="Grass" ID="{7E43C003-5270-4642-A66A-594B59B8490B}"/>
+						<Switch Name="Dirt" ID="{92416BF0-ACDC-4423-AC18-8112A8D78F12}"/>
+						<Switch Name="Stone" ID="{C6C3BACA-6B53-4F62-B98E-4887158000AA}"/>
+						<Switch Name="Mud" ID="{D1E35488-7FC3-4A0F-AD87-4241118D98BD}"/>
+						<Switch Name="Water" ID="{686D1881-49FD-4DAF-B5E2-B01530387CE9}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

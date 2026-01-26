@@ -9,6 +9,7 @@
 			<ChildrenList>
 				<WorkUnit Name="AMB_LVL_01" ID="{95C604B9-CCD0-40DB-9F66-13B0FDC12B26}" PersistMode="Reference"/>
 				<WorkUnit Name="AMB_LVL_02" ID="{D64A0D62-48FA-4382-ACE3-988AC515EF1F}" PersistMode="Reference"/>
+				<WorkUnit Name="AMB_COMMON" ID="{D8D16671-172B-4291-89DC-CCAD2CAAC8B1}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

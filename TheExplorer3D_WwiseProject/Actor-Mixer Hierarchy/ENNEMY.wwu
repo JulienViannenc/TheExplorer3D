@@ -18,6 +18,8 @@
 					</ReferenceList>
 					<ChildrenList>
 						<WorkUnit Name="CHOMPER" ID="{24FD2B86-D7E1-4A26-AF1D-F7A65EEF2D50}" PersistMode="Reference"/>
+						<WorkUnit Name="GRENADIER" ID="{74BAA4A6-FC9F-465F-ADC9-004E48104820}" PersistMode="Reference"/>
+						<WorkUnit Name="SPITTER" ID="{D4A0D23B-A1F1-4CBE-A6D7-4BD7908E56A4}" PersistMode="Reference"/>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

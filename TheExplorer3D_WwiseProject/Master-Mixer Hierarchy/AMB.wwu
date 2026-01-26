@@ -7,7 +7,13 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Bus Name="AMB" ID="{A3AC1B4D-EBB6-4002-9D8E-7730F47AD404}"/>
+				<Bus Name="AMB" ID="{A3AC1B4D-EBB6-4002-9D8E-7730F47AD404}">
+					<ChildrenList>
+						<Bus Name="AMB_LVL_01" ID="{34864085-6E7B-4D28-8FF7-18735148D65E}"/>
+						<Bus Name="AMB_LVL_02" ID="{2FAEA783-56B2-4E99-B121-BD806305921C}"/>
+						<Bus Name="AMB_COMMON" ID="{8C76CD54-BCC1-4AB4-AA87-009B7838FF03}"/>
+					</ChildrenList>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

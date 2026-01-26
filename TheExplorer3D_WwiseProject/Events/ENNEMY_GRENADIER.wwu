@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{6439793F-91D7-4108-9205-DEB409E2996F}">
+	<Events>
+		<WorkUnit Name="ENNEMY_GRENADIER" ID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" OwnerID="{6439793F-91D7-4108-9205-DEB409E2996F}" PersistMode="Nested"/>
+	</Events>
+</WwiseDocument>

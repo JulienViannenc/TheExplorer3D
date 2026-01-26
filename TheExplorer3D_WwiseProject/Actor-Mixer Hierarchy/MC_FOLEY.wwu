@@ -4,12 +4,15 @@
 		<WorkUnit Name="MC_FOLEY" ID="{3407FC33-92A2-47EA-8784-859F2A5CB842}" OwnerID="{BFCE8F20-BD4D-4133-8214-9D4C180F084D}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="AM_FOLEY" ID="{65A2E22A-E794-4221-A7A8-FD772806260E}" ShortID="588462712">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+							<ObjectRef Name="FOLEY" ID="{A6000316-0AA2-4833-8436-95120E9ABA98}" WorkUnitID="{8504E28F-8E18-4D3F-9B03-A31F912C486C}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

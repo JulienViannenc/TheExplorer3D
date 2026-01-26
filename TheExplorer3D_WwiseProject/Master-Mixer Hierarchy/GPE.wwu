@@ -7,7 +7,13 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Bus Name="GPE" ID="{AA061769-250B-45DA-AEF6-CFD32C09E281}"/>
+				<Bus Name="GPE" ID="{AA061769-250B-45DA-AEF6-CFD32C09E281}">
+					<ChildrenList>
+						<Bus Name="GPE_COMMON" ID="{84F8756C-74E7-4668-ADCC-45FF4A8056C3}"/>
+						<Bus Name="GPE_LVL_01" ID="{7C7E0066-3D3C-451B-AFBD-E6952597E280}"/>
+						<Bus Name="GPE_LVL_02" ID="{A001116E-7E7E-4F12-B97A-6D4F527870C2}"/>
+					</ChildrenList>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

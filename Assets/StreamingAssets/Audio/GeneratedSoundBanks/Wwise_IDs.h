@@ -33,8 +33,6 @@ namespace AK
         static const AkUniqueID CHOMPER_VOICE_GRUNT = 1143561925U;
         static const AkUniqueID CHOMPER_VOICE_GRUNT_STOP = 3526276424U;
         static const AkUniqueID DUCKSOUND = 3169408195U;
-        static const AkUniqueID FTS_JUMP = 3306206393U;
-        static const AkUniqueID FTS_LANDING = 1227467306U;
         static const AkUniqueID MC_ATTACK_STICK_COMBO1 = 757210291U;
         static const AkUniqueID MC_ATTACK_STICK_COMBO2 = 757210288U;
         static const AkUniqueID MC_ATTACK_STICK_COMBO3 = 757210289U;
@@ -42,17 +40,44 @@ namespace AK
         static const AkUniqueID MC_BODYFALL_DEATH = 2934050364U;
         static const AkUniqueID MC_FOL_FTS_JUMP = 2197135454U;
         static const AkUniqueID MC_FOL_FTS_LANDING = 1530274047U;
-        static const AkUniqueID MC_HIT = 3349748359U;
+        static const AkUniqueID MC_FOLEY_HIT = 2895583815U;
+        static const AkUniqueID MC_FTS_JUMP = 4146202944U;
+        static const AkUniqueID MC_FTS_LANDING = 1529151333U;
+        static const AkUniqueID MC_FTS_RUN = 621912139U;
+        static const AkUniqueID MC_FTS_WALK = 1508294759U;
         static const AkUniqueID STOP_DUCKSOUND = 973396280U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace SW_FTS_SURFACETYPE
+        {
+            static const AkUniqueID GROUP = 1443624235U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID DIRT = 2195636714U;
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID MUD = 712897245U;
+                static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID WATER = 2654748154U;
+            } // namespace SWITCH
+        } // namespace SW_FTS_SURFACETYPE
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID AMB_COMMON = 239935045U;
         static const AkUniqueID AMB_LVL_01 = 1305695986U;
         static const AkUniqueID AMB_LVL_02 = 1305695985U;
         static const AkUniqueID ENNEMY_CHOMPER = 2535170914U;
-        static const AkUniqueID GPE = 831326253U;
+        static const AkUniqueID ENNEMY_GRENADIER = 2634244267U;
+        static const AkUniqueID ENNEMY_SPITTER = 3245277471U;
+        static const AkUniqueID GPE_COMMON = 2712148667U;
+        static const AkUniqueID GPE_LVL_01 = 85035280U;
+        static const AkUniqueID GPE_LVL_02 = 85035283U;
         static const AkUniqueID MC = 1685527061U;
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID UI = 1551306167U;
@@ -62,14 +87,23 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID AMB = 1117531639U;
+        static const AkUniqueID AMB_COMMON = 239935045U;
+        static const AkUniqueID AMB_LVL_01 = 1305695986U;
+        static const AkUniqueID AMB_LVL_02 = 1305695985U;
         static const AkUniqueID ATTACK = 180661997U;
+        static const AkUniqueID CHOMPER = 14039721U;
         static const AkUniqueID ENNEMY = 692772937U;
         static const AkUniqueID FOLEY = 247557814U;
         static const AkUniqueID FTS = 999249646U;
         static const AkUniqueID GPE = 831326253U;
+        static const AkUniqueID GPE_COMMON = 2712148667U;
+        static const AkUniqueID GPE_LVL_01 = 85035280U;
+        static const AkUniqueID GPE_LVL_02 = 85035283U;
+        static const AkUniqueID GRENADIER = 1343892184U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MC = 1685527061U;
         static const AkUniqueID SEND = 803249283U;
+        static const AkUniqueID SPITTER = 2535446860U;
         static const AkUniqueID UI = 1551306167U;
         static const AkUniqueID Z_DEV = 3668529533U;
     } // namespace BUSSES

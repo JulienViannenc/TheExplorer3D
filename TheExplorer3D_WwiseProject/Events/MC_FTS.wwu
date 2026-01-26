@@ -3,12 +3,12 @@
 	<Events>
 		<WorkUnit Name="MC_FTS" ID="{2DBB3B8F-04DD-4DDC-81B5-4B585DE89B7F}" OwnerID="{B65C6026-D797-4A94-A49A-21AFD9979A80}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="FTS_Jump" ID="{F78BA9DC-E828-44BD-A222-A1725DECBAF8}">
+				<Event Name="MC_FTS_Jump" ID="{F78BA9DC-E828-44BD-A222-A1725DECBAF8}">
 					<ChildrenList>
 						<Action Name="" ID="{8392AFB9-9C16-4A1E-8895-ABA43DD21655}" ShortID="297031502">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RC_Jumps" ID="{9FFB6D19-F2F1-40AA-83CC-0CB8E3BCBFEC}" WorkUnitID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}"/>
+									<ObjectRef Name="SW_JUMP" ID="{2E4B96AC-2A48-46CD-9326-94AEA8FB3B09}" WorkUnitID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -21,12 +21,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="FTS_Landing" ID="{CB013207-E65C-49D8-A122-B087518CE5EA}">
+				<Event Name="MC_FTS_Landing" ID="{CB013207-E65C-49D8-A122-B087518CE5EA}">
 					<ChildrenList>
 						<Action Name="" ID="{36C9F98C-9A90-4851-86EB-2B757AF6E84E}" ShortID="776973632">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RC_Landing" ID="{A64FE2AE-37A4-4A9F-B698-4F9005381743}" WorkUnitID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}"/>
+									<ObjectRef Name="SW_LANDING" ID="{EDC9DC63-3A56-4A08-B104-DABD8B18C3F7}" WorkUnitID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -34,6 +34,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="RC_FOL_Landing" ID="{B3BED9F8-1847-48C6-8647-23A68F3BBE96}" WorkUnitID="{A75B471A-9BCA-4DC8-BB73-BE79103C8A18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MC_FTS_Walk" ID="{3300594D-3C41-4443-9B8B-4027A8E7B448}">
+					<ChildrenList>
+						<Action Name="" ID="{B48E9A4B-CC26-4904-8B8E-960383E4A387}" ShortID="997394610">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SW_WALK" ID="{5F1F1010-58EA-45CC-BC56-D5743562159D}" WorkUnitID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MC_FTS_Run" ID="{A359F91D-84CD-445B-B080-92CB62087E08}">
+					<ChildrenList>
+						<Action Name="" ID="{84A1D990-4385-40C3-9F4A-5D37A2DD22ED}" ShortID="651745472">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SW_RUN" ID="{E41A5D47-553E-4E8F-93DB-5896354D19CC}" WorkUnitID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -9,9 +9,17 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="831326253" Type="User" Language="SFX" Hash="{6FA9A330-9FA0-8485-0E4B-FB762B796F68}">
-			<ShortName>GPE</ShortName>
-			<Path>GPE.bnk</Path>
+		<SoundBank Id="85035280" Type="User" Language="SFX" Hash="{E67A0A73-6481-AE50-B9BC-C8493A7D794B}">
+			<ShortName>GPE_LVL_01</ShortName>
+			<Path>GPE_LVL_01.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="85035283" Type="User" Language="SFX" Hash="{43B00C3B-4E86-24DF-61A4-22BCB11FEA2D}">
+			<ShortName>GPE_LVL_02</ShortName>
+			<Path>GPE_LVL_02.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="239935045" Type="User" Language="SFX" Hash="{59FBF2B0-411F-EEA8-76E6-67373CC34917}">
+			<ShortName>AMB_COMMON</ShortName>
+			<Path>AMB_COMMON.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="1305695985" Type="User" Language="SFX" Hash="{DD1944EE-CF32-D17C-5341-6F718FC1BB0C}">
 			<ShortName>AMB_LVL_02</ShortName>
@@ -21,7 +29,7 @@
 			<ShortName>AMB_LVL_01</ShortName>
 			<Path>AMB_LVL_01.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{561009F9-7848-7118-D310-C41B9F970A33}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F9438C52-747A-649F-0144-E43EAED1178A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -31,15 +39,24 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="14039721" Name="CHOMPER"/>
+				<Bus Id="85035280" Name="GPE_LVL_01"/>
+				<Bus Id="85035283" Name="GPE_LVL_02"/>
 				<Bus Id="180661997" Name="ATTACK"/>
+				<Bus Id="239935045" Name="AMB_COMMON"/>
 				<Bus Id="247557814" Name="FOLEY"/>
 				<Bus Id="692772937" Name="ENNEMY"/>
 				<Bus Id="803249283" Name="SEND"/>
 				<Bus Id="831326253" Name="GPE"/>
 				<Bus Id="999249646" Name="FTS"/>
 				<Bus Id="1117531639" Name="AMB"/>
+				<Bus Id="1305695985" Name="AMB_LVL_02"/>
+				<Bus Id="1305695986" Name="AMB_LVL_01"/>
+				<Bus Id="1343892184" Name="GRENADIER"/>
 				<Bus Id="1551306167" Name="UI"/>
 				<Bus Id="1685527061" Name="MC"/>
+				<Bus Id="2535446860" Name="SPITTER"/>
+				<Bus Id="2712148667" Name="GPE_COMMON"/>
 				<Bus Id="3668529533" Name="Z_DEV"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
@@ -47,27 +64,26 @@
 				<AuxBus Id="348963605" Name="REVERB"/>
 				<AuxBus Id="357718954" Name="DELAY"/>
 			</AuxBusses>
+			<SwitchGroups>
+				<SwitchGroup Id="1443624235" Name="SW_FTS_SURFACETYPE">
+					<Switches>
+						<Switch Id="712897245" Name="Mud"/>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="2195636714" Name="Dirt"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{35B5385F-5F9C-9D65-775B-45CA20991969}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{D4C96EB2-CA53-47EB-4834-A5810E086E08}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{FE16BBE7-78B9-1EC0-9B0F-DD6ADDD2B1E2}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
-				<File Id="47380200" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_LandingDirt_03.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_LandingDirt_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="57964426" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_LandingDirt_04.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_LandingDirt_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="63814283" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_LandingDirt_02.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_LandingDirt_02_10C4C929.wem</CachePath>
-				</File>
 				<File Id="85728624" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_03.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_03_10C4C929.wem</CachePath>
@@ -100,13 +116,9 @@
 					<ShortName>MC\ATTACK\STICK\MC_Combo_04.wav</ShortName>
 					<CachePath>SFX/MC/ATTACK/STICK/MC_Combo_04_10C4C929.wem</CachePath>
 				</File>
-				<File Id="427162155" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_Jump_01.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_Jump_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="440004500" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_LandingDirt_06.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_LandingDirt_06_10C4C929.wem</CachePath>
+				<File Id="427162157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_JumpDirt_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_JumpDirt_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="501857201" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_02.wav</ShortName>
@@ -124,17 +136,9 @@
 					<ShortName>MC\ATTACK\STICK\MC_Combo_03.wav</ShortName>
 					<CachePath>SFX/MC/ATTACK/STICK/MC_Combo_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="638090160" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_LandingDirt_01.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_LandingDirt_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="674510321" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_Jump_04.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_Jump_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="675616308" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_LandingDirt_07.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_LandingDirt_07_10C4C929.wem</CachePath>
+				<File Id="674510323" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_JumpDirt_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_JumpDirt_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="690235631" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_06.wav</ShortName>
@@ -148,13 +152,13 @@
 					<ShortName>MC\FOLEY\BODYFALL\MC_Death_04.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/BODYFALL/MC_Death_04_10C4C929.wem</CachePath>
 				</File>
-				<File Id="791078962" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_Jump_02.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_Jump_02_10C4C929.wem</CachePath>
+				<File Id="791078964" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_JumpDirt_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_JumpDirt_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="828688824" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_Jump_03.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_Jump_03_10C4C929.wem</CachePath>
+				<File Id="828688826" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_JumpDirt_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_JumpDirt_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="854258806" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_03.wav</ShortName>
@@ -164,17 +168,9 @@
 					<ShortName>MC\FOLEY\BODYFALL\MC_Death_01.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/BODYFALL/MC_Death_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="873158197" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_LandingDirt_05.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_LandingDirt_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="911801410" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_LandingDirt_08.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_LandingDirt_08_10C4C929.wem</CachePath>
-				</File>
-				<File Id="929964914" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_Jump_05.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_Jump_05_10C4C929.wem</CachePath>
+				<File Id="929964916" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_JumpDirt_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_JumpDirt_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="933215268" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_07.wav</ShortName>
@@ -188,9 +184,9 @@
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_01.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="961263980" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_Jump_06.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_Jump_06_10C4C929.wem</CachePath>
+				<File Id="961263982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_JumpDirt_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_JumpDirt_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="977622824" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_05.wav</ShortName>
@@ -200,9 +196,9 @@
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_02.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_JumpFoley_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1005972915" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_Jump_08.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_Jump_08_10C4C929.wem</CachePath>
+				<File Id="1005972917" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_JumpDirt_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_JumpDirt_08_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1016452201" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\BODYFALL\MC_Death_02.wav</ShortName>
@@ -212,52 +208,12 @@
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_06.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_06_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1070523256" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_Jump_07.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_Jump_07_10C4C929.wem</CachePath>
+				<File Id="1070523258" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_JumpDirt_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_JumpDirt_07_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3306206393" Name="FTS_Jump" DurationType="OneShot" DurationMin="0.46666667" DurationMax="0.46666667">
-					<MediaRefs>
-						<MediaRef Id="357388531"/>
-						<MediaRef Id="378332867"/>
-						<MediaRef Id="427162155"/>
-						<MediaRef Id="538946630"/>
-						<MediaRef Id="674510321"/>
-						<MediaRef Id="690235631"/>
-						<MediaRef Id="707832248"/>
-						<MediaRef Id="791078962"/>
-						<MediaRef Id="828688824"/>
-						<MediaRef Id="854258806"/>
-						<MediaRef Id="929964914"/>
-						<MediaRef Id="961263980"/>
-						<MediaRef Id="977622824"/>
-						<MediaRef Id="993896963"/>
-						<MediaRef Id="1005972915"/>
-						<MediaRef Id="1070523256"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1227467306" Name="FTS_Landing" DurationType="OneShot" DurationMin="0.7" DurationMax="0.7">
-					<MediaRefs>
-						<MediaRef Id="47380200"/>
-						<MediaRef Id="57964426"/>
-						<MediaRef Id="63814283"/>
-						<MediaRef Id="85728624"/>
-						<MediaRef Id="125633224"/>
-						<MediaRef Id="161936741"/>
-						<MediaRef Id="367314626"/>
-						<MediaRef Id="440004500"/>
-						<MediaRef Id="501857201"/>
-						<MediaRef Id="638090160"/>
-						<MediaRef Id="675616308"/>
-						<MediaRef Id="873158197"/>
-						<MediaRef Id="911801410"/>
-						<MediaRef Id="933215268"/>
-						<MediaRef Id="958002252"/>
-						<MediaRef Id="1039550690"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="757210291" Name="MC_ATTACK_STICK_Combo1" DurationType="OneShot" DurationMin="0.78333336" DurationMax="0.78333336">
 					<MediaRefs>
 						<MediaRef Id="618556018"/>
@@ -289,10 +245,67 @@
 				</Event>
 				<Event Id="2197135454" Name="MC_FOL_FTS_Jump" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1530274047" Name="MC_FOL_FTS_Landing" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3349748359" Name="MC_HIT" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2895583815" Name="MC_FOLEY_HIT" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4146202944" Name="MC_FTS_Jump" DurationType="OneShot" DurationMin="0.46666667" DurationMax="0.46666667">
+					<MediaRefs>
+						<MediaRef Id="357388531"/>
+						<MediaRef Id="378332867"/>
+						<MediaRef Id="538946630"/>
+						<MediaRef Id="690235631"/>
+						<MediaRef Id="707832248"/>
+						<MediaRef Id="854258806"/>
+						<MediaRef Id="977622824"/>
+						<MediaRef Id="993896963"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1443624235" Id="2195636714" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="427162157"/>
+								<MediaRef Id="674510323"/>
+								<MediaRef Id="791078964"/>
+								<MediaRef Id="828688826"/>
+								<MediaRef Id="929964916"/>
+								<MediaRef Id="961263982"/>
+								<MediaRef Id="1005972917"/>
+								<MediaRef Id="1070523258"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1529151333" Name="MC_FTS_Landing" DurationType="OneShot" DurationMin="0.7" DurationMax="0.7">
+					<MediaRefs>
+						<MediaRef Id="85728624"/>
+						<MediaRef Id="125633224"/>
+						<MediaRef Id="161936741"/>
+						<MediaRef Id="367314626"/>
+						<MediaRef Id="501857201"/>
+						<MediaRef Id="933215268"/>
+						<MediaRef Id="958002252"/>
+						<MediaRef Id="1039550690"/>
+					</MediaRefs>
+					<SwitchContainers/>
+				</Event>
+				<Event Id="621912139" Name="MC_FTS_Run" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<SwitchContainers/>
+				</Event>
+				<Event Id="1508294759" Name="MC_FTS_Walk" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<SwitchContainers/>
+				</Event>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="1443624235" Name="SW_FTS_SURFACETYPE">
+					<Switches>
+						<Switch Id="712897245" Name="Mud"/>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="2195636714" Name="Dirt"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2535170914" Type="User" Language="SFX" Hash="{AEC47CD7-1E6B-94AF-E5DE-4BBF5DA76CB0}">
+		<SoundBank Id="2535170914" Type="User" Language="SFX" Hash="{19DA8711-D4CB-2FAA-5DB4-01DBB967AAF2}">
 			<ShortName>ENNEMY_CHOMPER</ShortName>
 			<Path>ENNEMY_CHOMPER.bnk</Path>
 			<Media>
@@ -471,6 +484,18 @@
 				<Event Id="3526276424" Name="CHOMPER_VOICE_Grunt_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="2634244267" Type="User" Language="SFX" Hash="{F921A4A1-ADC9-C365-401F-76D07541E7DD}">
+			<ShortName>ENNEMY_GRENADIER</ShortName>
+			<Path>ENNEMY_GRENADIER.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2712148667" Type="User" Language="SFX" Hash="{215703D8-DABB-0F21-A294-96BFFA4A8AFB}">
+			<ShortName>GPE_COMMON</ShortName>
+			<Path>GPE_COMMON.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3245277471" Type="User" Language="SFX" Hash="{B4A66269-37F6-56F8-028F-06E4A2113F34}">
+			<ShortName>ENNEMY_SPITTER</ShortName>
+			<Path>ENNEMY_SPITTER.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="3668529533" Type="User" Language="SFX" Hash="{3343E93A-7C3B-3473-6F82-83928FB52525}">
 			<ShortName>Z_DEV</ShortName>
 			<Path>Z_DEV.bnk</Path>
@@ -494,5 +519,5 @@
 			<Path>MUSIC.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{19B2BB9A-A4AB-5E99-05E9-C53890F768D0}</FileHash>
+	<FileHash>{F67455EF-9D1A-1E3A-DCE5-F50E07B32E05}</FileHash>
 </SoundBanksInfo>

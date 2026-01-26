@@ -47,13 +47,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="GPE" ID="{0D4DA880-2632-4EA5-B972-B7359038DB0F}">
+				<SoundBank Name="GPE_COMMON" ID="{0D4DA880-2632-4EA5-B972-B7359038DB0F}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="13"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="GPE" ID="{8DD24F24-DB22-47AA-9452-797272C92CFC}" WorkUnitID="{8DD24F24-DB22-47AA-9452-797272C92CFC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GPE_COMMON" ID="{219367C2-E8C9-43C2-8FDE-EC597AC22E4A}" WorkUnitID="{219367C2-E8C9-43C2-8FDE-EC597AC22E4A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -75,7 +75,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="CHOMPER" ID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" WorkUnitID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ENNEMY_CHOMPER" ID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" WorkUnitID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -87,6 +87,61 @@
 					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="AMB_LVL_02" ID="{D64A0D62-48FA-4382-ACE3-988AC515EF1F}" WorkUnitID="{D64A0D62-48FA-4382-ACE3-988AC515EF1F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="ENNEMY_GRENADIER" ID="{721AC78C-BFA7-4C74-BF31-FE10B4456A6F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="ENNEMY_GRENADIER" ID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" WorkUnitID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="ENNEMY_SPITTER" ID="{3840B11C-9357-49F2-855E-AED31DCDEF36}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="ENNEMY_SPITTER" ID="{C4034A58-CBE1-49EB-961D-E4CDC688223A}" WorkUnitID="{C4034A58-CBE1-49EB-961D-E4CDC688223A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="AMB_COMMON" ID="{DCF62227-134A-48FF-BB2C-C5DFB4320530}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="18"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="AMB_COMMON" ID="{D8D16671-172B-4291-89DC-CCAD2CAAC8B1}" WorkUnitID="{D8D16671-172B-4291-89DC-CCAD2CAAC8B1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="GPE_LVL_01" ID="{7C41835A-8C84-4B4D-BC0C-B7F0591F5F3A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="GPE_LVL_01" ID="{05951F2D-F2FB-4DCF-91D1-B55A87637E44}" WorkUnitID="{05951F2D-F2FB-4DCF-91D1-B55A87637E44}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="GPE_LVL_02" ID="{2297B009-714D-48FE-BF29-6D199D5624B4}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="GPE_LVL_02" ID="{3FDE78F9-B477-466B-BB8A-3AEF57C9AD5B}" WorkUnitID="{3FDE78F9-B477-466B-BB8A-3AEF57C9AD5B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6FBDF1EB-D61A-4595-BEBD-6B878DBEEC8C}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{D0D0515D-40C9-41DB-AD72-D2813A9FEE83}">
+	<AudioObjects>
+		<WorkUnit Name="GPE_LVL_01" ID="{6FBDF1EB-D61A-4595-BEBD-6B878DBEEC8C}" OwnerID="{D0D0515D-40C9-41DB-AD72-D2813A9FEE83}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AM_LVL_01" ID="{6C1DFFCF-A8E7-4D0F-B790-701066A74848}" ShortID="826909923">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="GPE_LVL_01" ID="{7C7E0066-3D3C-451B-AFBD-E6952597E280}" WorkUnitID="{74AB6A32-C097-4D6E-98DD-5F785D8D80CD}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
