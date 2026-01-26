@@ -50,19 +50,35 @@ namespace AK
 
     namespace SWITCHES
     {
-        namespace SW_FTS_SURFACETYPE
+        namespace SW_ENNEMY_GRENADIER_FTS_SURFACETYPE
         {
-            static const AkUniqueID GROUP = 1443624235U;
+            static const AkUniqueID GROUP = 3390404720U;
 
             namespace SWITCH
             {
                 static const AkUniqueID DIRT = 2195636714U;
                 static const AkUniqueID GRASS = 4248645337U;
                 static const AkUniqueID MUD = 712897245U;
+                static const AkUniqueID MUDGRASS = 3749277377U;
                 static const AkUniqueID STONE = 1216965916U;
                 static const AkUniqueID WATER = 2654748154U;
             } // namespace SWITCH
-        } // namespace SW_FTS_SURFACETYPE
+        } // namespace SW_ENNEMY_GRENADIER_FTS_SURFACETYPE
+
+        namespace SW_MC_FTS_SURFACETYPE
+        {
+            static const AkUniqueID GROUP = 3090884174U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID DIRT = 2195636714U;
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID MUD = 712897245U;
+                static const AkUniqueID MUDGRASS = 3749277377U;
+                static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID WATER = 2654748154U;
+            } // namespace SWITCH
+        } // namespace SW_MC_FTS_SURFACETYPE
 
     } // namespace SWITCHES
 

@@ -10,6 +10,7 @@
 						<Switch Name="Mud" ID="{95EACDF9-4174-4519-8CF2-9C1750AE9067}"/>
 						<Switch Name="Stone" ID="{CDEA976F-5E11-4F1C-BC96-16BE8041C81A}"/>
 						<Switch Name="Water" ID="{60175BB4-FACF-4FB9-88DC-806640FC10A1}"/>
+						<Switch Name="MudGrass" ID="{0601B96E-B66F-4306-98E8-79B488147213}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

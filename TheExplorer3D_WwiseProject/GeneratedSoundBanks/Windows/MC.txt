@@ -13,14 +13,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	4146202944	MC_FTS_Jump			\Default Work Unit\MC\MC_FTS\MC_FTS_Jump	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
-	1443624235	SW_FTS_SURFACETYPE			\Default Work Unit\MC\FTS\SW_FTS_SURFACETYPE	
+	3090884174	SW_MC_FTS_SURFACETYPE			\Default Work Unit\MC\MC_FTS\SW_MC_FTS_SURFACETYPE	
 
 Switch	ID	Name	Switch Group			Notes
-	712897245	Mud	SW_FTS_SURFACETYPE			
-	1216965916	Stone	SW_FTS_SURFACETYPE			
-	2195636714	Dirt	SW_FTS_SURFACETYPE			
-	2654748154	Water	SW_FTS_SURFACETYPE			
-	4248645337	Grass	SW_FTS_SURFACETYPE			
+	712897245	Mud	SW_MC_FTS_SURFACETYPE			
+	1216965916	Stone	SW_MC_FTS_SURFACETYPE			
+	2195636714	Dirt	SW_MC_FTS_SURFACETYPE			
+	2654748154	Water	SW_MC_FTS_SURFACETYPE			
+	3749277377	MudGrass	SW_MC_FTS_SURFACETYPE			
+	4248645337	Grass	SW_MC_FTS_SURFACETYPE			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	85728624	MC_LandFoley_03	J:\PROJET\0_Slope\Wwise\Project\4_TheExplorer3D\Unity\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\MC\FOLEY\FTS\MC_LandFoley_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\AM_MC\MC_FOLEY\AM_FOLEY\MC_FOLEY_FTS\AM_FTS\RC_FOL_Landing\MC_LandFoley_03		134496

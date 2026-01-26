@@ -21,16 +21,19 @@ namespace Gamekit3D
         public GameObject AS_BODY; 
         public GameObject AS_STICK;
 
-
+        
+        
         [Header("AUDIO EVENT")]
         public AK.Wwise.Event event_MC_Ellen_Land_Play;
         public AK.Wwise.Event event_MC_Ellen_Jump_Play;
+        public AK.Wwise.Event event_MC_Ellen_Run_Play;
         public AK.Wwise.Event event_MC_Ellen_Hit_Play;
         public AK.Wwise.Event event_MC_Ellen_Death_Play;
         public AK.Wwise.Event event_MC_Ellen_Combo_1_Play;
         public AK.Wwise.Event event_MC_Ellen_Combo_2_Play;
         public AK.Wwise.Event event_MC_Ellen_Combo_3_Play;
         public AK.Wwise.Event event_MC_Ellen_Combo_4_Play; 
+        
 
         [Header("GAME MANAGEMENT")]
         public float maxForwardSpeed = 8f;        // How fast Ellen can run.
@@ -41,12 +44,8 @@ namespace Gamekit3D
         public float idleTimeout = 5f;            // How long before Ellen starts considering random idles.
         public bool canAttack;    
         
-        
-
-
         public CameraSettings cameraSettings;            // Reference used to determine the camera's direction.
         public MeleeWeapon meleeWeapon;                  // Reference used to (de)activate the staff when attacking. 
-
         
         protected AnimatorStateInfo m_CurrentStateInfo;    // Information about the base layer of the animator cached.
         protected AnimatorStateInfo m_NextStateInfo;
@@ -115,7 +114,17 @@ namespace Gamekit3D
 
         // Tags
         readonly int m_HashBlockInput = Animator.StringToHash("BlockInput");
+        
+        //SurfaceType Detection - RayCast
 
+
+        // By Security, like in Wwise we define Dirt as a default Value;
+        private string tmpSurfaceType;
+        private string currentSurfaceType = "Dirt";
+        
+        
+        public string FTS_SurfaceType_SwitchGroup = "SW_MC_FTS_SURFACETYPE"; 
+ 
         protected bool IsMoveInput
         {
             get { return !Mathf.Approximately(m_Input.MoveInput.sqrMagnitude, 0f); }
@@ -155,9 +164,12 @@ namespace Gamekit3D
             }
         }
 
+
+        
         // Called automatically by Unity when the script first exists in the scene.
         void Awake()
         {
+            
             m_Input = GetComponent<PlayerInput>();
             m_Animator = GetComponent<Animator>();
             m_CharCtrl = GetComponent<CharacterController>();
@@ -217,7 +229,6 @@ namespace Gamekit3D
                 UpdateOrientation();
 
             PlayAudio();
-
             TimeoutToIdle();
 
             m_PreviouslyGrounded = m_IsGrounded;
@@ -435,29 +446,8 @@ namespace Gamekit3D
         // Called each physics step to check if audio should be played and if so instruct the relevant random audio player to do so.
         void PlayAudio()
         {
-            float footfallCurve = m_Animator.GetFloat(m_HashFootFall);
+            // float footfallCurve = m_Animator.GetFloat(m_HashFootFall);
 
-            //if (m_CanPlayFootstep && footfallCurve > 0.01f && m_IsGrounded && m_ForwardSpeed > 0.1f)
-            //{
-            //    event_MC_Ellen_Footstep_Play.Post(AS_FTS);
-
-            //    m_CanPlayFootstep = false;
-            //    m_FootstepTimer = 0f;
-            //}
-
-            //if (!m_CanPlayFootstep)
-            //{
-            //    m_FootstepTimer += Time.deltaTime;
-            //    if (m_FootstepTimer >= k_FootstepCooldown)
-            //    {
-            //        m_CanPlayFootstep = true;
-            //    }
-            //}
-
-            //if (footfallCurve < 0.01f)
-            //{
-            //    m_CanPlayFootstep = true;
-            //}
 
             if (m_IsGrounded && !m_PreviouslyGrounded)
             {
@@ -711,6 +701,69 @@ namespace Gamekit3D
             m_VerticalSpeed = 0f;
             m_Respawning = true;
             m_Damageable.isInvulnerable = true;
+        } 
+        
+        public void PlayStep()
+        {
+            checkFTSSurfaceType();
+            event_MC_Ellen_Run_Play.Post(AS_FTS);
         }
+        
+        public void checkFTSSurfaceType()
+        {
+            RaycastHit rayCastHit;
+        
+         // Get Raycast Hit and assing it to rayCastHit Variable. Vector3.down is a shortcut for Vector3(0,-1,0)
+         Physics.Raycast(transform.position, Vector3.down,out rayCastHit, 5.0f);
+         
+             currentSurfaceType = rayCastHit.transform.gameObject.tag;
+             
+             if (rayCastHit.transform.gameObject.layer == LayerMask.NameToLayer("Environment") && tmpSurfaceType != currentSurfaceType)
+             {
+                 
+                     switch (currentSurfaceType)
+                     { 
+                         case "MudGrass":
+                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "MudGrass", gameObject);
+                             break;
+                         
+                         case "Grass":
+                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Grass", gameObject);
+                             break;
+                         
+                         case "Mud":
+                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Mud", gameObject);
+                             break;
+                         
+                         case "Stone":
+                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Stone", gameObject);
+                             break;
+                         
+                         case "Water":
+                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Water", gameObject);
+                             break;
+                         
+                         case "Dirt":
+                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Dirt", gameObject);
+                             break;
+                         
+                         // Like in Wwise if not SurfaceType is detected we switch it to Dirt
+                         default:
+                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Dirt", gameObject);
+                             break;
+                     }
+
+                     // Avoid sending a switch to Wwise if the currennt SurfaceTypeSwitch is the same as detected by the new RayCast
+                     tmpSurfaceType = currentSurfaceType;
+             }
+
+            
+         
+        }
+        
+
+        
     }
+ 
+
 }

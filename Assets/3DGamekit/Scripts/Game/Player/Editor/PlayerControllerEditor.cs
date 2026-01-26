@@ -35,6 +35,8 @@ namespace Gamekit3D
         SerializedProperty m_event_MC_Ellen_Combo_3_PlayProp;
         SerializedProperty m_event_MC_Ellen_Combo_4_PlayProp;
         
+        SerializedProperty m_event_MC_Ellen_Run_Play_Prop;
+        
         // SerializedProperty m_FootstepPlayerProp;
         // SerializedProperty m_HitAudioPlayerProp;
         // SerializedProperty m_LandingPlayerProp;
@@ -60,6 +62,8 @@ namespace Gamekit3D
         GUIContent m_event_MC_Ellen_Combo_2_Play_Content =  new GUIContent("Wwise Combo 2 Event","Link your Combo 2 Wwise Event");
         GUIContent m_event_MC_Ellen_Combo_3_Play_Content =  new GUIContent("Wwise Combo 3 Event","Link your Combo 3 Wwise Event");
         GUIContent m_event_MC_Ellen_Combo_4_Play_Content =  new GUIContent("Wwise Combo 4 Event","Link your Combo 4 Wwise Event");
+        
+        GUIContent m_event_MC_Ellen_Run_Play_Content =  new GUIContent("Wwise Run Event","Link your Run Wwise Footsteps detection");
         
         
         GUIContent m_MaxForwardSpeedContent = new GUIContent("Max Forward Speed", "How fast Ellen can run.");
@@ -100,6 +104,8 @@ namespace Gamekit3D
             m_event_MC_Ellen_Combo_2_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Combo_2_Play");
             m_event_MC_Ellen_Combo_3_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Combo_3_Play");
             m_event_MC_Ellen_Combo_4_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Combo_4_Play");
+            
+            m_event_MC_Ellen_Run_Play_Prop = serializedObject.FindProperty("event_MC_Ellen_Run_Play");
 
             m_MaxForwardSpeedProp = serializedObject.FindProperty("maxForwardSpeed");
             m_GravityProp = serializedObject.FindProperty("gravity");
@@ -146,6 +152,8 @@ namespace Gamekit3D
             EditorGUILayout.PropertyField(m_event_MC_Ellen_Combo_2_PlayProp, m_event_MC_Ellen_Combo_2_Play_Content);
             EditorGUILayout.PropertyField(m_event_MC_Ellen_Combo_3_PlayProp, m_event_MC_Ellen_Combo_3_Play_Content);
             EditorGUILayout.PropertyField(m_event_MC_Ellen_Combo_4_PlayProp, m_event_MC_Ellen_Combo_4_Play_Content);
+            
+            EditorGUILayout.PropertyField(m_event_MC_Ellen_Run_Play_Prop, m_event_MC_Ellen_Run_Play_Content);
             
             // -- END AUDIO GUI -- //
             

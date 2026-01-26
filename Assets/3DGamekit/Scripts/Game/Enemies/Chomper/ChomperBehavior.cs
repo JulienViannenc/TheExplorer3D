@@ -88,67 +88,56 @@ namespace Gamekit3D
         
         public void SFX_Ennemy_Chomper_Grunt_Play()
         {
-            Debug.Log("Grunt Chomper Audio Trigger");
             event_Ennemy_Chomper_Grunt_Play.Post(AS_MOUTH);
         }
 
         public void SFX_Ennemy_Chomper_IdleScratch_Play()
         {
-            Debug.Log("Walk Audio Footstep Marche Chomper");
             event_Ennemy_Chomper_IdleScratch_Play.Post(AS_FTS);
         }
         
         public void SFX_Ennemy_Chomper_FTSIdle_Play()
         {
-            Debug.Log("Walk Audio Idle Footstep Marche Chomper");
             event_Ennemy_Chomper_FTSIdle_Play.Post(AS_FTS);
         }
 
         public void SFX_Ennemy_Chomper_FTSWalk_Play()
         {
-            Debug.Log("Walk Audio Footstep Marche Chomper");
             event_Ennemy_Chomper_FTSWalk_Play.Post(AS_FTS);
         }
         
         public void SFX_Ennemy_Chomper_FTSRun_Play()
         {
-            Debug.Log("Walk Audio Footstep Marche Chomper");
             event_Ennemy_Chomper_FTSRun_Play.Post(AS_FTS);
         }
         
         public void SFX_Ennemy_Chomper_Fall_Play()
         {
-            Debug.Log("Fall Chomper Audio Trigger");
             event_Ennemy_Chomper_Fall_Play.Post(AS_MOUTH);
         }
         
         public void SFX_Ennemy_Chomper_Hit_Play()
         {
-            Debug.Log("Hit Chomper Audio Trigger");
             event_Ennemy_Chomper_Hit_Play.Post(AS_BODY);
         }
         
         public void SFX_Ennemy_Chomper_Spotted_Play()
         {
-            Debug.Log("Spotted Chomper Audio Trigger");
             event_Ennemy_Chomper_Spotted_Play.Post(AS_MOUTH);
         }
         
         public void SFX_Ennemy_Chomper_AttackBegin_Play()
         {
-            Debug.Log("Attack BEGIN Chomper Audio Trigger");
             event_Ennemy_Chomper_AttackBegin_Play.Post(AS_MOUTH);
         }
         
         public void SFX_Ennemy_Chomper_AttackEnd_Play()
         {
-            Debug.Log("Attack END Chomper Audio Trigger");
             event_Ennemy_Chomper_AttackEnd_Play.Post(AS_MOUTH);
         }
         
         public void SFX_Ennemy_Chomper_AttackAll_Stop()
         {
-            Debug.Log("Attack ALL STOP Chomper Audio Trigger");
             event_Ennemy_Chomper_AttackAllStop_Play.Post(AS_MOUTH);
         }
         

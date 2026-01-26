@@ -65,12 +65,23 @@
 				<AuxBus Id="357718954" Name="DELAY"/>
 			</AuxBusses>
 			<SwitchGroups>
-				<SwitchGroup Id="1443624235" Name="SW_FTS_SURFACETYPE">
+				<SwitchGroup Id="3090884174" Name="SW_MC_FTS_SURFACETYPE">
 					<Switches>
 						<Switch Id="712897245" Name="Mud"/>
 						<Switch Id="1216965916" Name="Stone"/>
 						<Switch Id="2195636714" Name="Dirt"/>
 						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="3749277377" Name="MudGrass"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3390404720" Name="SW_ENNEMY_GRENADIER_FTS_SURFACETYPE">
+					<Switches>
+						<Switch Id="712897245" Name="Mud"/>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="2195636714" Name="Dirt"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="3749277377" Name="MudGrass"/>
 						<Switch Id="4248645337" Name="Grass"/>
 					</Switches>
 				</SwitchGroup>
@@ -80,7 +91,7 @@
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{FE16BBE7-78B9-1EC0-9B0F-DD6ADDD2B1E2}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{F3E0BCF2-53DA-E4E8-38E1-AE06C3C4C412}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -259,7 +270,7 @@
 					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1443624235" Id="2195636714" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="2195636714" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="427162157"/>
 								<MediaRef Id="674510323"/>
@@ -294,12 +305,13 @@
 				</Event>
 			</Events>
 			<SwitchGroups>
-				<SwitchGroup Id="1443624235" Name="SW_FTS_SURFACETYPE">
+				<SwitchGroup Id="3090884174" Name="SW_MC_FTS_SURFACETYPE">
 					<Switches>
 						<Switch Id="712897245" Name="Mud"/>
 						<Switch Id="1216965916" Name="Stone"/>
 						<Switch Id="2195636714" Name="Dirt"/>
 						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="3749277377" Name="MudGrass"/>
 						<Switch Id="4248645337" Name="Grass"/>
 					</Switches>
 				</SwitchGroup>
@@ -519,5 +531,5 @@
 			<Path>MUSIC.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F67455EF-9D1A-1E3A-DCE5-F50E07B32E05}</FileHash>
+	<FileHash>{0B21D4F1-630D-ADE3-C285-6F9A84F91DE1}</FileHash>
 </SoundBanksInfo>
