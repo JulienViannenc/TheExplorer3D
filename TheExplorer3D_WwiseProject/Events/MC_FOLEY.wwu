@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{95486E1B-D63B-4FD9-9B55-8DABB18B1D3B}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{B65C6026-D797-4A94-A49A-21AFD9979A80}">
+	<Events>
+		<WorkUnit Name="MC_FOLEY" ID="{95486E1B-D63B-4FD9-9B55-8DABB18B1D3B}" OwnerID="{B65C6026-D797-4A94-A49A-21AFD9979A80}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="MC_FOLEY_FTS" ID="{7D1A31BE-335D-49B9-8473-BE178C4DD28F}" PersistMode="Reference"/>
+				<WorkUnit Name="MC_FOLEY_BODYFALL" ID="{8D962532-82EB-4EE6-BB9B-13A6D3439D23}" PersistMode="Reference"/>
+				<WorkUnit Name="MC_FOLEY_HIT" ID="{3C3D3414-7942-43F0-B55F-7DD711C97514}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

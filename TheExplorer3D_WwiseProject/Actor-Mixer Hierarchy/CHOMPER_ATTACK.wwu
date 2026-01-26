@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{DCB17EA3-3229-4968-AB04-218052A86344}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{23FAE0B1-7596-4680-9386-DC2AC1430F8F}">
+<WwiseDocument Type="WorkUnit" ID="{DCB17EA3-3229-4968-AB04-218052A86344}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{24FD2B86-D7E1-4A26-AF1D-F7A65EEF2D50}">
 	<AudioObjects>
 		<WorkUnit Name="CHOMPER_ATTACK" ID="{DCB17EA3-3229-4968-AB04-218052A86344}" OwnerID="{747F1DF1-43DD-42FC-A1E3-F28D145DEDA6}" PersistMode="Nested">
 			<ChildrenList>

@@ -13,42 +13,45 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID ATTACKBEGIN = 2508816088U;
-        static const AkUniqueID ATTACKEND = 1639835052U;
-        static const AkUniqueID COMBO1 = 2932016822U;
-        static const AkUniqueID COMBO2 = 2932016821U;
-        static const AkUniqueID COMBO3 = 2932016820U;
-        static const AkUniqueID COMBO4 = 2932016819U;
-        static const AkUniqueID DEATH = 779278001U;
+        static const AkUniqueID CHOMPER_ATTACK_ATTACK_ALLSTOP = 940801479U;
+        static const AkUniqueID CHOMPER_ATTACK_ATTACKBEGIN = 413931618U;
+        static const AkUniqueID CHOMPER_ATTACK_ATTACKEND = 238903382U;
+        static const AkUniqueID CHOMPER_BODYFALL_FALL = 3564801173U;
+        static const AkUniqueID CHOMPER_BODYFALL_FALL_STOP = 4122794360U;
+        static const AkUniqueID CHOMPER_FTS_IDLE = 2185586590U;
+        static const AkUniqueID CHOMPER_FTS_RUN = 2732001199U;
+        static const AkUniqueID CHOMPER_FTS_RUN_STOP = 3318718874U;
+        static const AkUniqueID CHOMPER_FTS_WALK = 612318035U;
+        static const AkUniqueID CHOMPER_FTS_WALK_STOP = 3372258078U;
+        static const AkUniqueID CHOMPER_FTSIDLE_STOP = 4009352946U;
+        static const AkUniqueID CHOMPER_HIT_HIT = 2449614393U;
+        static const AkUniqueID CHOMPER_HIT_HIT_STOP = 1642901452U;
+        static const AkUniqueID CHOMPER_SPOTTED_SPOTTED = 1421613817U;
+        static const AkUniqueID CHOMPER_SPOTTED_SPOTTED_STOP = 1344923020U;
+        static const AkUniqueID CHOMPER_STOP_ATTACKBEGIN_STOP = 2964712165U;
+        static const AkUniqueID CHOMPER_STOP_ATTACKEND_STOP = 2851955753U;
+        static const AkUniqueID CHOMPER_VOICE_GRUNT = 1143561925U;
+        static const AkUniqueID CHOMPER_VOICE_GRUNT_STOP = 3526276424U;
         static const AkUniqueID DUCKSOUND = 3169408195U;
-        static const AkUniqueID FALL = 2512384458U;
-        static const AkUniqueID FTS_IDLE = 278299119U;
-        static const AkUniqueID FTS_RUN = 2027509688U;
-        static const AkUniqueID FTS_WALK = 3144061710U;
-        static const AkUniqueID GRUNT = 3797621065U;
-        static const AkUniqueID HIT = 1116398592U;
-        static const AkUniqueID HURT = 3193947170U;
-        static const AkUniqueID JUMP = 3833651337U;
-        static const AkUniqueID LANDING = 2548270042U;
-        static const AkUniqueID SPOTTED = 3214304800U;
-        static const AkUniqueID STOP_ATTACKALL = 1328128341U;
-        static const AkUniqueID STOP_ATTACKBEGIN = 2837855987U;
-        static const AkUniqueID STOP_ATTACKEND = 1293984723U;
+        static const AkUniqueID FTS_JUMP = 3306206393U;
+        static const AkUniqueID FTS_LANDING = 1227467306U;
+        static const AkUniqueID MC_ATTACK_STICK_COMBO1 = 757210291U;
+        static const AkUniqueID MC_ATTACK_STICK_COMBO2 = 757210288U;
+        static const AkUniqueID MC_ATTACK_STICK_COMBO3 = 757210289U;
+        static const AkUniqueID MC_ATTACK_STICK_COMBO4 = 757210294U;
+        static const AkUniqueID MC_BODYFALL_DEATH = 2934050364U;
+        static const AkUniqueID MC_FOL_FTS_JUMP = 2197135454U;
+        static const AkUniqueID MC_FOL_FTS_LANDING = 1530274047U;
+        static const AkUniqueID MC_HIT = 3349748359U;
         static const AkUniqueID STOP_DUCKSOUND = 973396280U;
-        static const AkUniqueID STOP_FALL = 2695680267U;
-        static const AkUniqueID STOP_FTS_RUN = 3463244419U;
-        static const AkUniqueID STOP_FTS_WALK = 1280223711U;
-        static const AkUniqueID STOP_FTSIDLE = 2885577723U;
-        static const AkUniqueID STOP_GRUNT = 1848048310U;
-        static const AkUniqueID STOP_HIT = 300122239U;
-        static const AkUniqueID STOP_SPOTTED = 2765578991U;
     } // namespace EVENTS
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID AMB = 1117531639U;
-        static const AkUniqueID ENNEMY = 692772937U;
+        static const AkUniqueID AMB_LVL_01 = 1305695986U;
+        static const AkUniqueID AMB_LVL_02 = 1305695985U;
+        static const AkUniqueID ENNEMY_CHOMPER = 2535170914U;
         static const AkUniqueID GPE = 831326253U;
         static const AkUniqueID MC = 1685527061U;
         static const AkUniqueID MUSIC = 3991942870U;
@@ -59,7 +62,10 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID AMB = 1117531639U;
+        static const AkUniqueID ATTACK = 180661997U;
         static const AkUniqueID ENNEMY = 692772937U;
+        static const AkUniqueID FOLEY = 247557814U;
+        static const AkUniqueID FTS = 999249646U;
         static const AkUniqueID GPE = 831326253U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MC = 1685527061U;

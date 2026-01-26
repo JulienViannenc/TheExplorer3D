@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A51C42D0-CE67-4C46-B72D-44FAA7C99D5C}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{3407FC33-92A2-47EA-8784-859F2A5CB842}">
+	<AudioObjects>
+		<WorkUnit Name="MC_FOLEY_SPAWN" ID="{A51C42D0-CE67-4C46-B72D-44FAA7C99D5C}" OwnerID="{65A2E22A-E794-4221-A7A8-FD772806260E}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AM_SPAWN" ID="{CC7E47CA-8797-448C-8C35-DE1D4A2A106F}" ShortID="130113529">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MC_Spawn_01" ID="{C4F59F7B-D8E1-4972-8FC9-38F8D3C085D2}" ShortID="180270327">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MC" ID="{F30E5A19-7A63-47CD-AA09-FC1F754D56BC}" WorkUnitID="{8504E28F-8E18-4D3F-9B03-A31F912C486C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MC_SpawnerFoleys_02" ID="{0CAF99BD-2C7D-4CE8-883E-C1C1CD2BBB39}">
+									<Language>SFX</Language>
+									<AudioFile>MC_SpawnerFoleys_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="251352886"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="MC_SpawnerFoleys_01" ID="{D3B73E49-0D70-4183-A7CB-80B0346560A5}">
+									<Language>SFX</Language>
+									<AudioFile>MC\FOLEY\SPAWN\MC_SpawnerFoleys_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="560929086"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MC_SpawnerFoleys_01" ID="{D3B73E49-0D70-4183-A7CB-80B0346560A5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

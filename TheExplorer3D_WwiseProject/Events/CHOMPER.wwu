@@ -3,65 +3,12 @@
 	<Events>
 		<WorkUnit Name="CHOMPER" ID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" OwnerID="{6439793F-91D7-4108-9205-DEB409E2996F}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="Grunt" ID="{53FF31DE-99E2-4787-8057-0534D4C4568D}"/>
-				<Event Name="STOP_Grunt" ID="{4AB58B8A-71C1-4766-9734-A834D0273F5C}"/>
-				<Event Name="FTS_Idle" ID="{B922C949-8ECF-439F-9086-9FE009F7A36F}">
-					<ChildrenList>
-						<Action Name="" ID="{B618A180-5BB4-451D-A9EE-9BFE1B9C1C43}" ShortID="341163749">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="RC_WalkIdle" ID="{434BB3A6-4F9A-41C5-A9AD-040EAF53AAF5}" WorkUnitID="{F5D03456-C443-4EB1-91AE-8ADDE7CDF3DF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="STOP_FTSIdle" ID="{B898F9BD-85DF-47D6-AD47-A2032D924517}"/>
-				<Event Name="FTS_Walk" ID="{F90B6B99-9271-47BC-BBD0-F9D725F0D925}">
-					<ChildrenList>
-						<Action Name="" ID="{246553A4-4399-4057-84EE-0574A56E2744}" ShortID="116877820">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="RC_Walk" ID="{479EB272-A154-496A-82CB-54882DB4EFEF}" WorkUnitID="{F5D03456-C443-4EB1-91AE-8ADDE7CDF3DF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="STOP_FTS_Walk" ID="{EC4D31AF-763E-449B-8FE6-81B48229CAD0}"/>
-				<Event Name="FTS_Run" ID="{F0B62821-D6CF-452B-8CDA-8E39ABD2CCEA}">
-					<ChildrenList>
-						<Action Name="" ID="{5D68DA30-6118-42EE-9C24-8F58DD2CE745}" ShortID="716254114">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="RC_Run" ID="{340B4D24-1D6C-4648-BA21-090CE6144347}" WorkUnitID="{F5D03456-C443-4EB1-91AE-8ADDE7CDF3DF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="STOP_FTS_Run" ID="{EBAB1A6C-0C4D-40B1-85B1-E1A336542FC2}"/>
-				<Event Name="Spotted" ID="{F7212323-2D0C-45F9-962F-2A7FC299812F}"/>
-				<Event Name="STOP_Spotted" ID="{A62A7F9B-BD72-4115-9C51-5791172915C6}"/>
-				<Event Name="AttackBegin" ID="{A5EADF48-AF21-4C83-A01F-F972D4F19480}">
-					<ChildrenList>
-						<Action Name="" ID="{7BCB00E1-F988-403D-8C11-008522E76139}" ShortID="67591828">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="RC_ATTACK" ID="{373BF424-BFC2-4F7E-9802-661F7A2263EC}" WorkUnitID="{DCB17EA3-3229-4968-AB04-218052A86344}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="STOP_AttackBegin" ID="{5DF4B54A-8818-41FB-953B-120F8983C47D}"/>
-				<Event Name="Hit" ID="{8D24B146-07EB-4040-93BF-44707281FC49}"/>
-				<Event Name="STOP_Hit" ID="{392B2FA1-CAE8-4A10-8EC9-1A53196E7EFA}"/>
-				<Event Name="Fall" ID="{13140F72-A147-4552-B2BD-BB8A25D6F21F}"/>
-				<Event Name="STOP_Fall" ID="{FA8D0FBF-222B-413B-92A4-BD7CADFF59BB}"/>
-				<Event Name="AttackEnd" ID="{2C033C68-0EEC-4C39-B668-368A747AB97B}"/>
-				<Event Name="STOP_AttackEnd" ID="{B43172E7-9AE6-430A-98FE-6323E4E653FE}"/>
-				<Event Name="STOP_AttackAll" ID="{E7264689-5400-4D27-A69F-60A8F392DC77}"/>
+				<WorkUnit Name="CHOMPER_ATTACK" ID="{B9C60BF7-D76A-4B0D-AD8F-E0D48CD15C56}" PersistMode="Reference"/>
+				<WorkUnit Name="CHOMPER_BODYFALL" ID="{1D3F16E2-925D-4B33-AF21-D26C8DE206F6}" PersistMode="Reference"/>
+				<WorkUnit Name="CHOMPER_VOICE" ID="{84DC3FB9-9F04-497A-AE39-B6E4BED1A409}" PersistMode="Reference"/>
+				<WorkUnit Name="CHOMPER_FTS" ID="{A506E826-45BB-4254-B60E-178F8056C5C9}" PersistMode="Reference"/>
+				<WorkUnit Name="CHOMPER_HIT" ID="{F633501D-2195-438E-BA43-CC00D502D285}" PersistMode="Reference"/>
+				<WorkUnit Name="CHOMPER_SPOTTED" ID="{9B8B03BB-8F3E-42A6-B6FC-24F1176FCD3A}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

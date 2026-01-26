@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{24FD2B86-D7E1-4A26-AF1D-F7A65EEF2D50}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{23FAE0B1-7596-4680-9386-DC2AC1430F8F}">
 	<AudioObjects>
-		<WorkUnit Name="CHOMPER" ID="{24FD2B86-D7E1-4A26-AF1D-F7A65EEF2D50}" OwnerID="{23FAE0B1-7596-4680-9386-DC2AC1430F8F}" PersistMode="Nested"/>
+		<WorkUnit Name="CHOMPER" ID="{24FD2B86-D7E1-4A26-AF1D-F7A65EEF2D50}" OwnerID="{43AB8FE9-1C06-4687-820B-8D245E1F9AE3}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AC_CHOMPER" ID="{747F1DF1-43DD-42FC-A1E3-F28D145DEDA6}" ShortID="7093315">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="ENNEMY" ID="{49AD0B39-0F22-4DF4-962C-D992068516AA}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="CHOMPER_ATTACK" ID="{DCB17EA3-3229-4968-AB04-218052A86344}" PersistMode="Reference"/>
+						<WorkUnit Name="CHOMPER_FTS" ID="{F5D03456-C443-4EB1-91AE-8ADDE7CDF3DF}" PersistMode="Reference"/>
+						<WorkUnit Name="CHOMPER_HIT" ID="{F7F38380-F5FA-4CD7-A323-39A831E3C90F}" PersistMode="Reference"/>
+						<WorkUnit Name="CHOMPER_BODYFALL" ID="{B9CE7D9A-18B5-4EB5-958D-FBB490287026}" PersistMode="Reference"/>
+						<WorkUnit Name="CHOMPER_VOICE" ID="{32B1B55D-772A-46DB-B23B-7D4E9F82CE34}" PersistMode="Reference"/>
+						<WorkUnit Name="CHOMPER_SPOTTED" ID="{1D94833F-DEA8-4177-BE2A-6E2BD261AC9D}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

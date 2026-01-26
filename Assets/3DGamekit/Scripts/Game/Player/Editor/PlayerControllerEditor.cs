@@ -28,7 +28,7 @@ namespace Gamekit3D
         
         SerializedProperty m_event_MC_Ellen_Land_PlayProp;
         SerializedProperty m_event_MC_Ellen_Jump_PlayProp;
-        SerializedProperty m_event_MC_Ellen_Hurt_PlayProp;
+        SerializedProperty m_event_MC_Ellen_Hit_PlayProp;
         SerializedProperty m_event_MC_Ellen_Death_PlayProp;
         SerializedProperty m_event_MC_Ellen_Combo_1_PlayProp;
         SerializedProperty m_event_MC_Ellen_Combo_2_PlayProp;
@@ -36,7 +36,7 @@ namespace Gamekit3D
         SerializedProperty m_event_MC_Ellen_Combo_4_PlayProp;
         
         // SerializedProperty m_FootstepPlayerProp;
-        // SerializedProperty m_HurtAudioPlayerProp;
+        // SerializedProperty m_HitAudioPlayerProp;
         // SerializedProperty m_LandingPlayerProp;
         // SerializedProperty m_EmoteLandingPlayerProp;
         // SerializedProperty m_EmoteDeathPlayerProp;
@@ -54,7 +54,7 @@ namespace Gamekit3D
         
         GUIContent m_event_MC_Ellen_Land_Play_Content =  new GUIContent("Wwise Land Event","Put your Wwise Ellen Land Event");
         GUIContent m_event_MC_Ellen_Jump_Play_Content =  new GUIContent("Wwise Jump Event","Put your Wwise Ellen Jump Event");
-        GUIContent m_event_MC_Ellen_Hurt_Play_Content =  new GUIContent("Wwise Hurt Event","Put your Wwise Ellen Hurt Event");
+        GUIContent m_event_MC_Ellen_Hit_Play_Content =  new GUIContent("Wwise Hit Event","Put your Wwise Ellen Hit Event");
         GUIContent m_event_MC_Ellen_Death_Play_Content =  new GUIContent("Wwise Death Event","Put your Wwise Ellen Death Event");
         GUIContent m_event_MC_Ellen_Combo_1_Play_Content =  new GUIContent("Wwise Combo 1 Event","Link your Combo 1 Wwise Event");
         GUIContent m_event_MC_Ellen_Combo_2_Play_Content =  new GUIContent("Wwise Combo 2 Event","Link your Combo 2 Wwise Event");
@@ -75,7 +75,7 @@ namespace Gamekit3D
         
         
         // GUIContent m_FootstepPlayerContent = new GUIContent("Footstep Random Audio Player", "Used to play a random sound when Ellen takes a step.");
-        // GUIContent m_HurtAudioPlayerContent = new GUIContent("Hurt Random Audio Player", "Used to play a random sound when Ellen gets hurt.");
+        // GUIContent m_HitAudioPlayerContent = new GUIContent("Hit Random Audio Player", "Used to play a random sound when Ellen gets Hit.");
         // GUIContent m_LandingPlayerContent = new GUIContent("Landing Random Audio Player", "Used to play a random sound when Ellen lands.");
         // GUIContent m_EmoteLandingPlayerContent = new GUIContent("Emote Landing Player", "Used to play a random vocal sound when Ellen lands.");
         // GUIContent m_EmoteDeathPlayerContent = new GUIContent("Emote Death Player", "Used to play a random vocal sound when Ellen dies.");
@@ -94,7 +94,7 @@ namespace Gamekit3D
             
             m_event_MC_Ellen_Land_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Land_Play");
             m_event_MC_Ellen_Jump_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Jump_Play");
-            m_event_MC_Ellen_Hurt_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Hurt_Play");
+            m_event_MC_Ellen_Hit_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Hit_Play");
             m_event_MC_Ellen_Death_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Death_Play");
             m_event_MC_Ellen_Combo_1_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Combo_1_Play");
             m_event_MC_Ellen_Combo_2_PlayProp = serializedObject.FindProperty("event_MC_Ellen_Combo_2_Play");
@@ -114,7 +114,7 @@ namespace Gamekit3D
             
 
             // m_FootstepPlayerProp = serializedObject.FindProperty("footstepPlayer");
-            // m_HurtAudioPlayerProp = serializedObject.FindProperty("hurtAudioPlayer");
+            // m_HitAudioPlayerProp = serializedObject.FindProperty("HitAudioPlayer");
             // m_LandingPlayerProp = serializedObject.FindProperty("landingPlayer");
             // m_EmoteLandingPlayerProp = serializedObject.FindProperty("emoteLandingPlayer");
             // m_EmoteDeathPlayerProp = serializedObject.FindProperty("emoteDeathPlayer");
@@ -140,7 +140,7 @@ namespace Gamekit3D
             
             EditorGUILayout.PropertyField(m_event_MC_Ellen_Land_PlayProp, m_event_MC_Ellen_Land_Play_Content);
             EditorGUILayout.PropertyField(m_event_MC_Ellen_Jump_PlayProp, m_event_MC_Ellen_Jump_Play_Content);
-            EditorGUILayout.PropertyField(m_event_MC_Ellen_Hurt_PlayProp, m_event_MC_Ellen_Hurt_Play_Content);
+            EditorGUILayout.PropertyField(m_event_MC_Ellen_Hit_PlayProp, m_event_MC_Ellen_Hit_Play_Content);
             EditorGUILayout.PropertyField(m_event_MC_Ellen_Death_PlayProp, m_event_MC_Ellen_Death_Play_Content);
             EditorGUILayout.PropertyField(m_event_MC_Ellen_Combo_1_PlayProp, m_event_MC_Ellen_Combo_1_Play_Content);
             EditorGUILayout.PropertyField(m_event_MC_Ellen_Combo_2_PlayProp, m_event_MC_Ellen_Combo_2_Play_Content);
@@ -177,7 +177,7 @@ namespace Gamekit3D
                 EditorGUILayout.PropertyField(m_MeleeWeaponProp, m_MeleeWeaponContent);
                 EditorGUILayout.PropertyField(m_CameraSettingsProp, m_CameraSettingsContent);
                 // EditorGUILayout.PropertyField(m_FootstepPlayerProp, m_FootstepPlayerContent);
-                // EditorGUILayout.PropertyField(m_HurtAudioPlayerProp, m_HurtAudioPlayerContent);
+                // EditorGUILayout.PropertyField(m_HitAudioPlayerProp, m_HitAudioPlayerContent);
                 // EditorGUILayout.PropertyField(m_LandingPlayerProp, m_LandingPlayerContent);
                 // EditorGUILayout.PropertyField(m_EmoteLandingPlayerProp, m_EmoteLandingPlayerContent);
                 // EditorGUILayout.PropertyField(m_EmoteDeathPlayerProp, m_EmoteDeathPlayerContent);

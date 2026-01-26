@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1D3F16E2-925D-4B33-AF21-D26C8DE206F6}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}">
+	<Events>
+		<WorkUnit Name="CHOMPER_BODYFALL" ID="{1D3F16E2-925D-4B33-AF21-D26C8DE206F6}" OwnerID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="CHOMPER_BODYFALL_Fall" ID="{13140F72-A147-4552-B2BD-BB8A25D6F21F}"/>
+				<Event Name="CHOMPER_BODYFALL_Fall_STOP" ID="{FA8D0FBF-222B-413B-92A4-BD7CADFF59BB}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -6,6 +6,22 @@
 				<Property Name="Color" Type="int16" Value="18"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="AM_LVL" ID="{37F715F0-F1A9-4369-A763-7C3967A021A4}" ShortID="374089381">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="AMB_LVL_02" ID="{0A10B2E0-DF0D-40F3-AF4D-0158A0D9767D}" PersistMode="Reference"/>
+						<WorkUnit Name="AMB_LVL_01" ID="{0390DF63-2CF4-4886-A16B-EE09F437C53E}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

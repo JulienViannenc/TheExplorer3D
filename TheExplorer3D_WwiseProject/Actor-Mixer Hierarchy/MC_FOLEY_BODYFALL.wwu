@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{33A15646-120E-48AE-9E49-74B1FF646802}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{3407FC33-92A2-47EA-8784-859F2A5CB842}">
+	<AudioObjects>
+		<WorkUnit Name="MC_FOLEY_BODYFALL" ID="{33A15646-120E-48AE-9E49-74B1FF646802}" OwnerID="{65A2E22A-E794-4221-A7A8-FD772806260E}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AM_BODYFALL" ID="{B975DEC7-836D-4AA3-8C18-F18E6AF41AF6}" ShortID="133187906">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RC_Death" ID="{3C1EC3C3-0786-4F7D-A5D9-0066E9ED2831}" ShortID="566033683">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MC" ID="{F30E5A19-7A63-47CD-AA09-FC1F754D56BC}" WorkUnitID="{8504E28F-8E18-4D3F-9B03-A31F912C486C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_Death_01" ID="{8164AAE1-35C0-478F-969E-5E167C250A50}" ShortID="952805216">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Death_01" ID="{A981FD68-54FD-465A-9D51-F41F518E9760}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEY\BODYFALL\MC_Death_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="872621628"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Death_01" ID="{A981FD68-54FD-465A-9D51-F41F518E9760}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Death_02" ID="{6EB8E272-88BC-40DD-A382-838B0A19A3DC}" ShortID="982792804">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Death_02" ID="{B111EF09-381A-4D73-8CFD-9FF1504D3B90}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEY\BODYFALL\MC_Death_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1016452201"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Death_02" ID="{B111EF09-381A-4D73-8CFD-9FF1504D3B90}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Death_03" ID="{A88415D0-82C5-4EBA-829D-C1CCC69752AF}" ShortID="273110834">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Death_03" ID="{63EB5896-8F69-4923-9E61-12F83CF0D152}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEY\BODYFALL\MC_Death_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="95442419"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Death_03" ID="{63EB5896-8F69-4923-9E61-12F83CF0D152}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Death_04" ID="{D0C0A2FA-BC60-4EEE-906F-95F2D4920C58}" ShortID="459284093">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Death_04" ID="{BCDCED0C-10A3-4FF8-A5FA-31CB23768F88}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEY\BODYFALL\MC_Death_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="753166040"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Death_04" ID="{BCDCED0C-10A3-4FF8-A5FA-31CB23768F88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Death_05" ID="{96614AF1-037F-4D30-800D-6E135AC95AE1}" ShortID="76541392">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Death_05" ID="{AAED3F3F-6546-47AE-AF5D-E7A1044CDC57}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEY\BODYFALL\MC_Death_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="934433517"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Death_05" ID="{AAED3F3F-6546-47AE-AF5D-E7A1044CDC57}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

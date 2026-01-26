@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{85AF5A19-92AC-48FB-9D48-3E24E93A42D6}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{B65C6026-D797-4A94-A49A-21AFD9979A80}">
+	<Events>
+		<WorkUnit Name="MC_ATTACK" ID="{85AF5A19-92AC-48FB-9D48-3E24E93A42D6}" OwnerID="{B65C6026-D797-4A94-A49A-21AFD9979A80}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="MC_ATTACK_STICK" ID="{E401FDF8-1E15-49B6-82B0-BC8E718495A3}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

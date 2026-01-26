@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9B8B03BB-8F3E-42A6-B6FC-24F1176FCD3A}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}">
+	<Events>
+		<WorkUnit Name="CHOMPER_SPOTTED" ID="{9B8B03BB-8F3E-42A6-B6FC-24F1176FCD3A}" OwnerID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="CHOMPER_SPOTTED_Spotted" ID="{F7212323-2D0C-45F9-962F-2A7FC299812F}"/>
+				<Event Name="CHOMPER_SPOTTED_Spotted_STOP" ID="{A62A7F9B-BD72-4115-9C51-5791172915C6}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F7F38380-F5FA-4CD7-A323-39A831E3C90F}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{24FD2B86-D7E1-4A26-AF1D-F7A65EEF2D50}">
+	<AudioObjects>
+		<WorkUnit Name="CHOMPER_HIT" ID="{F7F38380-F5FA-4CD7-A323-39A831E3C90F}" OwnerID="{747F1DF1-43DD-42FC-A1E3-F28D145DEDA6}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AC_HIT" ID="{C70B53D5-A210-4BB5-B64F-AE9D9B2412F4}" ShortID="415672557">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

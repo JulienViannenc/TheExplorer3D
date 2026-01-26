@@ -7,7 +7,13 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Bus Name="MC" ID="{F30E5A19-7A63-47CD-AA09-FC1F754D56BC}"/>
+				<Bus Name="MC" ID="{F30E5A19-7A63-47CD-AA09-FC1F754D56BC}">
+					<ChildrenList>
+						<Bus Name="ATTACK" ID="{E9A51123-69D5-4F06-9B29-892C56FA5310}"/>
+						<Bus Name="FOLEY" ID="{A6000316-0AA2-4833-8436-95120E9ABA98}"/>
+						<Bus Name="FTS" ID="{D53F345E-CBF2-4C1F-B9E4-EB0DA7E485BC}"/>
+					</ChildrenList>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E401FDF8-1E15-49B6-82B0-BC8E718495A3}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{85AF5A19-92AC-48FB-9D48-3E24E93A42D6}">
+	<Events>
+		<WorkUnit Name="MC_ATTACK_STICK" ID="{E401FDF8-1E15-49B6-82B0-BC8E718495A3}" OwnerID="{85AF5A19-92AC-48FB-9D48-3E24E93A42D6}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="MC_ATTACK_STICK_Combo1" ID="{BFDD73B4-782D-4B1D-9986-45238FA2F6CA}">
+					<ChildrenList>
+						<Action Name="" ID="{C13C78EA-C5C8-46B0-A90B-01EB5375448F}" ShortID="1035282647">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_STICK_Combo_01" ID="{18457ADE-2C4A-49E8-AC3A-12C8694E48E6}" WorkUnitID="{5B419FC8-D98A-4899-BFC8-1DEEC81439C6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MC_ATTACK_STICK_Combo3" ID="{3E734F1C-B0EA-46CF-9968-F6E40FB16C55}">
+					<ChildrenList>
+						<Action Name="" ID="{CEF1631D-2D4B-423E-9C8B-CD26371F5329}" ShortID="597124146">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_STICK_Combo_03" ID="{5F6AF93D-997C-40E2-8685-36F4379374AE}" WorkUnitID="{5B419FC8-D98A-4899-BFC8-1DEEC81439C6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MC_ATTACK_STICK_Combo4" ID="{844D1392-3A30-4458-9DAD-4485F2B6D6BE}">
+					<ChildrenList>
+						<Action Name="" ID="{428279F2-4435-4166-A68E-C26C99E8FC0B}" ShortID="822375832">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_STICK_Combo_04" ID="{5E721F68-3213-4010-8455-F3003C0E9321}" WorkUnitID="{5B419FC8-D98A-4899-BFC8-1DEEC81439C6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MC_ATTACK_STICK_Combo2" ID="{A0A12898-E658-4D18-B9E7-87B78EFDBB51}">
+					<ChildrenList>
+						<Action Name="" ID="{2B1AA5FD-E077-45AA-AD5F-A8301E78C1B9}" ShortID="798942705">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_STICK_Combo_02" ID="{06025E34-12EB-48B8-B4B4-A3D5C5C31773}" WorkUnitID="{5B419FC8-D98A-4899-BFC8-1DEEC81439C6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

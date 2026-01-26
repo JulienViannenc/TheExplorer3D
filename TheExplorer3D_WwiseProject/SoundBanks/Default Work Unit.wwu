@@ -25,24 +25,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="AMB" ID="{CDDFB16F-2973-49BF-8E58-7A9B1B30121F}">
+				<SoundBank Name="AMB_LVL_01" ID="{CDDFB16F-2973-49BF-8E58-7A9B1B30121F}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="18"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="AMB" ID="{6204544C-96E6-418D-B2BC-B0C49B1C386F}" WorkUnitID="{6204544C-96E6-418D-B2BC-B0C49B1C386F}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="ENNEMY" ID="{EBE05656-34C6-4753-A105-0213B1EBA203}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ObjectInclusionList>
-						<ObjectRef Name="ENNEMY" ID="{6439793F-91D7-4108-9205-DEB409E2996F}" WorkUnitID="{6439793F-91D7-4108-9205-DEB409E2996F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AMB_LVL_01" ID="{95C604B9-CCD0-40DB-9F66-13B0FDC12B26}" WorkUnitID="{95C604B9-CCD0-40DB-9F66-13B0FDC12B26}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -76,6 +65,28 @@
 					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="MUSIC" ID="{D35FF2A8-832B-4F12-B8B6-37BC4BB286EB}" WorkUnitID="{D35FF2A8-832B-4F12-B8B6-37BC4BB286EB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="ENNEMY_CHOMPER" ID="{EBE05656-34C6-4753-A105-0213B1EBA203}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="CHOMPER" ID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" WorkUnitID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="AMB_LVL_02" ID="{179C4695-BC31-4240-A418-904D6BEE76B2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="18"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="AMB_LVL_02" ID="{D64A0D62-48FA-4382-ACE3-988AC515EF1F}" WorkUnitID="{D64A0D62-48FA-4382-ACE3-988AC515EF1F}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

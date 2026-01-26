@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{CEA892CB-24EF-41D3-9628-E4A79F4DFCE2}">
 	<AudioObjects>
-		<WorkUnit Name="FTS" ID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}" OwnerID="{BFCE8F20-BD4D-4133-8214-9D4C180F084D}" PersistMode="Nested">
+		<WorkUnit Name="MC_FTS" ID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}" OwnerID="{BFCE8F20-BD4D-4133-8214-9D4C180F084D}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="AM_FTS" ID="{A8F36C1A-FF3C-4DB2-8A98-967414D69C8A}" ShortID="280954932">
 					<ReferenceList>

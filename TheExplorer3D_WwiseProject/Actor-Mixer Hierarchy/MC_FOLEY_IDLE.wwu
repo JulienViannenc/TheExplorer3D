@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{164FEE1E-5475-4F49-B8E7-909BF6376878}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{3407FC33-92A2-47EA-8784-859F2A5CB842}">
+	<AudioObjects>
+		<WorkUnit Name="MC_FOLEY_IDLE" ID="{164FEE1E-5475-4F49-B8E7-909BF6376878}" OwnerID="{65A2E22A-E794-4221-A7A8-FD772806260E}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AM_IDLE" ID="{5EB0EBBA-C415-474C-AA40-0814565134E8}" ShortID="591097899">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MC" ID="{F30E5A19-7A63-47CD-AA09-FC1F754D56BC}" WorkUnitID="{8504E28F-8E18-4D3F-9B03-A31F912C486C}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

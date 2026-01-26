@@ -25,7 +25,7 @@ namespace Gamekit3D
         [Header("AUDIO EVENT")]
         public AK.Wwise.Event event_MC_Ellen_Land_Play;
         public AK.Wwise.Event event_MC_Ellen_Jump_Play;
-        public AK.Wwise.Event event_MC_Ellen_Hurt_Play;
+        public AK.Wwise.Event event_MC_Ellen_Hit_Play;
         public AK.Wwise.Event event_MC_Ellen_Death_Play;
         public AK.Wwise.Event event_MC_Ellen_Combo_1_Play;
         public AK.Wwise.Event event_MC_Ellen_Combo_2_Play;
@@ -46,13 +46,7 @@ namespace Gamekit3D
 
         public CameraSettings cameraSettings;            // Reference used to determine the camera's direction.
         public MeleeWeapon meleeWeapon;                  // Reference used to (de)activate the staff when attacking. 
-        //public RandomAudioPlayer footstepPlayer;         // Random Audio Players used for various situations.
-        //public RandomAudioPlayer hurtAudioPlayer;
-        //public RandomAudioPlayer landingPlayer;
-        //public RandomAudioPlayer emoteLandingPlayer;
-        //public RandomAudioPlayer emoteDeathPlayer;
-        //public RandomAudioPlayer emoteAttackPlayer;
-        //public RandomAudioPlayer emoteJumpPlayer;
+
         
         protected AnimatorStateInfo m_CurrentStateInfo;    // Information about the base layer of the animator cached.
         protected AnimatorStateInfo m_NextStateInfo;
@@ -477,7 +471,7 @@ namespace Gamekit3D
 
             if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
             {
-                event_MC_Ellen_Hurt_Play.Post(AS_BODY);
+                event_MC_Ellen_Hit_Play.Post(AS_BODY);
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
