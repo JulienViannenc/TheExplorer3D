@@ -7,7 +7,7 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<WorkUnit Name="FTS" ID="{38FC18E3-0FAE-427F-BF04-0D87489B5A5B}" PersistMode="Reference"/>
+				<WorkUnit Name="MC_FTS" ID="{38FC18E3-0FAE-427F-BF04-0D87489B5A5B}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

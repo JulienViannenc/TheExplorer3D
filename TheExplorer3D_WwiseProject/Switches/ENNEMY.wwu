@@ -6,6 +6,9 @@
 				<Property Name="Color" Type="int16" Value="10"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="ENNEMY_GRENADIER_FTS" ID="{BA51E674-0078-4B8A-B07C-8D71845603EC}" PersistMode="Reference"/>
+			</ChildrenList>
 		</WorkUnit>
 	</Switches>
 </WwiseDocument>

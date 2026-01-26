@@ -15,6 +15,10 @@
 							<ObjectRef Name="GRENADIER" ID="{E02FC598-0CFE-4246-9F47-B7C9843AEC6F}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="ENNEMY_GRENADIER_FTS" ID="{97385C6C-A35C-45A4-8263-1647858FD0DC}" PersistMode="Reference"/>
+						<WorkUnit Name="ENNEMY_GRENADIER_FOLEY" ID="{D3CBF843-B3F7-469D-ACDA-8DE2C091CD94}" PersistMode="Reference"/>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

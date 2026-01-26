@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BA51E674-0078-4B8A-B07C-8D71845603EC}" SchemaVersion="110" RootDocumentID="{3E23E372-BF3D-42F4-9A70-74BC0271FA62}" ParentDocumentID="{FEF2A1AA-7C2E-40D9-95E6-D474EA5E5AF3}">
+	<Switches>
+		<WorkUnit Name="ENNEMY_GRENADIER_FTS" ID="{BA51E674-0078-4B8A-B07C-8D71845603EC}" OwnerID="{FEF2A1AA-7C2E-40D9-95E6-D474EA5E5AF3}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="SW_ENNEMY_GRENADIER_FTS_SURFACETYPE" ID="{34A2C17D-EC24-4EA7-93D0-8D22FA5BC126}">
+					<ChildrenList>
+						<Switch Name="Dirt" ID="{E491084C-1722-45C6-A89C-9EB9CC64C73A}"/>
+						<Switch Name="Grass" ID="{01AA7533-821C-4DF2-9D32-3BD1F21BBBD0}"/>
+						<Switch Name="Mud" ID="{95EACDF9-4174-4519-8CF2-9C1750AE9067}"/>
+						<Switch Name="Stone" ID="{CDEA976F-5E11-4F1C-BC96-16BE8041C81A}"/>
+						<Switch Name="Water" ID="{60175BB4-FACF-4FB9-88DC-806640FC10A1}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
