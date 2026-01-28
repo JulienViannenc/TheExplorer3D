@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8D962532-82EB-4EE6-BB9B-13A6D3439D23}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{95486E1B-D63B-4FD9-9B55-8DABB18B1D3B}">
+	<Events>
+		<WorkUnit Name="MC_FOLEY_DEATH" ID="{8D962532-82EB-4EE6-BB9B-13A6D3439D23}" OwnerID="{95486E1B-D63B-4FD9-9B55-8DABB18B1D3B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="MC_DEATH_Bodyfall" ID="{81347408-32BE-4C2E-92B1-ACB175A3505F}">
+					<ChildrenList>
+						<Action Name="" ID="{9B606EAC-C08F-4765-A293-89A515C6C7BF}" ShortID="944609184">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_BodyFall" ID="{3C1EC3C3-0786-4F7D-A5D9-0066E9ED2831}" WorkUnitID="{33A15646-120E-48AE-9E49-74B1FF646802}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
