@@ -317,13 +317,17 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2535170914" Type="User" Language="SFX" Hash="{19DA8711-D4CB-2FAA-5DB4-01DBB967AAF2}">
+		<SoundBank Id="2535170914" Type="User" Language="SFX" Hash="{3F4FBDD1-CD3E-EA2A-A7E5-3B1691BEEDCB}">
 			<ShortName>ENNEMY_CHOMPER</ShortName>
 			<Path>ENNEMY_CHOMPER.bnk</Path>
 			<Media>
 				<File Id="24599004" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_04.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/WALKIDLE/ENNEMY_CHOMPER_FTSWalkIdle_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="52368272" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\ATTACK\ENNEMY_CHOMPER_ATTACK_02.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/ATTACK/ENNEMY_CHOMPER_ATTACK_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="84950508" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_09.wav</ShortName>
@@ -425,6 +429,10 @@
 					<ShortName>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_05.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/RUN/ENNEMY_CHOMPER_FTSRun_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="989495040" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\ATTACK\ENNEMY_CHOMPER_ATTACK_04.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/ATTACK/ENNEMY_CHOMPER_ATTACK_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1048739544" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_01.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/RUN/ENNEMY_CHOMPER_FTSRun_01_10C4C929.wem</CachePath>
@@ -433,12 +441,19 @@
 					<ShortName>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_06.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/RUN/ENNEMY_CHOMPER_FTSRun_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1064809283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\ATTACK\ENNEMY_CHOMPER_ATTACK_03.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/ATTACK/ENNEMY_CHOMPER_ATTACK_03_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="940801479" Name="CHOMPER_ATTACK_Attack_ALLSTOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="413931618" Name="CHOMPER_ATTACK_AttackBegin" DurationType="OneShot" DurationMin="1.5728782" DurationMax="2.0995407">
+				<Event Id="413931618" Name="CHOMPER_ATTACK_AttackBegin" DurationType="OneShot" DurationMin="1.2592115" DurationMax="2.0995407">
 					<MediaRefs>
+						<MediaRef Id="52368272"/>
 						<MediaRef Id="270523450"/>
+						<MediaRef Id="989495040"/>
+						<MediaRef Id="1064809283"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="238903382" Name="CHOMPER_ATTACK_AttackEnd" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -531,5 +546,5 @@
 			<Path>MUSIC.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0B21D4F1-630D-ADE3-C285-6F9A84F91DE1}</FileHash>
+	<FileHash>{90DD1F28-C760-89EE-4806-0B4390838768}</FileHash>
 </SoundBanksInfo>
