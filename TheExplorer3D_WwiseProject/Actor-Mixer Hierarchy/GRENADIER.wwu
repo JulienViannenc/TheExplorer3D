@@ -18,6 +18,8 @@
 					<ChildrenList>
 						<WorkUnit Name="ENNEMY_GRENADIER_FTS" ID="{97385C6C-A35C-45A4-8263-1647858FD0DC}" PersistMode="Reference"/>
 						<WorkUnit Name="ENNEMY_GRENADIER_FOLEY" ID="{D3CBF843-B3F7-469D-ACDA-8DE2C091CD94}" PersistMode="Reference"/>
+						<WorkUnit Name="ENNEMY_GRENADIER_ATTACKS" ID="{688CE18D-6297-4E99-B5D9-02ECF37AC03D}" PersistMode="Reference"/>
+						<WorkUnit Name="ENNEMY_GRENADIER_VOICES" ID="{AB64D303-8617-4E51-9FFB-8DF71606F944}" PersistMode="Reference"/>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

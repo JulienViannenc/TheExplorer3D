@@ -68,6 +68,184 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ENNEMY_Grenadier_WalkStone_01" ID="{27D1AFEC-E6F2-4584-9EA4-C7555E507094}" ShortID="787159519">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ENNEMY_Grenadier_WalkStone_01" ID="{7BF6E460-442E-49B4-B310-787D8BF145E1}">
+													<Language>SFX</Language>
+													<AudioFile>ENNEMY\GRENADIER\FTS\ENNEMY_Grenadier_WalkStone_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="873251214"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ENNEMY_Grenadier_WalkStone_01" ID="{7BF6E460-442E-49B4-B310-787D8BF145E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ENNEMY_Grenadier_WalkStone_02" ID="{CC12867A-DB7E-41C7-B7A7-BEF3399048AA}" ShortID="654081449">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ENNEMY_Grenadier_WalkStone_02" ID="{49ACB73E-98A5-406F-8628-1038EBB0C649}">
+													<Language>SFX</Language>
+													<AudioFile>ENNEMY\GRENADIER\FTS\ENNEMY_Grenadier_WalkStone_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="499644772"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ENNEMY_Grenadier_WalkStone_02" ID="{49ACB73E-98A5-406F-8628-1038EBB0C649}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ENNEMY_Grenadier_WalkStone_03" ID="{68AF4FC3-F68D-4F40-A939-D60C6681D6DB}" ShortID="672781761">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ENNEMY_Grenadier_WalkStone_03" ID="{008A9863-1E77-4B2C-8931-3F5905B535FE}">
+													<Language>SFX</Language>
+													<AudioFile>ENNEMY\GRENADIER\FTS\ENNEMY_Grenadier_WalkStone_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="372190407"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ENNEMY_Grenadier_WalkStone_03" ID="{008A9863-1E77-4B2C-8931-3F5905B535FE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ENNEMY_Grenadier_WalkStone_04" ID="{88D82FF6-8809-4783-A709-1CA2308CA442}" ShortID="205420158">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ENNEMY_Grenadier_WalkStone_04" ID="{CFADFAD5-7401-4621-AF35-B820FB4C6146}">
+													<Language>SFX</Language>
+													<AudioFile>ENNEMY\GRENADIER\FTS\ENNEMY_Grenadier_WalkStone_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="959775615"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ENNEMY_Grenadier_WalkStone_04" ID="{CFADFAD5-7401-4621-AF35-B820FB4C6146}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ENNEMY_Grenadier_WalkStone_05" ID="{817D0DD6-A6A3-48D8-918C-8EF23F4BD5BC}" ShortID="247998221">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ENNEMY_Grenadier_WalkStone_05" ID="{62CEE544-CDF3-480B-8A10-B0C7B158CFBF}">
+													<Language>SFX</Language>
+													<AudioFile>ENNEMY\GRENADIER\FTS\ENNEMY_Grenadier_WalkStone_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="305789152"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ENNEMY_Grenadier_WalkStone_05" ID="{62CEE544-CDF3-480B-8A10-B0C7B158CFBF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ENNEMY_Grenadier_WalkStone_06" ID="{11A87ED3-7AFB-4358-A151-6051A36767E5}" ShortID="225572668">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ENNEMY_Grenadier_WalkStone_06" ID="{CBF161A4-949E-4547-A318-8BD5A447E594}">
+													<Language>SFX</Language>
+													<AudioFile>ENNEMY\GRENADIER\FTS\ENNEMY_Grenadier_WalkStone_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="692641934"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ENNEMY_Grenadier_WalkStone_06" ID="{CBF161A4-949E-4547-A318-8BD5A447E594}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ENNEMY_Grenadier_WalkStone_07" ID="{FC34DAE2-B5D1-4EFC-8738-808818B83326}" ShortID="897512399">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ENNEMY_Grenadier_WalkStone_07" ID="{C1BD1647-2A0F-4B49-B13A-D1F79C7933BE}">
+													<Language>SFX</Language>
+													<AudioFile>ENNEMY\GRENADIER\FTS\ENNEMY_Grenadier_WalkStone_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1044858293"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ENNEMY_Grenadier_WalkStone_07" ID="{C1BD1647-2A0F-4B49-B13A-D1F79C7933BE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ENNEMY_Grenadier_WalkStone_08" ID="{88F4CC1C-EC23-4290-8499-B24A51473F1D}" ShortID="389753641">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ENNEMY_Grenadier_WalkStone_08" ID="{CD2B54F4-022B-42F5-95D7-5266385B8B83}">
+													<Language>SFX</Language>
+													<AudioFile>ENNEMY\GRENADIER\FTS\ENNEMY_Grenadier_WalkStone_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="502202062"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ENNEMY_Grenadier_WalkStone_08" ID="{CD2B54F4-022B-42F5-95D7-5266385B8B83}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="RC_Water" ID="{17F893C5-4F02-4E14-BE9E-76DA342BE95C}" ShortID="694045841">
 									<ReferenceList>
