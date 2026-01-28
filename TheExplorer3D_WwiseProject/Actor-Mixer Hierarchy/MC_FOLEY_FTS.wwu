@@ -642,6 +642,106 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_FOL_Roll" ID="{6D6E7452-7FC8-4431-93B1-38B5D6789661}" ShortID="120399068">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_FTS_Rolls_01" ID="{00510AC5-C6DC-4283-8B31-B1E6C2D67034}" ShortID="465229305">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FTS_Rolls_01" ID="{BE443FB0-DF4C-4E83-AC1B-36497836D843}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEY\FTS\MC_FTS_Rolls_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="175812604"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FTS_Rolls_01" ID="{BE443FB0-DF4C-4E83-AC1B-36497836D843}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FTS_Rolls_02" ID="{81D788B9-1AAE-4508-8CF6-C029CC573831}" ShortID="157712860">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FTS_Rolls_02" ID="{9EE46F3A-CA75-4D4E-AD27-9872EB36777E}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEY\FTS\MC_FTS_Rolls_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="589988048"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FTS_Rolls_02" ID="{9EE46F3A-CA75-4D4E-AD27-9872EB36777E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FTS_Rolls_03" ID="{486DA1C5-D27C-499F-8BCD-776DBECD84DB}" ShortID="621251864">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FTS_Rolls_03" ID="{02D2724D-D097-4783-BC11-10950D631893}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEY\FTS\MC_FTS_Rolls_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="427489454"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FTS_Rolls_03" ID="{02D2724D-D097-4783-BC11-10950D631893}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FTS_Rolls_04" ID="{454B5C69-28F6-4D74-B498-D276CA84992C}" ShortID="443676365">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FTS_Rolls_04" ID="{1849A6B3-2272-4E23-AD5F-EE77516E6233}">
+											<Language>SFX</Language>
+											<AudioFile>MC\FOLEY\FTS\MC_FTS_Rolls_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="25898499"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FTS_Rolls_04" ID="{1849A6B3-2272-4E23-AD5F-EE77516E6233}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

@@ -9,27 +9,27 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85035280" Type="User" Language="SFX" Hash="{E67A0A73-6481-AE50-B9BC-C8493A7D794B}">
+		<SoundBank Id="85035280" Type="User" Language="SFX" Hash="{D5A34C87-9E37-52BA-E2E0-5A833FF38B92}">
 			<ShortName>GPE_LVL_01</ShortName>
 			<Path>GPE_LVL_01.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="85035283" Type="User" Language="SFX" Hash="{43B00C3B-4E86-24DF-61A4-22BCB11FEA2D}">
+		<SoundBank Id="85035283" Type="User" Language="SFX" Hash="{93A6ECB8-B631-EBDC-382D-F50AC8A173F4}">
 			<ShortName>GPE_LVL_02</ShortName>
 			<Path>GPE_LVL_02.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="239935045" Type="User" Language="SFX" Hash="{59FBF2B0-411F-EEA8-76E6-67373CC34917}">
+		<SoundBank Id="239935045" Type="User" Language="SFX" Hash="{1562EB01-D9A8-81BB-DDA7-78433465687D}">
 			<ShortName>AMB_COMMON</ShortName>
 			<Path>AMB_COMMON.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1305695985" Type="User" Language="SFX" Hash="{DD1944EE-CF32-D17C-5341-6F718FC1BB0C}">
+		<SoundBank Id="1305695985" Type="User" Language="SFX" Hash="{F5D9C8F0-ED54-6A87-D541-AB2202B288F0}">
 			<ShortName>AMB_LVL_02</ShortName>
 			<Path>AMB_LVL_02.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1305695986" Type="User" Language="SFX" Hash="{BAC8C880-1C5B-1666-8273-B48BFA0658CE}">
+		<SoundBank Id="1305695986" Type="User" Language="SFX" Hash="{8E010ACC-7789-E047-E18A-90BE7F006863}">
 			<ShortName>AMB_LVL_01</ShortName>
 			<Path>AMB_LVL_01.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F9438C52-747A-649F-0144-E43EAED1178A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BFD8A00D-A53A-C8F0-F7C9-C31890E45574}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -87,29 +87,213 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{35B5385F-5F9C-9D65-775B-45CA20991969}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{736452D1-0DCF-6CE7-7006-D60C27662B66}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{F3E0BCF2-53DA-E4E8-38E1-AE06C3C4C412}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{10E71C8B-C7E6-9995-1A45-F4F633C19467}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
+				<File Id="8072238" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandStone_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandStone_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="40273937" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkDirt_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkDirt_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="57989408" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkMud_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkMud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="59248467" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunStone_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunStone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="62057308" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandDirt_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandDirt_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="63942086" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandStone_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandStone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="66470869" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkMud_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkMud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="67949743" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkGrass_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkGrass_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="85728624" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_03.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="95442419" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FOLEY\BODYFALL\MC_Death_03.wav</ShortName>
-					<CachePath>SFX/MC/FOLEY/BODYFALL/MC_Death_03_10C4C929.wem</CachePath>
+				<File Id="90375119" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunStone_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunStone_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="90907184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkStone_09.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkStone_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="95442416" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\BODYFALL\MC_BodyFall_03.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/BODYFALL/MC_BodyFall_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="100107089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkDirt_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkDirt_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="101612001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandMud_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandMud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="106620937" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunGrass_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunGrass_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="108889634" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandGrass_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandGrass_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="109428828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandGrass_10.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandGrass_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="109527997" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkDirt_10.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkDirt_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="114903751" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkMud_10.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkMud_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="121655632" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkStone_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkStone_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="125633224" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_08.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_08_10C4C929.wem</CachePath>
 				</File>
+				<File Id="152163036" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpDirt_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpDirt_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="154476104" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandStone_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandStone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="155569896" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkDirt_09.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkDirt_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="158539305" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpMud_09.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpMud_09_10C4C929.wem</CachePath>
+				</File>
 				<File Id="161936741" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_04.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="167498722" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunStone_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunStone_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="187075449" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpMud_10.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpMud_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="189109173" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpDirt_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpDirt_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="193442424" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpStone_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpStone_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="202204719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkMud_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkMud_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="202895142" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunGrass_10.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunGrass_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="213619016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunMud_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunMud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="215972242" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkGrass_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkGrass_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="224471256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandStone_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandStone_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="237451196" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandGrass_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandGrass_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="245886592" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpMud_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpMud_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="251686967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpGrass_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpGrass_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="275709917" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkDirt_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkDirt_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="287967347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandMud_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandMud_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="296674007" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpDirt_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpDirt_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="310815394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkStone_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkStone_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="312001848" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandDirt_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandDirt_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="313916049" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandMud_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandMud_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="317897731" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkGrass_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkGrass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="323572712" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunStone_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunStone_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="336805512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkGrass_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkGrass_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="345447858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunStone_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunStone_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="348037879" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunStone_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunStone_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="352511317" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunGrass_09.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunGrass_09_10C4C929.wem</CachePath>
 				</File>
 				<File Id="357388531" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_04.wav</ShortName>
@@ -119,25 +303,169 @@
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_05.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="371548463" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandDirt_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandDirt_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="371723163" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunMud_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunMud_08_10C4C929.wem</CachePath>
+				</File>
 				<File Id="378332867" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_07.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_JumpFoley_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="379984468" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpGrass_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpGrass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="381846688" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkMud_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkMud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="383860551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkDirt_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkDirt_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="403224384" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpDirt_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpDirt_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="403855058" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunGrass_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunGrass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="409606458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandStone_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandStone_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="410947707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandGrass_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandGrass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="412541758" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkMud_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkMud_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="417118609" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\ATTACK\STICK\MC_Combo_04.wav</ShortName>
 					<CachePath>SFX/MC/ATTACK/STICK/MC_Combo_04_10C4C929.wem</CachePath>
 				</File>
-				<File Id="427162157" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_JumpDirt_01.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_JumpDirt_01_10C4C929.wem</CachePath>
+				<File Id="425093777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunMud_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunMud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="432522939" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkStone_10.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkStone_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="440370387" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunGrass_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunGrass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="440531027" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpGrass_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpGrass_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="468913771" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkStone_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkStone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="473970760" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunGrass_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunGrass_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="484800973" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpStone_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpStone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="485247836" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpMud_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpMud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="491268132" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandMud_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandMud_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="501857201" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_02.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="509505061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkGrass_10.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkGrass_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="511691120" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandMud_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandMud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="513948778" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpGrass_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpGrass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="520759673" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunStone_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunStone_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="538946630" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_01.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_JumpFoley_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="548623317" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunGrass_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunGrass_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="549849977" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandGrass_09.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandGrass_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="554140001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandMud_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandMud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="556902839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandStone_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandStone_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="559545874" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpMud_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpMud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="564295574" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandMud_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandMud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="565634239" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpGrass_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpGrass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="566859226" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkStone_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkStone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="582784999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpMud_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpMud_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="585436687" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunMud_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunMud_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="591539651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpDirt_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpDirt_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="594261178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandGrass_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandGrass_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="595053650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandGrass_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandGrass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="596182884" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpDirt_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpDirt_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="618556018" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\ATTACK\STICK\MC_Combo_02.wav</ShortName>
@@ -147,81 +475,285 @@
 					<ShortName>MC\ATTACK\STICK\MC_Combo_03.wav</ShortName>
 					<CachePath>SFX/MC/ATTACK/STICK/MC_Combo_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="674510323" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_JumpDirt_04.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_JumpDirt_04_10C4C929.wem</CachePath>
+				<File Id="645657776" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandStone_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandStone_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="647004111" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandDirt_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandDirt_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="664764061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpGrass_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpGrass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="670241680" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkMud_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkMud_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="674474459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpMud_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpMud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="678317064" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkGrass_09.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkGrass_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="679227485" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpStone_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpStone_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="681727421" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandDirt_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandDirt_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="690235631" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_06.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_JumpFoley_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="696639509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandDirt_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandDirt_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="698462519" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkDirt_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkDirt_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="698904377" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunMud_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunMud_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="705523511" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkDirt_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkDirt_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="707832248" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_08.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_JumpFoley_08_10C4C929.wem</CachePath>
 				</File>
-				<File Id="753166040" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FOLEY\BODYFALL\MC_Death_04.wav</ShortName>
-					<CachePath>SFX/MC/FOLEY/BODYFALL/MC_Death_04_10C4C929.wem</CachePath>
+				<File Id="728694040" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpStone_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpStone_06_10C4C929.wem</CachePath>
 				</File>
-				<File Id="791078964" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_JumpDirt_02.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_JumpDirt_02_10C4C929.wem</CachePath>
+				<File Id="734704702" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpStone_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpStone_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="828688826" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_JumpDirt_03.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_JumpDirt_03_10C4C929.wem</CachePath>
+				<File Id="735460503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpDirt_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpDirt_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="747153392" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpMud_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpMud_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="753166037" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\BODYFALL\MC_BodyFall_04.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/BODYFALL/MC_BodyFall_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="753336005" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunMud_09.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunMud_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="760232138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkGrass_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkGrass_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="771502363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkDirt_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkDirt_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="780194555" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpStone_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpStone_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="783107971" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandGrass_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandGrass_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="784114063" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunMud_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunMud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="796466549" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkStone_05.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkStone_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="797473703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkGrass_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkGrass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="798907550" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandStone_10.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandStone_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="798951264" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandDirt_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandDirt_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="812952750" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpGrass_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpGrass_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="817262837" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpGrass_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpGrass_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="828557213" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkMud_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkMud_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="832436971" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandGrass_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandGrass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="835755732" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpStone_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpStone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="843822453" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkGrass_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkGrass_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="854258806" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_03.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_JumpFoley_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="872621628" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FOLEY\BODYFALL\MC_Death_01.wav</ShortName>
-					<CachePath>SFX/MC/FOLEY/BODYFALL/MC_Death_01_10C4C929.wem</CachePath>
+				<File Id="855254327" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunMud_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunMud_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="929964916" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_JumpDirt_05.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_JumpDirt_05_10C4C929.wem</CachePath>
+				<File Id="859774257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunStone_10.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunStone_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="864990203" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandGrass_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandGrass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="872621625" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\BODYFALL\MC_BodyFall_01.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/BODYFALL/MC_BodyFall_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="879908630" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpDirt_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpDirt_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="887373968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunGrass_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunGrass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="896908913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkDirt_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkDirt_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="897448732" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpMud_04.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpMud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="907959776" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunStone_09.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunStone_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="909839868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkStone_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkStone_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="915028661" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkStone_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkStone_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="920953291" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkMud_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkMud_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="929065160" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpGrass_10.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpGrass_10_10C4C929.wem</CachePath>
 				</File>
 				<File Id="933215268" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_07.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_07_10C4C929.wem</CachePath>
 				</File>
-				<File Id="934433517" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FOLEY\BODYFALL\MC_Death_05.wav</ShortName>
-					<CachePath>SFX/MC/FOLEY/BODYFALL/MC_Death_05_10C4C929.wem</CachePath>
+				<File Id="934433514" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\BODYFALL\MC_BodyFall_05.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/BODYFALL/MC_BodyFall_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="944263684" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpMud_03.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpMud_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="958002252" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_01.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="961263982" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_JumpDirt_06.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_JumpDirt_06_10C4C929.wem</CachePath>
+				<File Id="967998459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunStone_06.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunStone_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="977622824" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_05.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_JumpFoley_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="985397720" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunGrass_02.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunGrass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="988479557" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkGrass_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkGrass_08_10C4C929.wem</CachePath>
+				</File>
 				<File Id="993896963" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_02.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_JumpFoley_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1005972917" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_JumpDirt_08.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_JumpDirt_08_10C4C929.wem</CachePath>
+				<File Id="995851379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunMud_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunMud_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1016452201" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FOLEY\BODYFALL\MC_Death_02.wav</ShortName>
-					<CachePath>SFX/MC/FOLEY/BODYFALL/MC_Death_02_10C4C929.wem</CachePath>
+				<File Id="1009661480" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkMud_09.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkMud_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1016452198" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\BODYFALL\MC_BodyFall_02.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/BODYFALL/MC_BodyFall_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1020487080" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandStone_01.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandStone_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1023967094" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_JumpGrass_09.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_JumpGrass_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1029004980" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandStone_09.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandStone_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1035766350" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandMud_07.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandMud_07_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1039550690" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_06.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_06_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1070523258" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC\FTS\MC_JumpDirt_07.wav</ShortName>
-					<CachePath>SFX/MC/FTS/MC_JumpDirt_07_10C4C929.wem</CachePath>
+				<File Id="1055776552" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_WalkStone_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_WalkStone_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1066108029" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_LandDirt_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_LandDirt_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1067234114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunMud_10.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunMud_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1069531679" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FTS\MC_FTS_RunGrass_08.wav</ShortName>
+					<CachePath>SFX/MC/FTS/MC_FTS_RunGrass_08_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -245,13 +777,13 @@
 						<MediaRef Id="417118609"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2934050364" Name="MC_BODYFALL_Death" DurationType="OneShot" DurationMin="1.25" DurationMax="1.25">
+				<Event Id="2731538042" Name="MC_DEATH_Bodyfall" DurationType="OneShot" DurationMin="1.25" DurationMax="1.25">
 					<MediaRefs>
-						<MediaRef Id="95442419"/>
-						<MediaRef Id="753166040"/>
-						<MediaRef Id="872621628"/>
-						<MediaRef Id="934433517"/>
-						<MediaRef Id="1016452201"/>
+						<MediaRef Id="95442416"/>
+						<MediaRef Id="753166037"/>
+						<MediaRef Id="872621625"/>
+						<MediaRef Id="934433514"/>
+						<MediaRef Id="1016452198"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2197135454" Name="MC_FOL_FTS_Jump" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -270,16 +802,58 @@
 					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="251686967"/>
+								<MediaRef Id="379984468"/>
+								<MediaRef Id="440531027"/>
+								<MediaRef Id="513948778"/>
+								<MediaRef Id="565634239"/>
+								<MediaRef Id="664764061"/>
+								<MediaRef Id="812952750"/>
+								<MediaRef Id="817262837"/>
+								<MediaRef Id="929065160"/>
+								<MediaRef Id="1023967094"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="158539305"/>
+								<MediaRef Id="187075449"/>
+								<MediaRef Id="245886592"/>
+								<MediaRef Id="485247836"/>
+								<MediaRef Id="559545874"/>
+								<MediaRef Id="582784999"/>
+								<MediaRef Id="674474459"/>
+								<MediaRef Id="747153392"/>
+								<MediaRef Id="897448732"/>
+								<MediaRef Id="944263684"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="193442424"/>
+								<MediaRef Id="484800973"/>
+								<MediaRef Id="679227485"/>
+								<MediaRef Id="728694040"/>
+								<MediaRef Id="734704702"/>
+								<MediaRef Id="780194555"/>
+								<MediaRef Id="835755732"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="2195636714" Default="true"/>
 							<MediaRefs>
-								<MediaRef Id="427162157"/>
-								<MediaRef Id="674510323"/>
-								<MediaRef Id="791078964"/>
-								<MediaRef Id="828688826"/>
-								<MediaRef Id="929964916"/>
-								<MediaRef Id="961263982"/>
-								<MediaRef Id="1005972917"/>
-								<MediaRef Id="1070523258"/>
+								<MediaRef Id="152163036"/>
+								<MediaRef Id="189109173"/>
+								<MediaRef Id="296674007"/>
+								<MediaRef Id="403224384"/>
+								<MediaRef Id="591539651"/>
+								<MediaRef Id="596182884"/>
+								<MediaRef Id="735460503"/>
+								<MediaRef Id="879908630"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -295,13 +869,177 @@
 						<MediaRef Id="958002252"/>
 						<MediaRef Id="1039550690"/>
 					</MediaRefs>
-					<SwitchContainers/>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="108889634"/>
+								<MediaRef Id="109428828"/>
+								<MediaRef Id="237451196"/>
+								<MediaRef Id="410947707"/>
+								<MediaRef Id="549849977"/>
+								<MediaRef Id="594261178"/>
+								<MediaRef Id="595053650"/>
+								<MediaRef Id="783107971"/>
+								<MediaRef Id="832436971"/>
+								<MediaRef Id="864990203"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="101612001"/>
+								<MediaRef Id="287967347"/>
+								<MediaRef Id="313916049"/>
+								<MediaRef Id="491268132"/>
+								<MediaRef Id="511691120"/>
+								<MediaRef Id="554140001"/>
+								<MediaRef Id="564295574"/>
+								<MediaRef Id="1035766350"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="8072238"/>
+								<MediaRef Id="63942086"/>
+								<MediaRef Id="154476104"/>
+								<MediaRef Id="224471256"/>
+								<MediaRef Id="409606458"/>
+								<MediaRef Id="556902839"/>
+								<MediaRef Id="645657776"/>
+								<MediaRef Id="798907550"/>
+								<MediaRef Id="1020487080"/>
+								<MediaRef Id="1029004980"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="2195636714" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="62057308"/>
+								<MediaRef Id="312001848"/>
+								<MediaRef Id="371548463"/>
+								<MediaRef Id="647004111"/>
+								<MediaRef Id="681727421"/>
+								<MediaRef Id="696639509"/>
+								<MediaRef Id="798951264"/>
+								<MediaRef Id="1066108029"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
-				<Event Id="621912139" Name="MC_FTS_Run" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<SwitchContainers/>
+				<Event Id="621912139" Name="MC_FTS_Run" DurationType="OneShot" DurationMin="0" DurationMax="0.46666667">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="106620937"/>
+								<MediaRef Id="202895142"/>
+								<MediaRef Id="352511317"/>
+								<MediaRef Id="403855058"/>
+								<MediaRef Id="440370387"/>
+								<MediaRef Id="473970760"/>
+								<MediaRef Id="548623317"/>
+								<MediaRef Id="887373968"/>
+								<MediaRef Id="985397720"/>
+								<MediaRef Id="1069531679"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="213619016"/>
+								<MediaRef Id="371723163"/>
+								<MediaRef Id="425093777"/>
+								<MediaRef Id="585436687"/>
+								<MediaRef Id="698904377"/>
+								<MediaRef Id="753336005"/>
+								<MediaRef Id="784114063"/>
+								<MediaRef Id="855254327"/>
+								<MediaRef Id="995851379"/>
+								<MediaRef Id="1067234114"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="59248467"/>
+								<MediaRef Id="90375119"/>
+								<MediaRef Id="167498722"/>
+								<MediaRef Id="323572712"/>
+								<MediaRef Id="345447858"/>
+								<MediaRef Id="348037879"/>
+								<MediaRef Id="520759673"/>
+								<MediaRef Id="859774257"/>
+								<MediaRef Id="907959776"/>
+								<MediaRef Id="967998459"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
-				<Event Id="1508294759" Name="MC_FTS_Walk" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<SwitchContainers/>
+				<Event Id="1508294759" Name="MC_FTS_Walk" DurationType="OneShot" DurationMin="0" DurationMax="0.46666667">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="67949743"/>
+								<MediaRef Id="215972242"/>
+								<MediaRef Id="317897731"/>
+								<MediaRef Id="336805512"/>
+								<MediaRef Id="509505061"/>
+								<MediaRef Id="678317064"/>
+								<MediaRef Id="760232138"/>
+								<MediaRef Id="797473703"/>
+								<MediaRef Id="843822453"/>
+								<MediaRef Id="988479557"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="57989408"/>
+								<MediaRef Id="66470869"/>
+								<MediaRef Id="114903751"/>
+								<MediaRef Id="202204719"/>
+								<MediaRef Id="381846688"/>
+								<MediaRef Id="412541758"/>
+								<MediaRef Id="670241680"/>
+								<MediaRef Id="828557213"/>
+								<MediaRef Id="920953291"/>
+								<MediaRef Id="1009661480"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="90907184"/>
+								<MediaRef Id="121655632"/>
+								<MediaRef Id="310815394"/>
+								<MediaRef Id="432522939"/>
+								<MediaRef Id="468913771"/>
+								<MediaRef Id="566859226"/>
+								<MediaRef Id="796466549"/>
+								<MediaRef Id="909839868"/>
+								<MediaRef Id="915028661"/>
+								<MediaRef Id="1055776552"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="2195636714" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="40273937"/>
+								<MediaRef Id="100107089"/>
+								<MediaRef Id="109527997"/>
+								<MediaRef Id="155569896"/>
+								<MediaRef Id="275709917"/>
+								<MediaRef Id="383860551"/>
+								<MediaRef Id="698462519"/>
+								<MediaRef Id="705523511"/>
+								<MediaRef Id="771502363"/>
+								<MediaRef Id="896908913"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</Events>
 			<SwitchGroups>
@@ -317,7 +1055,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2535170914" Type="User" Language="SFX" Hash="{05DC7151-52E0-94DB-26CC-27EBA6CA9057}">
+		<SoundBank Id="2535170914" Type="User" Language="SFX" Hash="{D7C90AB2-0647-81C2-768C-58EE6B0A393F}">
 			<ShortName>ENNEMY_CHOMPER</ShortName>
 			<Path>ENNEMY_CHOMPER.bnk</Path>
 			<Media>
@@ -554,19 +1292,19 @@
 				<Event Id="3526276424" Name="CHOMPER_VOICE_Grunt_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2634244267" Type="User" Language="SFX" Hash="{F921A4A1-ADC9-C365-401F-76D07541E7DD}">
+		<SoundBank Id="2634244267" Type="User" Language="SFX" Hash="{D38BC717-D1F9-E2BC-FBF2-5A9C1AA89BBA}">
 			<ShortName>ENNEMY_GRENADIER</ShortName>
 			<Path>ENNEMY_GRENADIER.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2712148667" Type="User" Language="SFX" Hash="{215703D8-DABB-0F21-A294-96BFFA4A8AFB}">
+		<SoundBank Id="2712148667" Type="User" Language="SFX" Hash="{BA54113A-1ED3-46BE-DCFD-D862043D3EC4}">
 			<ShortName>GPE_COMMON</ShortName>
 			<Path>GPE_COMMON.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3245277471" Type="User" Language="SFX" Hash="{B4A66269-37F6-56F8-028F-06E4A2113F34}">
+		<SoundBank Id="3245277471" Type="User" Language="SFX" Hash="{C497F9A6-BE81-FF4D-06DB-8A11C455F325}">
 			<ShortName>ENNEMY_SPITTER</ShortName>
 			<Path>ENNEMY_SPITTER.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3668529533" Type="User" Language="SFX" Hash="{3343E93A-7C3B-3473-6F82-83928FB52525}">
+		<SoundBank Id="3668529533" Type="User" Language="SFX" Hash="{FD90FF77-6D51-8CC6-CD5A-2E84B7F10E90}">
 			<ShortName>Z_DEV</ShortName>
 			<Path>Z_DEV.bnk</Path>
 			<Media>
@@ -584,10 +1322,10 @@
 				<Event Id="973396280" Name="STOP_DuckSound" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{0E3E9487-2562-8161-CF73-30D6CFA3E27A}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{BBBAC2A6-408F-7205-2AED-E5662EE24CEB}">
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{781077BA-31C7-1183-128F-6E4B09072262}</FileHash>
+	<FileHash>{E210EBBB-89D4-C218-48A1-C81C949AC424}</FileHash>
 </SoundBanksInfo>

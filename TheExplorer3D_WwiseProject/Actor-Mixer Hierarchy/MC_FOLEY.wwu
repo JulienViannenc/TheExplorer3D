@@ -18,7 +18,7 @@
 					<ChildrenList>
 						<WorkUnit Name="MC_FOLEY_FTS" ID="{A75B471A-9BCA-4DC8-BB73-BE79103C8A18}" PersistMode="Reference"/>
 						<WorkUnit Name="MC_FOLEY_HIT" ID="{2ECD8DE4-04C6-4AE1-B372-20AEA5F52403}" PersistMode="Reference"/>
-						<WorkUnit Name="MC_FOLEY_BODYFALL" ID="{33A15646-120E-48AE-9E49-74B1FF646802}" PersistMode="Reference"/>
+						<WorkUnit Name="MC_FOLEY_DEATH" ID="{33A15646-120E-48AE-9E49-74B1FF646802}" PersistMode="Reference"/>
 						<WorkUnit Name="MC_FOLEY_IDLE" ID="{164FEE1E-5475-4F49-B8E7-909BF6376878}" PersistMode="Reference"/>
 						<WorkUnit Name="MC_FOLEY_SPAWN" ID="{A51C42D0-CE67-4C46-B72D-44FAA7C99D5C}" PersistMode="Reference"/>
 					</ChildrenList>

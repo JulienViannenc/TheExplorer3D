@@ -20700,7 +20700,7 @@ Transform:
   - {fileID: 4564986605801290}
   - {fileID: 4031617287498508}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &95065152071237234
 Animator:
@@ -20892,6 +20892,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: d5141fe08defc42408cec7f2d7a3f9f7,
       type: 2}
+  event_MC_Ellen_Run_Play:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: dc60a79fbf4f386408b7078c9578d13f,
+      type: 2}
   event_MC_Ellen_Hit_Play:
     idInternal: 0
     valueGuidInternal: 
@@ -20931,6 +20936,7 @@ MonoBehaviour:
   canAttack: 0
   cameraSettings: {fileID: 0}
   meleeWeapon: {fileID: 114298887321203036}
+  FTS_SurfaceType_SwitchGroup: SW_MC_FTS_SURFACETYPE
 --- !u!114 &114166992771378430
 MonoBehaviour:
   m_ObjectHideFlags: 0

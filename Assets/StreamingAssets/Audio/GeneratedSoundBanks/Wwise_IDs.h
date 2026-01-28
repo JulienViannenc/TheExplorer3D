@@ -37,7 +37,7 @@ namespace AK
         static const AkUniqueID MC_ATTACK_STICK_COMBO2 = 757210288U;
         static const AkUniqueID MC_ATTACK_STICK_COMBO3 = 757210289U;
         static const AkUniqueID MC_ATTACK_STICK_COMBO4 = 757210294U;
-        static const AkUniqueID MC_BODYFALL_DEATH = 2934050364U;
+        static const AkUniqueID MC_DEATH_BODYFALL = 2731538042U;
         static const AkUniqueID MC_FOL_FTS_JUMP = 2197135454U;
         static const AkUniqueID MC_FOL_FTS_LANDING = 1530274047U;
         static const AkUniqueID MC_FOLEY_HIT = 2895583815U;
