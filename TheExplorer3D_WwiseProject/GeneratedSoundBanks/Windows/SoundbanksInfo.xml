@@ -1307,7 +1307,7 @@
 				<Event Id="3526276424" Name="CHOMPER_VOICE_Grunt_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2634244267" Type="User" Language="SFX" Hash="{134221E3-5EE8-276F-7A4B-D5731E608F1C}">
+		<SoundBank Id="2634244267" Type="User" Language="SFX" Hash="{D31F3B0D-DF65-D3E9-EB62-62238E9A8D15}">
 			<ShortName>ENNEMY_GRENADIER</ShortName>
 			<Path>ENNEMY_GRENADIER.bnk</Path>
 			<Media>
@@ -1326,6 +1326,10 @@
 				<File Id="151567531" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_LaunchAttack_01.wav</ShortName>
 					<CachePath>SFX/ENNEMY/GRENADIER/SFX/ENNEMY_Grenadier_LaunchAttack_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="260273503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENEMY_Grenadier_EnergyShield_STOP.wav</ShortName>
+					<CachePath>SFX/ENEMY_Grenadier_EnergyShield_STOP_10C4C929.wem</CachePath>
 				</File>
 				<File Id="265631122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceAttackMelee_02.wav</ShortName>
@@ -1423,6 +1427,10 @@
 					<ShortName>ENNEMY\GRENADIER\FTS\ENNEMY_Grenadier_WalkStone_07.wav</ShortName>
 					<CachePath>SFX/ENNEMY/GRENADIER/FTS/ENNEMY_Grenadier_WalkStone_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1045644415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_EnergyShield_LP.wav</ShortName>
+					<CachePath>SFX/ENNEMY/GRENADIER/SFX/ENNEMY_Grenadier_EnergyShield_LP_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="1059786905" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceAttackMelee_03.wav</ShortName>
 					<CachePath>SFX/ENNEMY/GRENADIER/VOICES/ENNEMY_Grenadier_VoiceAttackMelee_03_10C4C929.wem</CachePath>
@@ -1460,7 +1468,7 @@
 						<MediaRef Id="423206502"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1326145388" Name="GRENADIER_FTS_WALK" DurationType="OneShot" DurationMin="1" DurationMax="1.3">
+				<Event Id="1326145388" Name="GRENADIER_FTS_WALK" DurationType="OneShot" DurationMin="0.74915355" DurationMax="1.7352917">
 					<MediaRefs>
 						<MediaRef Id="305789152"/>
 						<MediaRef Id="372190407"/>
@@ -1486,8 +1494,16 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1154937519" Name="GRENADIER_HIT_Hit_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="398021083" Name="GRENADIER_ShieldActivate" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3838366834" Name="GRENADIER_ShieldDeactivate" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="398021083" Name="GRENADIER_ShieldActivate" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1045644415"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3838366834" Name="GRENADIER_ShieldDeactivate" DurationType="OneShot" DurationMin="1.4983071" DurationMax="2.6696796">
+					<MediaRefs>
+						<MediaRef Id="260273503"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="3390404720" Name="SW_ENNEMY_GRENADIER_FTS_SURFACETYPE">
@@ -1533,5 +1549,5 @@
 			<Path>MUSIC.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{12617ACB-46BF-5E9B-B9EA-D5D6A9E747DE}</FileHash>
+	<FileHash>{12968EDD-7C84-AA50-63CB-BA2E9E805159}</FileHash>
 </SoundBanksInfo>

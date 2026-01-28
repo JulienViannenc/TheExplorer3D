@@ -16,6 +16,16 @@
 				</Event>
 				<Event Name="GRENADIER_ShieldDeactivate" ID="{B0F79F08-0745-45B2-9C94-C56C46F46309}">
 					<ChildrenList>
+						<Action Name="" ID="{3C7D48AB-3F05-4E26-946E-799059FBB1D0}" ShortID="949435152">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_ShieldActivate" ID="{88981D73-34BC-4F94-87A2-83A4AC9AFA29}" WorkUnitID="{07FD3B23-C9A0-4573-9AE9-707A985F3602}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{CD27943E-27C7-4D0D-B074-35F8557F207A}" ShortID="441548035">
 							<ReferenceList>
 								<Reference Name="Target">
