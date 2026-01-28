@@ -22,6 +22,33 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_Grenadier_EnergyShield_LP" ID="{F3E92AD6-C57F-4CCD-AB4C-888F48629A12}" ShortID="947918752">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_EnergyShield_LP" ID="{553F81EF-DB52-413A-9532-4A4F86747007}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_EnergyShield_LP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1045644415"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_EnergyShield_LP" ID="{553F81EF-DB52-413A-9532-4A4F86747007}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="RC_ShieldDeactivate" ID="{AC7308CD-7658-4F9A-968D-D7997A64E910}" ShortID="1015153562">
 							<ReferenceList>
@@ -32,6 +59,30 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENEMY_Grenadier_EnergyShield_STOP" ID="{F4FD4FE9-ACBE-497D-8E1B-EA575E8A12D8}" ShortID="479959337">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENEMY_Grenadier_EnergyShield_STOP" ID="{7594EBAC-3AF3-4392-A38F-9B385F9039E6}">
+											<Language>SFX</Language>
+											<AudioFile>ENEMY_Grenadier_EnergyShield_STOP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="260273503"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENEMY_Grenadier_EnergyShield_STOP" ID="{7594EBAC-3AF3-4392-A38F-9B385F9039E6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
