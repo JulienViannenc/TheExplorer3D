@@ -3,8 +3,64 @@
 	<Events>
 		<WorkUnit Name="CHOMPER_HIT" ID="{F633501D-2195-438E-BA43-CC00D502D285}" OwnerID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="CHOMPER_HIT_Hit" ID="{8D24B146-07EB-4040-93BF-44707281FC49}"/>
-				<Event Name="CHOMPER_HIT_Hit_STOP" ID="{392B2FA1-CAE8-4A10-8EC9-1A53196E7EFA}"/>
+				<Event Name="CHOMPER_HIT_Hit" ID="{8D24B146-07EB-4040-93BF-44707281FC49}">
+					<ChildrenList>
+						<Action Name="" ID="{D42BD1AC-86EF-45D3-BF91-B7227D5FAA99}" ShortID="812758808">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_ATTACK" ID="{373BF424-BFC2-4F7E-9802-661F7A2263EC}" WorkUnitID="{DCB17EA3-3229-4968-AB04-218052A86344}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2C55DEC8-3C9C-4F7F-B02A-F6AE600E4E12}" ShortID="712913642">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_HIT" ID="{F13E1376-E884-4595-AEB8-2D9085C482B7}" WorkUnitID="{F7F38380-F5FA-4CD7-A323-39A831E3C90F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D84E1384-2602-462E-B0B4-12229BED8B83}" ShortID="523647024">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.3">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{11EB01B7-0F79-4523-A484-B64D5E3222A0}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.3"/>
+													<Property Name="Min" Type="Real64" Value="-0.3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Probability" Type="Real64" Value="50"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_HITGRUNT" ID="{A5CAF70E-11F2-43F6-B8B1-70A7251BAE5C}" WorkUnitID="{61F5C408-0A9F-48A6-B9BD-2872C199D5EB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CHOMPER_HIT_Hit_STOP" ID="{392B2FA1-CAE8-4A10-8EC9-1A53196E7EFA}">
+					<ChildrenList>
+						<Action Name="" ID="{1A504FCE-823F-4165-998D-7925B8D88675}" ShortID="975154603">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_HIT" ID="{F13E1376-E884-4595-AEB8-2D9085C482B7}" WorkUnitID="{F7F38380-F5FA-4CD7-A323-39A831E3C90F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

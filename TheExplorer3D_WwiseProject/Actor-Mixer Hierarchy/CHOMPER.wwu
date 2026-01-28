@@ -22,6 +22,7 @@
 						<WorkUnit Name="CHOMPER_BODYFALL" ID="{B9CE7D9A-18B5-4EB5-958D-FBB490287026}" PersistMode="Reference"/>
 						<WorkUnit Name="CHOMPER_VOICE" ID="{32B1B55D-772A-46DB-B23B-7D4E9F82CE34}" PersistMode="Reference"/>
 						<WorkUnit Name="CHOMPER_SPOTTED" ID="{1D94833F-DEA8-4177-BE2A-6E2BD261AC9D}" PersistMode="Reference"/>
+						<WorkUnit Name="CHOMPER_GRUNT" ID="{61F5C408-0A9F-48A6-B9BD-2872C199D5EB}" PersistMode="Reference"/>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

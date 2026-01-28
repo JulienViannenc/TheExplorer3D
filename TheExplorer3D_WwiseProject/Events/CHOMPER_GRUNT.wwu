@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{496559C8-8940-4F98-A0D7-06D58C0792AE}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}">
+	<Events>
+		<WorkUnit Name="CHOMPER_GRUNT" ID="{496559C8-8940-4F98-A0D7-06D58C0792AE}" OwnerID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" PersistMode="Nested"/>
+	</Events>
+</WwiseDocument>

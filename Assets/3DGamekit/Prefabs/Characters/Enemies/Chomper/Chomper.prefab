@@ -2827,10 +2827,20 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: f2f4797d9905bef469823d2b29de6c56,
       type: 2}
-  event_Ennemy_Chomper_Fall_Play:
+  event_Ennemy_Chomper_HitGrunt_Play:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: d1ec0a8da632c734881c9aa11087d89c,
+    WwiseObjectReference: {fileID: 11400000, guid: c1ed3309a443f804c8564c8ede9ed0a7,
+      type: 2}
+  event_Ennemy_Chomper_DeathGrunt_Play:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d280d6153c1ee0849a378317cfa81443,
+      type: 2}
+  event_Ennemy_Chomper_BodyFall_Play:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 563de227a82a9014f9b47db7df42827e,
       type: 2}
 --- !u!114 &114700785457422906
 MonoBehaviour:

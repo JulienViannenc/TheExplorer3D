@@ -10,8 +10,8 @@ namespace Gamekit3D
         {
             animator.ResetTrigger(ChomperBehavior.hashAttack);
             m_MonoBehaviour.SFX_Ennemy_Chomper_Hit_Play();
-        }
-
+        }   
+        
         public override void OnSLStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             m_MonoBehaviour.controller.ClearForce();

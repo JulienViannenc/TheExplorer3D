@@ -9,6 +9,7 @@
 				<WorkUnit Name="CHOMPER_FTS" ID="{A506E826-45BB-4254-B60E-178F8056C5C9}" PersistMode="Reference"/>
 				<WorkUnit Name="CHOMPER_HIT" ID="{F633501D-2195-438E-BA43-CC00D502D285}" PersistMode="Reference"/>
 				<WorkUnit Name="CHOMPER_SPOTTED" ID="{9B8B03BB-8F3E-42A6-B6FC-24F1176FCD3A}" PersistMode="Reference"/>
+				<WorkUnit Name="CHOMPER_GRUNT" ID="{496559C8-8940-4F98-A0D7-06D58C0792AE}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

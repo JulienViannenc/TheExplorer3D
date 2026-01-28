@@ -60,10 +60,9 @@ namespace Gamekit3D
         [Header("Hit")]
         public AK.Wwise.Event event_Ennemy_Chomper_Hit_Play;
         
-        [Header("Falll/Death")]
-        public AK.Wwise.Event event_Ennemy_Chomper_Fall_Play;
         
-
+        [Header("Falll/Death")]
+        public AK.Wwise.Event event_Ennemy_Chomper_BodyFall_Play;
         
         protected float m_TimerSinceLostTarget = 0.0f;
 
@@ -111,15 +110,16 @@ namespace Gamekit3D
             event_Ennemy_Chomper_FTSRun_Play.Post(AS_FTS);
         }
         
-        public void SFX_Ennemy_Chomper_Fall_Play()
+        public void SFX_Ennemy_Chomper_BodyFall_Play()
         {
-            event_Ennemy_Chomper_Fall_Play.Post(AS_MOUTH);
+            event_Ennemy_Chomper_BodyFall_Play.Post(AS_MOUTH);
         }
         
         public void SFX_Ennemy_Chomper_Hit_Play()
         {
             event_Ennemy_Chomper_Hit_Play.Post(AS_BODY);
         }
+        
         
         public void SFX_Ennemy_Chomper_Spotted_Play()
         {
@@ -299,7 +299,9 @@ namespace Gamekit3D
 
             controller.animator.SetTrigger(hashHit);
             controller.animator.SetTrigger(hashThrown);
-
+            
+            SFX_Ennemy_Chomper_BodyFall_Play();
+            
             // HERE -> We unparent the hit source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
             // deathAudio.transform.SetParent(null, true);
             // deathAudio.PlayRandomClip();

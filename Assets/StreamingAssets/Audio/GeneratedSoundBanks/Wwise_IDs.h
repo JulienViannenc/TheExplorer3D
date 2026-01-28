@@ -16,8 +16,8 @@ namespace AK
         static const AkUniqueID CHOMPER_ATTACK_ATTACK_ALLSTOP = 940801479U;
         static const AkUniqueID CHOMPER_ATTACK_ATTACKBEGIN = 413931618U;
         static const AkUniqueID CHOMPER_ATTACK_ATTACKEND = 238903382U;
-        static const AkUniqueID CHOMPER_BODYFALL_FALL = 3564801173U;
-        static const AkUniqueID CHOMPER_BODYFALL_FALL_STOP = 4122794360U;
+        static const AkUniqueID CHOMPER_BODYFALL = 1772492699U;
+        static const AkUniqueID CHOMPER_BODYFALL_STOP = 3152814134U;
         static const AkUniqueID CHOMPER_FTS_IDLE = 2185586590U;
         static const AkUniqueID CHOMPER_FTS_RUN = 2732001199U;
         static const AkUniqueID CHOMPER_FTS_RUN_STOP = 3318718874U;
