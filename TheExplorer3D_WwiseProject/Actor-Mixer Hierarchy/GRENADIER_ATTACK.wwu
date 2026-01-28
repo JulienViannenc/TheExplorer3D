@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{688CE18D-6297-4E99-B5D9-02ECF37AC03D}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{74BAA4A6-FC9F-465F-ADC9-004E48104820}">
+	<AudioObjects>
+		<WorkUnit Name="GRENADIER_ATTACK" ID="{688CE18D-6297-4E99-B5D9-02ECF37AC03D}" OwnerID="{D3ADE701-5077-4A3C-B581-20EF5F239247}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AM_ATTACK" ID="{27F066E2-DC9A-417A-9233-867B3EE776BC}" ShortID="600695583">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="ENNEMY_GRENADIER_ATTACK_MELEE" ID="{4C5031E3-B4D5-48F8-887F-55C8FC88F428}" PersistMode="Reference"/>
+						<WorkUnit Name="ENNEMY_GRENADIER_ATTACK_ENERGYWAVE" ID="{0F3FB7A9-90FF-414C-B61A-D4A50E5D8851}" PersistMode="Reference"/>
+						<WorkUnit Name="ENNEMY_GRENADIER_PROJECTILE" ID="{9FE51A10-6508-4098-8161-D2B36E6F73AB}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

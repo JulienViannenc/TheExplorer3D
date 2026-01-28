@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="CHOMPER_HIT" ID="{F7F38380-F5FA-4CD7-A323-39A831E3C90F}" OwnerID="{747F1DF1-43DD-42FC-A1E3-F28D145DEDA6}" PersistMode="Nested">
 			<ChildrenList>
-				<ActorMixer Name="AC_HIT" ID="{C70B53D5-A210-4BB5-B64F-AE9D9B2412F4}" ShortID="415672557">
+				<ActorMixer Name="AM_HIT" ID="{C70B53D5-A210-4BB5-B64F-AE9D9B2412F4}" ShortID="415672557">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
@@ -13,7 +13,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="RC_HIT" ID="{F13E1376-E884-4595-AEB8-2D9085C482B7}" ShortID="737692096">
+						<RandomSequenceContainer Name="RC_Hit" ID="{F13E1376-E884-4595-AEB8-2D9085C482B7}" ShortID="737692096">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -157,6 +157,142 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="ENNEMY_CHOMPER_HIT_04" ID="{BE88F8CE-9F68-4772-A9DA-5201FD1C0ABC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_HitGrunt" ID="{A5CAF70E-11F2-43F6-B8B1-70A7251BAE5C}" ShortID="618401309">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D8030ED3-1278-49FD-A690-1192A9526A82}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="600"/>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{31387800-81B2-44ED-99B4-C5308B5F6326}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-6"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_MOUTH" ID="{9A78B12D-4C9C-4C5D-9829-43C963AB295E}" WorkUnitID="{A497FE11-A645-4B41-A661-24E87662CF45}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="CHOMPER" ID="{6BF105B3-B2BB-4F8F-B196-E9DEBA438FD5}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_CHOMPER_HIT_GRUNT_04" ID="{67361B2B-F901-4B5B-BD1F-380C836D9FA1}" ShortID="392123523">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_HIT_GRUNT_04" ID="{BC853EC2-8AD9-42CD-9B10-ED8E47DBA1EA}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\GRUNT\ENNEMY_CHOMPER_HIT_GRUNT_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="427406200"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_HIT_GRUNT_04" ID="{BC853EC2-8AD9-42CD-9B10-ED8E47DBA1EA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_HIT_GRUNT_03" ID="{DA97BBB8-CA27-4558-80A3-E3DB01056C43}" ShortID="921415155">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_HIT_GRUNT_03" ID="{578BA895-8C98-4899-8D34-1A2C2EA91A0C}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\GRUNT\ENNEMY_CHOMPER_HIT_GRUNT_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="275021733"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_HIT_GRUNT_03" ID="{578BA895-8C98-4899-8D34-1A2C2EA91A0C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_HIT_GRUNT_02" ID="{3B80AFB3-8C13-4968-A93A-18FF6F1CC8DC}" ShortID="393065010">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_HIT_GRUNT_02" ID="{43906376-60A8-4EE9-B555-A68AE0C2718B}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\GRUNT\ENNEMY_CHOMPER_HIT_GRUNT_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1019167222"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_HIT_GRUNT_02" ID="{43906376-60A8-4EE9-B555-A68AE0C2718B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_CHOMPER_HIT_GRUNT_01" ID="{6D2885D5-CC52-4D03-AD50-786DEC3A8088}" ShortID="302133580">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_CHOMPER_HIT_GRUNT_01" ID="{CA4584CC-CBFE-4705-9E33-0E9E8F215265}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\CHOMPER\GRUNT\ENNEMY_CHOMPER_HIT_GRUNT_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="550531638"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_CHOMPER_HIT_GRUNT_01" ID="{CA4584CC-CBFE-4705-9E33-0E9E8F215265}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

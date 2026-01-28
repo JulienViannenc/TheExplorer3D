@@ -8,15 +8,15 @@
 						<Action Name="" ID="{7BCB00E1-F988-403D-8C11-008522E76139}" ShortID="67591828">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RC_ATTACK" ID="{373BF424-BFC2-4F7E-9802-661F7A2263EC}" WorkUnitID="{DCB17EA3-3229-4968-AB04-218052A86344}"/>
+									<ObjectRef Name="RC_Attack" ID="{373BF424-BFC2-4F7E-9802-661F7A2263EC}" WorkUnitID="{DCB17EA3-3229-4968-AB04-218052A86344}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="CHOMPER_ATTACK_AttackEnd" ID="{2C033C68-0EEC-4C39-B668-368A747AB97B}"/>
-				<Event Name="CHOMPER_STOP_AttackBegin_STOP" ID="{5DF4B54A-8818-41FB-953B-120F8983C47D}"/>
-				<Event Name="CHOMPER_STOP_AttackEnd_STOP" ID="{B43172E7-9AE6-430A-98FE-6323E4E653FE}"/>
+				<Event Name="CHOMPER_ATTACK_AttackBegin_STOP" ID="{5DF4B54A-8818-41FB-953B-120F8983C47D}"/>
+				<Event Name="CHOMPER_ATTACK_AttackEnd_STOP" ID="{B43172E7-9AE6-430A-98FE-6323E4E653FE}"/>
 				<Event Name="CHOMPER_ATTACK_Attack_ALLSTOP" ID="{E7264689-5400-4D27-A69F-60A8F392DC77}"/>
 			</ChildrenList>
 		</WorkUnit>

@@ -9,8 +9,10 @@ namespace Gamekit3D
     {
         public override void OnSLStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
-            if (m_MonoBehaviour.punchAudioPlayer)
-                m_MonoBehaviour.punchAudioPlayer.PlayRandomClip();
+            if (m_MonoBehaviour.AS_FIST)
+            {
+                m_MonoBehaviour.SFX_Ennemy_Grenadier_MeleeAttackBegin_Play();
+            }
         }
     }
 }

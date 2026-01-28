@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0F3FB7A9-90FF-414C-B61A-D4A50E5D8851}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{688CE18D-6297-4E99-B5D9-02ECF37AC03D}">
+	<AudioObjects>
+		<WorkUnit Name="ENNEMY_GRENADIER_ATTACK_ENERGYWAVE" ID="{0F3FB7A9-90FF-414C-B61A-D4A50E5D8851}" OwnerID="{27F066E2-DC9A-417A-9233-867B3EE776BC}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AM_ENERGYWAVE" ID="{51D7C8D5-4DE3-4A37-A1C4-63E8FBEEC531}" ShortID="458750279">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RC_EnergyAttacksWave" ID="{355731F1-D684-412C-870B-C179C9E03016}" ShortID="347487206">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="GRENADIER" ID="{E02FC598-0CFE-4246-9F47-B7C9843AEC6F}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_Grenadier_EnergyAttackWave_01" ID="{E7AEE120-E1F7-4217-9569-98E5374E4380}" ShortID="191187345">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_EnergyAttackWave_01" ID="{06A37151-C359-452A-9DD3-CAC6F96E9930}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_EnergyAttackWave_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="962320185"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_EnergyAttackWave_01" ID="{06A37151-C359-452A-9DD3-CAC6F96E9930}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_EnergyAttackWave_02" ID="{051EFE2E-540B-48BE-BB4F-3D267DD14D0D}" ShortID="73777383">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_EnergyAttackWave_02" ID="{DAD15FED-6E8C-4525-B816-64271BDCDCF6}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_EnergyAttackWave_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="884297059"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_EnergyAttackWave_02" ID="{DAD15FED-6E8C-4525-B816-64271BDCDCF6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

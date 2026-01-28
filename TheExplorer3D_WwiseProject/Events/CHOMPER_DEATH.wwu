@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1D3F16E2-925D-4B33-AF21-D26C8DE206F6}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}">
 	<Events>
-		<WorkUnit Name="CHOMPER_BODYFALL" ID="{1D3F16E2-925D-4B33-AF21-D26C8DE206F6}" OwnerID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" PersistMode="Nested">
+		<WorkUnit Name="CHOMPER_DEATH" ID="{1D3F16E2-925D-4B33-AF21-D26C8DE206F6}" OwnerID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="CHOMPER_BODYFALL" ID="{CEC40D26-9F2A-46BB-B6AA-85199C03CBEF}">
+				<Event Name="CHOMPER_DEATH_Death" ID="{CEC40D26-9F2A-46BB-B6AA-85199C03CBEF}">
 					<ChildrenList>
 						<Action Name="" ID="{0359C05B-612A-47FB-8477-FDAF6C53246D}" ShortID="539685928">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="ActionType" Type="int16" Value="3"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="RC_HIT" ID="{F13E1376-E884-4595-AEB8-2D9085C482B7}" WorkUnitID="{F7F38380-F5FA-4CD7-A323-39A831E3C90F}"/>
-								</Reference>
-							</ReferenceList>
+							<ReferenceList/>
 						</Action>
 						<Action Name="" ID="{2D8408C1-061B-491D-AD5F-5D71353B0719}" ShortID="825938954">
 							<PropertyList>
@@ -27,7 +23,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RC_BODYFALL" ID="{DF9C2DD7-E807-433D-A3D6-FC1C6EFB17E2}" WorkUnitID="{B9CE7D9A-18B5-4EB5-958D-FBB490287026}"/>
+									<ObjectRef Name="RC_BodyFall" ID="{DF9C2DD7-E807-433D-A3D6-FC1C6EFB17E2}" WorkUnitID="{B9CE7D9A-18B5-4EB5-958D-FBB490287026}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -50,13 +46,13 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RC_DEATHGRUNT" ID="{61DA0F5F-D913-420A-B21F-B2372FFB5421}" WorkUnitID="{61F5C408-0A9F-48A6-B9BD-2872C199D5EB}"/>
+									<ObjectRef Name="RC_DeathGrunt" ID="{61DA0F5F-D913-420A-B21F-B2372FFB5421}" WorkUnitID="{B9CE7D9A-18B5-4EB5-958D-FBB490287026}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="CHOMPER_BODYFALL_STOP" ID="{6D4E826D-396C-4835-870F-4D590633B647}">
+				<Event Name="CHOMPER_DEATH_Death_STOP" ID="{6D4E826D-396C-4835-870F-4D590633B647}">
 					<ChildrenList>
 						<Action Name="" ID="{FCBB59AD-DB62-4628-AD96-8F91999D9CEA}" ShortID="683302684">
 							<PropertyList>
@@ -64,7 +60,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RC_BODYFALL" ID="{DF9C2DD7-E807-433D-A3D6-FC1C6EFB17E2}" WorkUnitID="{B9CE7D9A-18B5-4EB5-958D-FBB490287026}"/>
+									<ObjectRef Name="RC_BodyFall" ID="{DF9C2DD7-E807-433D-A3D6-FC1C6EFB17E2}" WorkUnitID="{B9CE7D9A-18B5-4EB5-958D-FBB490287026}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

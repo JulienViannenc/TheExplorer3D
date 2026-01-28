@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7AD23672-50CC-48FB-8D44-107485C4854C}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}">
+	<Events>
+		<WorkUnit Name="GRENADIER_DEATH" ID="{7AD23672-50CC-48FB-8D44-107485C4854C}" OwnerID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GRENADIER_DEATH_Death" ID="{0B56AC84-C19F-467C-8F51-AF9EB5269923}">
+					<ChildrenList>
+						<Action Name="" ID="{E4F639D9-551E-4453-ADE6-5736051B9DA8}" ShortID="440502781">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{C3F18233-37C9-4141-B791-E2991CBF8E0D}" ShortID="482776768">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_DeathAnim" ID="{3DC566D6-6958-45BD-BFFA-58E5E6C05B13}" WorkUnitID="{562C806A-D8F3-4AA2-984F-10C6723D2ACE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1078C729-E853-4D77-8CFF-4557F1667D0A}" ShortID="284752857">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_GruntDeath" ID="{D18892E4-17C4-4F3B-A772-76CC8B51D3AD}" WorkUnitID="{562C806A-D8F3-4AA2-984F-10C6723D2ACE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

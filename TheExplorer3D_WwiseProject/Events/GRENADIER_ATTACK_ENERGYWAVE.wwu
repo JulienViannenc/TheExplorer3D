@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F9EF3FC6-A108-4A97-A64F-2034D4CC6506}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{80912C5A-B934-47B1-A151-BED6926F29FF}">
+	<Events>
+		<WorkUnit Name="GRENADIER_ATTACK_ENERGYWAVE" ID="{F9EF3FC6-A108-4A97-A64F-2034D4CC6506}" OwnerID="{80912C5A-B934-47B1-A151-BED6926F29FF}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GRENADIER_ATTACK_ENERGYWAVE_EnergyWave" ID="{64B6BFA2-E04F-46D8-B4E2-4B39A973F46B}">
+					<ChildrenList>
+						<Action Name="" ID="{6B82CF30-31F9-472A-A8F3-87E39FE7D795}" ShortID="827859797">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_EnergyAttacksWave" ID="{355731F1-D684-412C-870B-C179C9E03016}" WorkUnitID="{0F3FB7A9-90FF-414C-B61A-D4A50E5D8851}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GRENADIER_ATTACK_ENERGYWAVE_EnergyWave_STOP" ID="{4BC6BA6F-1C6E-4051-BE71-F9D7430D51C4}">
+					<ChildrenList>
+						<Action Name="" ID="{33DA8D88-A4F0-42E3-AD1F-7E6B1376FF9C}" ShortID="495234365">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_EnergyAttacksWave" ID="{355731F1-D684-412C-870B-C179C9E03016}" WorkUnitID="{0F3FB7A9-90FF-414C-B61A-D4A50E5D8851}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

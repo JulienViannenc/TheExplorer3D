@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03BF0E94-E685-47F6-9171-1912DA881156}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}">
+	<Events>
+		<WorkUnit Name="GRENADIER_SPOTTED" ID="{03BF0E94-E685-47F6-9171-1912DA881156}" OwnerID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" PersistMode="Nested"/>
+	</Events>
+</WwiseDocument>

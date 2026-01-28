@@ -9,27 +9,27 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85035280" Type="User" Language="SFX" Hash="{E67A0A73-6481-AE50-B9BC-C8493A7D794B}">
+		<SoundBank Id="85035280" Type="User" Language="SFX" Hash="{D5A34C87-9E37-52BA-E2E0-5A833FF38B92}">
 			<ShortName>GPE_LVL_01</ShortName>
 			<Path>GPE_LVL_01.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="85035283" Type="User" Language="SFX" Hash="{43B00C3B-4E86-24DF-61A4-22BCB11FEA2D}">
+		<SoundBank Id="85035283" Type="User" Language="SFX" Hash="{93A6ECB8-B631-EBDC-382D-F50AC8A173F4}">
 			<ShortName>GPE_LVL_02</ShortName>
 			<Path>GPE_LVL_02.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="239935045" Type="User" Language="SFX" Hash="{59FBF2B0-411F-EEA8-76E6-67373CC34917}">
+		<SoundBank Id="239935045" Type="User" Language="SFX" Hash="{1562EB01-D9A8-81BB-DDA7-78433465687D}">
 			<ShortName>AMB_COMMON</ShortName>
 			<Path>AMB_COMMON.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1305695985" Type="User" Language="SFX" Hash="{DD1944EE-CF32-D17C-5341-6F718FC1BB0C}">
+		<SoundBank Id="1305695985" Type="User" Language="SFX" Hash="{F5D9C8F0-ED54-6A87-D541-AB2202B288F0}">
 			<ShortName>AMB_LVL_02</ShortName>
 			<Path>AMB_LVL_02.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1305695986" Type="User" Language="SFX" Hash="{BAC8C880-1C5B-1666-8273-B48BFA0658CE}">
+		<SoundBank Id="1305695986" Type="User" Language="SFX" Hash="{8E010ACC-7789-E047-E18A-90BE7F006863}">
 			<ShortName>AMB_LVL_01</ShortName>
 			<Path>AMB_LVL_01.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5C4A6F3D-CA3E-DE7F-A55F-8EDE2225B81F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D604F7F3-4DD2-CCD9-BF56-8BBAF485CF58}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -65,22 +65,33 @@
 				<AuxBus Id="357718954" Name="DELAY"/>
 			</AuxBusses>
 			<SwitchGroups>
-				<SwitchGroup Id="1443624235" Name="SW_FTS_SURFACETYPE">
+				<SwitchGroup Id="3090884174" Name="SW_MC_FTS_SURFACETYPE">
 					<Switches>
 						<Switch Id="712897245" Name="Mud"/>
 						<Switch Id="1216965916" Name="Stone"/>
 						<Switch Id="2195636714" Name="Dirt"/>
 						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="3749277377" Name="MudGrass"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3390404720" Name="SW_ENNEMY_GRENADIER_FTS_SURFACETYPE">
+					<Switches>
+						<Switch Id="712897245" Name="Mud"/>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="2195636714" Name="Dirt"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="3749277377" Name="MudGrass"/>
 						<Switch Id="4248645337" Name="Grass"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{35B5385F-5F9C-9D65-775B-45CA20991969}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{736452D1-0DCF-6CE7-7006-D60C27662B66}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{7C5BE73E-0406-E1AB-4B8F-79B72A4071C1}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{1444E805-0634-2320-F53E-6F4657BBA3F2}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -214,68 +225,22 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3306206393" Name="FTS_Jump" DurationType="OneShot" DurationMin="0.46666667" DurationMax="0.46666667">
-					<MediaRefs>
-						<MediaRef Id="357388531"/>
-						<MediaRef Id="378332867"/>
-						<MediaRef Id="538946630"/>
-						<MediaRef Id="690235631"/>
-						<MediaRef Id="707832248"/>
-						<MediaRef Id="854258806"/>
-						<MediaRef Id="977622824"/>
-						<MediaRef Id="993896963"/>
-					</MediaRefs>
-					<SwitchContainers>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="1443624235" Id="2195636714" Default="true"/>
-							<MediaRefs>
-								<MediaRef Id="427162157"/>
-								<MediaRef Id="674510323"/>
-								<MediaRef Id="791078964"/>
-								<MediaRef Id="828688826"/>
-								<MediaRef Id="929964916"/>
-								<MediaRef Id="961263982"/>
-								<MediaRef Id="1005972917"/>
-								<MediaRef Id="1070523258"/>
-							</MediaRefs>
-						</SwitchContainer>
-					</SwitchContainers>
-				</Event>
-				<Event Id="1227467306" Name="FTS_Landing" DurationType="OneShot" DurationMin="0.7" DurationMax="0.7">
-					<MediaRefs>
-						<MediaRef Id="85728624"/>
-						<MediaRef Id="125633224"/>
-						<MediaRef Id="161936741"/>
-						<MediaRef Id="367314626"/>
-						<MediaRef Id="501857201"/>
-						<MediaRef Id="933215268"/>
-						<MediaRef Id="958002252"/>
-						<MediaRef Id="1039550690"/>
-					</MediaRefs>
-					<SwitchContainers/>
-				</Event>
-				<Event Id="2027509688" Name="FTS_Run" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<SwitchContainers/>
-				</Event>
-				<Event Id="3144061710" Name="FTS_Walk" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<SwitchContainers/>
-				</Event>
-				<Event Id="757210291" Name="MC_ATTACK_STICK_Combo1" DurationType="OneShot" DurationMin="0.78333336" DurationMax="0.78333336">
+				<Event Id="757210291" Name="MC_ATTACK_STICK_Combo1" DurationType="OneShot" DurationMin="0.6217321" DurationMax="0.98693824">
 					<MediaRefs>
 						<MediaRef Id="618556018"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="757210288" Name="MC_ATTACK_STICK_Combo2" DurationType="OneShot" DurationMin="0.78333336" DurationMax="0.78333336">
+				<Event Id="757210288" Name="MC_ATTACK_STICK_Combo2" DurationType="OneShot" DurationMin="0.6217321" DurationMax="0.98693824">
 					<MediaRefs>
 						<MediaRef Id="618556018"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="757210289" Name="MC_ATTACK_STICK_Combo3" DurationType="OneShot" DurationMin="1.0833334" DurationMax="1.0833334">
+				<Event Id="757210289" Name="MC_ATTACK_STICK_Combo3" DurationType="OneShot" DurationMin="0.85984224" DurationMax="1.3649145">
 					<MediaRefs>
 						<MediaRef Id="635669812"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="757210294" Name="MC_ATTACK_STICK_Combo4" DurationType="OneShot" DurationMin="1.1166667" DurationMax="1.1166667">
+				<Event Id="757210294" Name="MC_ATTACK_STICK_Combo4" DurationType="OneShot" DurationMin="0.8862989" DurationMax="1.4069118">
 					<MediaRefs>
 						<MediaRef Id="417118609"/>
 					</MediaRefs>
@@ -291,27 +256,78 @@
 				</Event>
 				<Event Id="2197135454" Name="MC_FOL_FTS_Jump" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1530274047" Name="MC_FOL_FTS_Landing" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3349748359" Name="MC_HIT" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2895583815" Name="MC_FOLEY_HIT" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4146202944" Name="MC_FTS_Jump" DurationType="OneShot" DurationMin="0.46666667" DurationMax="0.46666667">
+					<MediaRefs>
+						<MediaRef Id="357388531"/>
+						<MediaRef Id="378332867"/>
+						<MediaRef Id="538946630"/>
+						<MediaRef Id="690235631"/>
+						<MediaRef Id="707832248"/>
+						<MediaRef Id="854258806"/>
+						<MediaRef Id="977622824"/>
+						<MediaRef Id="993896963"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="2195636714" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="427162157"/>
+								<MediaRef Id="674510323"/>
+								<MediaRef Id="791078964"/>
+								<MediaRef Id="828688826"/>
+								<MediaRef Id="929964916"/>
+								<MediaRef Id="961263982"/>
+								<MediaRef Id="1005972917"/>
+								<MediaRef Id="1070523258"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1529151333" Name="MC_FTS_Landing" DurationType="OneShot" DurationMin="0.7" DurationMax="0.7">
+					<MediaRefs>
+						<MediaRef Id="85728624"/>
+						<MediaRef Id="125633224"/>
+						<MediaRef Id="161936741"/>
+						<MediaRef Id="367314626"/>
+						<MediaRef Id="501857201"/>
+						<MediaRef Id="933215268"/>
+						<MediaRef Id="958002252"/>
+						<MediaRef Id="1039550690"/>
+					</MediaRefs>
+					<SwitchContainers/>
+				</Event>
+				<Event Id="621912139" Name="MC_FTS_Run" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<SwitchContainers/>
+				</Event>
+				<Event Id="1508294759" Name="MC_FTS_Walk" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<SwitchContainers/>
+				</Event>
 			</Events>
 			<SwitchGroups>
-				<SwitchGroup Id="1443624235" Name="SW_FTS_SURFACETYPE">
+				<SwitchGroup Id="3090884174" Name="SW_MC_FTS_SURFACETYPE">
 					<Switches>
 						<Switch Id="712897245" Name="Mud"/>
 						<Switch Id="1216965916" Name="Stone"/>
 						<Switch Id="2195636714" Name="Dirt"/>
 						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="3749277377" Name="MudGrass"/>
 						<Switch Id="4248645337" Name="Grass"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2535170914" Type="User" Language="SFX" Hash="{19DA8711-D4CB-2FAA-5DB4-01DBB967AAF2}">
+		<SoundBank Id="2535170914" Type="User" Language="SFX" Hash="{A2C7993B-1FA1-BE43-03AE-6D5E8D196FDC}">
 			<ShortName>ENNEMY_CHOMPER</ShortName>
 			<Path>ENNEMY_CHOMPER.bnk</Path>
 			<Media>
 				<File Id="24599004" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_04.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/WALKIDLE/ENNEMY_CHOMPER_FTSWalkIdle_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="52368272" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\ATTACK\ENNEMY_CHOMPER_ATTACK_02.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/ATTACK/ENNEMY_CHOMPER_ATTACK_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="84950508" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_09.wav</ShortName>
@@ -320,6 +336,10 @@
 				<File Id="145325755" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_03.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/RUN/ENNEMY_CHOMPER_FTSRun_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="146264935" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\HIT\ENNEMY_CHOMPER_HIT_03.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/HIT/ENNEMY_CHOMPER_HIT_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="218488844" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_09.wav</ShortName>
@@ -336,6 +356,10 @@
 				<File Id="270523450" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\ATTACK\ENNEMY_CHOMPER_ATTACK_01.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/ATTACK/ENNEMY_CHOMPER_ATTACK_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="275021733" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\GRUNT\ENNEMY_CHOMPER_HIT_GRUNT_03.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/GRUNT/ENNEMY_CHOMPER_HIT_GRUNT_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="280140999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_01.wav</ShortName>
@@ -361,6 +385,10 @@
 					<ShortName>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_01.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/WALK/ENNEMY_CHOMPER_FTSWalk_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="427406200" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\GRUNT\ENNEMY_CHOMPER_HIT_GRUNT_04.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/GRUNT/ENNEMY_CHOMPER_HIT_GRUNT_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="432245855" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_05.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/WALK/ENNEMY_CHOMPER_FTSWalk_05_10C4C929.wem</CachePath>
@@ -381,6 +409,10 @@
 					<ShortName>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_08.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/WALKIDLE/ENNEMY_CHOMPER_FTSWalkIdle_08_10C4C929.wem</CachePath>
 				</File>
+				<File Id="550531638" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\GRUNT\ENNEMY_CHOMPER_HIT_GRUNT_01.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/GRUNT/ENNEMY_CHOMPER_HIT_GRUNT_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="568847364" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_03.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/WALK/ENNEMY_CHOMPER_FTSWalk_03_10C4C929.wem</CachePath>
@@ -388,6 +420,10 @@
 				<File Id="660471508" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_07.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/RUN/ENNEMY_CHOMPER_FTSRun_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="665191531" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\HIT\ENNEMY_CHOMPER_HIT_02.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/HIT/ENNEMY_CHOMPER_HIT_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="665692407" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_04.wav</ShortName>
@@ -401,6 +437,10 @@
 					<ShortName>ENNEMY\CHOMPER\FTS\WALK\ENNEMY_CHOMPER_FTSWalk_06.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/WALK/ENNEMY_CHOMPER_FTSWalk_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="732531073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\HIT\ENNEMY_CHOMPER_HIT_01.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/HIT/ENNEMY_CHOMPER_HIT_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="741941590" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_07.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/WALKIDLE/ENNEMY_CHOMPER_FTSWalkIdle_07_10C4C929.wem</CachePath>
@@ -409,9 +449,21 @@
 					<ShortName>ENNEMY\CHOMPER\FTS\WALKIDLE\ENNEMY_CHOMPER_FTSWalkIdle_06.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/WALKIDLE/ENNEMY_CHOMPER_FTSWalkIdle_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="902466082" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\HIT\ENNEMY_CHOMPER_HIT_04.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/HIT/ENNEMY_CHOMPER_HIT_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="934949877" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_05.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/RUN/ENNEMY_CHOMPER_FTSRun_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="989495040" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\ATTACK\ENNEMY_CHOMPER_ATTACK_04.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/ATTACK/ENNEMY_CHOMPER_ATTACK_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1019167222" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\GRUNT\ENNEMY_CHOMPER_HIT_GRUNT_02.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/GRUNT/ENNEMY_CHOMPER_HIT_GRUNT_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1048739544" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_01.wav</ShortName>
@@ -421,17 +473,26 @@
 					<ShortName>ENNEMY\CHOMPER\FTS\RUN\ENNEMY_CHOMPER_FTSRun_06.wav</ShortName>
 					<CachePath>SFX/ENNEMY/CHOMPER/FTS/RUN/ENNEMY_CHOMPER_FTSRun_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1064809283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\CHOMPER\ATTACK\ENNEMY_CHOMPER_ATTACK_03.wav</ShortName>
+					<CachePath>SFX/ENNEMY/CHOMPER/ATTACK/ENNEMY_CHOMPER_ATTACK_03_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="940801479" Name="CHOMPER_ATTACK_Attack_ALLSTOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="413931618" Name="CHOMPER_ATTACK_AttackBegin" DurationType="OneShot" DurationMin="1.5728782" DurationMax="2.0995407">
+				<Event Id="413931618" Name="CHOMPER_ATTACK_AttackBegin" DurationType="OneShot" DurationMin="1.2592115" DurationMax="2.0995407">
 					<MediaRefs>
+						<MediaRef Id="52368272"/>
 						<MediaRef Id="270523450"/>
+						<MediaRef Id="989495040"/>
+						<MediaRef Id="1064809283"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="939442721" Name="CHOMPER_ATTACK_AttackBegin_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="238903382" Name="CHOMPER_ATTACK_AttackEnd" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3564801173" Name="CHOMPER_BODYFALL_Fall" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4122794360" Name="CHOMPER_BODYFALL_Fall_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3559128197" Name="CHOMPER_ATTACK_AttackEnd_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="994265821" Name="CHOMPER_DEATH_Death" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2867333616" Name="CHOMPER_DEATH_Death_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2185586590" Name="CHOMPER_FTS_Idle" MaxAttenuation="25" DurationType="OneShot" DurationMin="0.29945832" DurationMax="0.4045625">
 					<MediaRefs>
 						<MediaRef Id="24599004"/>
@@ -474,29 +535,94 @@
 				</Event>
 				<Event Id="3372258078" Name="CHOMPER_FTS_Walk_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4009352946" Name="CHOMPER_FTSIdle_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2449614393" Name="CHOMPER_HIT_Hit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2449614393" Name="CHOMPER_HIT_Hit" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.320997" DurationMax="1.491406">
+					<MediaRefs>
+						<MediaRef Id="146264935"/>
+						<MediaRef Id="275021733"/>
+						<MediaRef Id="427406200"/>
+						<MediaRef Id="550531638"/>
+						<MediaRef Id="665191531"/>
+						<MediaRef Id="732531073"/>
+						<MediaRef Id="902466082"/>
+						<MediaRef Id="1019167222"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1642901452" Name="CHOMPER_HIT_Hit_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1421613817" Name="CHOMPER_SPOTTED_Spotted" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1344923020" Name="CHOMPER_SPOTTED_Spotted_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2964712165" Name="CHOMPER_STOP_AttackBegin_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2851955753" Name="CHOMPER_STOP_AttackEnd_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1143561925" Name="CHOMPER_VOICE_Grunt" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3526276424" Name="CHOMPER_VOICE_Grunt_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2634244267" Type="User" Language="SFX" Hash="{F921A4A1-ADC9-C365-401F-76D07541E7DD}">
+		<SoundBank Id="2634244267" Type="User" Language="SFX" Hash="{ED052881-F764-362D-898C-761FED6FAAA3}">
 			<ShortName>ENNEMY_GRENADIER</ShortName>
 			<Path>ENNEMY_GRENADIER.bnk</Path>
+			<Media>
+				<File Id="6285223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_MeleeAttack_02.wav</ShortName>
+					<CachePath>SFX/ENNEMY/GRENADIER/SFX/ENNEMY_Grenadier_MeleeAttack_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="265631122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceAttackMelee_02.wav</ShortName>
+					<CachePath>SFX/ENNEMY/GRENADIER/VOICES/ENNEMY_Grenadier_VoiceAttackMelee_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="373203116" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_MeleeAttack_03.wav</ShortName>
+					<CachePath>SFX/ENNEMY/GRENADIER/SFX/ENNEMY_Grenadier_MeleeAttack_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="456523266" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceAttackMelee_01.wav</ShortName>
+					<CachePath>SFX/ENNEMY/GRENADIER/VOICES/ENNEMY_Grenadier_VoiceAttackMelee_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="533729810" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_MeleeAttack_01.wav</ShortName>
+					<CachePath>SFX/ENNEMY/GRENADIER/SFX/ENNEMY_Grenadier_MeleeAttack_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="884297059" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_EnergyAttackWave_02.wav</ShortName>
+					<CachePath>SFX/ENNEMY/GRENADIER/SFX/ENNEMY_Grenadier_EnergyAttackWave_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="962320185" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_EnergyAttackWave_01.wav</ShortName>
+					<CachePath>SFX/ENNEMY/GRENADIER/SFX/ENNEMY_Grenadier_EnergyAttackWave_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1059786905" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceAttackMelee_03.wav</ShortName>
+					<CachePath>SFX/ENNEMY/GRENADIER/VOICES/ENNEMY_Grenadier_VoiceAttackMelee_03_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2725285042" Name="ENNEMY_GRENADIER_ATTACK_ENERGYWAVE_EnergyWave" DurationType="OneShot" DurationMin="4.05" DurationMax="6">
+					<MediaRefs>
+						<MediaRef Id="884297059"/>
+						<MediaRef Id="962320185"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3312897747" Name="GRENADIER_ATTACK_MELEE_GruntMelee" DurationType="OneShot" DurationMin="2.25" DurationMax="3.0833333">
+					<MediaRefs>
+						<MediaRef Id="265631122"/>
+						<MediaRef Id="456523266"/>
+						<MediaRef Id="1059786905"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="532878879" Name="GRENADIER_ATTACK_MELEE_MeleeAttack" DurationType="OneShot" DurationMin="4" DurationMax="4.5">
+					<MediaRefs>
+						<MediaRef Id="6285223"/>
+						<MediaRef Id="373203116"/>
+						<MediaRef Id="533729810"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
-		<SoundBank Id="2712148667" Type="User" Language="SFX" Hash="{215703D8-DABB-0F21-A294-96BFFA4A8AFB}">
+		<SoundBank Id="2712148667" Type="User" Language="SFX" Hash="{BA54113A-1ED3-46BE-DCFD-D862043D3EC4}">
 			<ShortName>GPE_COMMON</ShortName>
 			<Path>GPE_COMMON.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3245277471" Type="User" Language="SFX" Hash="{B4A66269-37F6-56F8-028F-06E4A2113F34}">
+		<SoundBank Id="3245277471" Type="User" Language="SFX" Hash="{C497F9A6-BE81-FF4D-06DB-8A11C455F325}">
 			<ShortName>ENNEMY_SPITTER</ShortName>
 			<Path>ENNEMY_SPITTER.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3668529533" Type="User" Language="SFX" Hash="{3343E93A-7C3B-3473-6F82-83928FB52525}">
+		<SoundBank Id="3668529533" Type="User" Language="SFX" Hash="{FD90FF77-6D51-8CC6-CD5A-2E84B7F10E90}">
 			<ShortName>Z_DEV</ShortName>
 			<Path>Z_DEV.bnk</Path>
 			<Media>
@@ -514,10 +640,10 @@
 				<Event Id="973396280" Name="STOP_DuckSound" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{0E3E9487-2562-8161-CF73-30D6CFA3E27A}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{BBBAC2A6-408F-7205-2AED-E5662EE24CEB}">
 			<ShortName>MUSIC</ShortName>
 			<Path>MUSIC.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CCEA1BF9-BF39-9BDD-08AC-4DC06B13C2C8}</FileHash>
+	<FileHash>{4A3D113D-8FC3-6319-3DC3-C1B2C6B03A56}</FileHash>
 </SoundBanksInfo>

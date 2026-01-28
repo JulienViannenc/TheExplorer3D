@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{562C806A-D8F3-4AA2-984F-10C6723D2ACE}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{74BAA4A6-FC9F-465F-ADC9-004E48104820}">
+	<AudioObjects>
+		<WorkUnit Name="GRENADIER_DEATH" ID="{562C806A-D8F3-4AA2-984F-10C6723D2ACE}" OwnerID="{D3ADE701-5077-4A3C-B581-20EF5F239247}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AM_DEATH" ID="{CED343AC-2066-4E2D-9E5B-18A0AA9B61FA}" ShortID="57897819">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RC_GruntDeath" ID="{D18892E4-17C4-4F3B-A772-76CC8B51D3AD}" ShortID="613693836">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="GRENADIER" ID="{E02FC598-0CFE-4246-9F47-B7C9843AEC6F}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_Grenadier_GruntDeath" ID="{3C2B79B7-1449-4163-84F2-D69ACDCBB789}" ShortID="559484410">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_VoiceDeath" ID="{8DE37508-6815-4733-840D-760B6898FBD1}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceDeath.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="366110730"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_VoiceDeath" ID="{8DE37508-6815-4733-840D-760B6898FBD1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_DeathAnim" ID="{3DC566D6-6958-45BD-BFFA-58E5E6C05B13}" ShortID="905257231">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="GRENADIER" ID="{E02FC598-0CFE-4246-9F47-B7C9843AEC6F}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_Grenadier_Death" ID="{FA8D91DC-C1F0-4C34-BE56-FDDCA7C99635}" ShortID="899589338">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_Death" ID="{0B4A3F9F-6537-4537-82AD-426EAB167B84}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_Death.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="423206502"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_Death" ID="{0B4A3F9F-6537-4537-82AD-426EAB167B84}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

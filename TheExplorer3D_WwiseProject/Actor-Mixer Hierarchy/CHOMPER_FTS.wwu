@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="CHOMPER_FTS" ID="{F5D03456-C443-4EB1-91AE-8ADDE7CDF3DF}" OwnerID="{747F1DF1-43DD-42FC-A1E3-F28D145DEDA6}" PersistMode="Nested">
 			<ChildrenList>
-				<ActorMixer Name="AC_FTS" ID="{27ADE706-7157-4DF7-A72D-60C3A7891005}" ShortID="746829284">
+				<ActorMixer Name="AM_FTS" ID="{27ADE706-7157-4DF7-A72D-60C3A7891005}" ShortID="746829284">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>

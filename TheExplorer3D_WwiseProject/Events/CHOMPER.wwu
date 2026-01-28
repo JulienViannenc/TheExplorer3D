@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{6439793F-91D7-4108-9205-DEB409E2996F}">
 	<Events>
-		<WorkUnit Name="ENNEMY_CHOMPER" ID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" OwnerID="{6439793F-91D7-4108-9205-DEB409E2996F}" PersistMode="Nested">
+		<WorkUnit Name="CHOMPER" ID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" OwnerID="{6439793F-91D7-4108-9205-DEB409E2996F}" PersistMode="Nested">
 			<ChildrenList>
 				<WorkUnit Name="CHOMPER_ATTACK" ID="{B9C60BF7-D76A-4B0D-AD8F-E0D48CD15C56}" PersistMode="Reference"/>
-				<WorkUnit Name="CHOMPER_BODYFALL" ID="{1D3F16E2-925D-4B33-AF21-D26C8DE206F6}" PersistMode="Reference"/>
+				<WorkUnit Name="CHOMPER_DEATH" ID="{1D3F16E2-925D-4B33-AF21-D26C8DE206F6}" PersistMode="Reference"/>
 				<WorkUnit Name="CHOMPER_VOICE" ID="{84DC3FB9-9F04-497A-AE39-B6E4BED1A409}" PersistMode="Reference"/>
 				<WorkUnit Name="CHOMPER_FTS" ID="{A506E826-45BB-4254-B60E-178F8056C5C9}" PersistMode="Reference"/>
 				<WorkUnit Name="CHOMPER_HIT" ID="{F633501D-2195-438E-BA43-CC00D502D285}" PersistMode="Reference"/>
 				<WorkUnit Name="CHOMPER_SPOTTED" ID="{9B8B03BB-8F3E-42A6-B6FC-24F1176FCD3A}" PersistMode="Reference"/>
-				<WorkUnit Name="CHOMPER_GRUNT" ID="{496559C8-8940-4F98-A0D7-06D58C0792AE}" PersistMode="Reference"/>
+				<WorkUnit Name="CHOMPER_IDLE" ID="{496559C8-8940-4F98-A0D7-06D58C0792AE}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

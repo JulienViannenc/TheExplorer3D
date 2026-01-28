@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{80912C5A-B934-47B1-A151-BED6926F29FF}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}">
+	<Events>
+		<WorkUnit Name="GRENADIER_ATTACK" ID="{80912C5A-B934-47B1-A151-BED6926F29FF}" OwnerID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="GRENADIER_ATTACK_MELEE" ID="{79F91313-8D02-43FD-88A6-AF602D860987}" PersistMode="Reference"/>
+				<WorkUnit Name="GRENADIER_ATTACK_ENERGYWAVE" ID="{F9EF3FC6-A108-4A97-A64F-2034D4CC6506}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

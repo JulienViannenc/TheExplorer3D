@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{823750E2-3718-41BC-A4A2-82467C99CFB1}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}">
+	<Events>
+		<WorkUnit Name="GRENADIER_HIT" ID="{823750E2-3718-41BC-A4A2-82467C99CFB1}" OwnerID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GRENADIER_HIT_Hit" ID="{C9C337CD-B5E0-459D-96CF-D81FEEA85269}">
+					<ChildrenList>
+						<Action Name="" ID="{A5CE2E87-DB5B-494C-9057-78227BA25CD5}" ShortID="969243895">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{DE72F6BF-8820-4934-90FA-533D70445DF4}" ShortID="813694133">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_GruntHit" ID="{62551D63-8F87-4575-8063-0D61035CB03E}" WorkUnitID="{6ED988AC-1325-4377-9CB1-A038CCA1D4AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B7E3359F-0030-47CC-85A3-168DDFAB8D18}" ShortID="909453841">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Hit" ID="{4D7C2AF8-8C03-4F33-BF04-CB15035C6933}" WorkUnitID="{6ED988AC-1325-4377-9CB1-A038CCA1D4AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GRENADIER_HIT_Hit_STOP" ID="{EEC15103-A0B1-4AB5-93A1-3B6801FA25FB}">
+					<ChildrenList>
+						<Action Name="" ID="{D4C79330-DF8E-4081-A505-6857F3408B40}" ShortID="32173493">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_GruntHit" ID="{62551D63-8F87-4575-8063-0D61035CB03E}" WorkUnitID="{6ED988AC-1325-4377-9CB1-A038CCA1D4AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8F8B2F36-C9BE-4872-B051-925C986818A0}" ShortID="47521712">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Hit" ID="{4D7C2AF8-8C03-4F33-BF04-CB15035C6933}" WorkUnitID="{6ED988AC-1325-4377-9CB1-A038CCA1D4AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

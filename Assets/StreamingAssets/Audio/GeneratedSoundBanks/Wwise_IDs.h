@@ -15,9 +15,11 @@ namespace AK
     {
         static const AkUniqueID CHOMPER_ATTACK_ATTACK_ALLSTOP = 940801479U;
         static const AkUniqueID CHOMPER_ATTACK_ATTACKBEGIN = 413931618U;
+        static const AkUniqueID CHOMPER_ATTACK_ATTACKBEGIN_STOP = 939442721U;
         static const AkUniqueID CHOMPER_ATTACK_ATTACKEND = 238903382U;
-        static const AkUniqueID CHOMPER_BODYFALL = 1772492699U;
-        static const AkUniqueID CHOMPER_BODYFALL_STOP = 3152814134U;
+        static const AkUniqueID CHOMPER_ATTACK_ATTACKEND_STOP = 3559128197U;
+        static const AkUniqueID CHOMPER_DEATH_DEATH = 994265821U;
+        static const AkUniqueID CHOMPER_DEATH_DEATH_STOP = 2867333616U;
         static const AkUniqueID CHOMPER_FTS_IDLE = 2185586590U;
         static const AkUniqueID CHOMPER_FTS_RUN = 2732001199U;
         static const AkUniqueID CHOMPER_FTS_RUN_STOP = 3318718874U;
@@ -28,11 +30,12 @@ namespace AK
         static const AkUniqueID CHOMPER_HIT_HIT_STOP = 1642901452U;
         static const AkUniqueID CHOMPER_SPOTTED_SPOTTED = 1421613817U;
         static const AkUniqueID CHOMPER_SPOTTED_SPOTTED_STOP = 1344923020U;
-        static const AkUniqueID CHOMPER_STOP_ATTACKBEGIN_STOP = 2964712165U;
-        static const AkUniqueID CHOMPER_STOP_ATTACKEND_STOP = 2851955753U;
         static const AkUniqueID CHOMPER_VOICE_GRUNT = 1143561925U;
         static const AkUniqueID CHOMPER_VOICE_GRUNT_STOP = 3526276424U;
         static const AkUniqueID DUCKSOUND = 3169408195U;
+        static const AkUniqueID ENNEMY_GRENADIER_ATTACK_ENERGYWAVE_ENERGYWAVE = 2725285042U;
+        static const AkUniqueID GRENADIER_ATTACK_MELEE_GRUNTMELEE = 3312897747U;
+        static const AkUniqueID GRENADIER_ATTACK_MELEE_MELEEATTACK = 532878879U;
         static const AkUniqueID MC_ATTACK_STICK_COMBO1 = 757210291U;
         static const AkUniqueID MC_ATTACK_STICK_COMBO2 = 757210288U;
         static const AkUniqueID MC_ATTACK_STICK_COMBO3 = 757210289U;

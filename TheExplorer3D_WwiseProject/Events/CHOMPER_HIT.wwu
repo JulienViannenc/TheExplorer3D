@@ -7,18 +7,14 @@
 					<ChildrenList>
 						<Action Name="" ID="{D42BD1AC-86EF-45D3-BF91-B7227D5FAA99}" ShortID="812758808">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="ActionType" Type="int16" Value="3"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="RC_ATTACK" ID="{373BF424-BFC2-4F7E-9802-661F7A2263EC}" WorkUnitID="{DCB17EA3-3229-4968-AB04-218052A86344}"/>
-								</Reference>
-							</ReferenceList>
+							<ReferenceList/>
 						</Action>
 						<Action Name="" ID="{2C55DEC8-3C9C-4F7F-B02A-F6AE600E4E12}" ShortID="712913642">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RC_HIT" ID="{F13E1376-E884-4595-AEB8-2D9085C482B7}" WorkUnitID="{F7F38380-F5FA-4CD7-A323-39A831E3C90F}"/>
+									<ObjectRef Name="RC_Hit" ID="{F13E1376-E884-4595-AEB8-2D9085C482B7}" WorkUnitID="{F7F38380-F5FA-4CD7-A323-39A831E3C90F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -41,7 +37,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RC_HITGRUNT" ID="{A5CAF70E-11F2-43F6-B8B1-70A7251BAE5C}" WorkUnitID="{61F5C408-0A9F-48A6-B9BD-2872C199D5EB}"/>
+									<ObjectRef Name="RC_HitGrunt" ID="{A5CAF70E-11F2-43F6-B8B1-70A7251BAE5C}" WorkUnitID="{F7F38380-F5FA-4CD7-A323-39A831E3C90F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -55,7 +51,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RC_HIT" ID="{F13E1376-E884-4595-AEB8-2D9085C482B7}" WorkUnitID="{F7F38380-F5FA-4CD7-A323-39A831E3C90F}"/>
+									<ObjectRef Name="RC_Hit" ID="{F13E1376-E884-4595-AEB8-2D9085C482B7}" WorkUnitID="{F7F38380-F5FA-4CD7-A323-39A831E3C90F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

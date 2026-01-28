@@ -33,13 +33,15 @@ namespace Gamekit3D
         [Tooltip("Time in seconde before the Chomper stop pursuing the player when the player is out of sight")]
         public float timeToStopPursuit;
 
-        [Header("Audio")]
+        // ----- AUDIO MANAGEMENT ----- //
+        
+        [Header("Audio_AS")]
         public GameObject AS_FTS;
         public GameObject AS_MOUTH;
         public GameObject AS_BODY;
         
-        [Header("Grunt")]
-        public AK.Wwise.Event event_Ennemy_Chomper_Grunt_Play;
+        [Header("Idle")]
+        public AK.Wwise.Event event_Ennemy_Chomper_Idle_Play;
         
         [Header("Idle Scratch")]
         public AK.Wwise.Event event_Ennemy_Chomper_IdleScratch_Play;
@@ -61,8 +63,10 @@ namespace Gamekit3D
         public AK.Wwise.Event event_Ennemy_Chomper_Hit_Play;
         
         
-        [Header("Falll/Death")]
-        public AK.Wwise.Event event_Ennemy_Chomper_BodyFall_Play;
+        [Header("Fall/Death")]
+        public AK.Wwise.Event event_Ennemy_Chomper_Death_Play;
+        
+        // AUDIO MANAGEMENT METHOD //
         
         protected float m_TimerSinceLostTarget = 0.0f;
 
@@ -70,24 +74,10 @@ namespace Gamekit3D
         protected EnemyController m_Controller;
         protected TargetDistributor.TargetFollower m_FollowerInstance = null;
 
-        protected void OnEnable()
-        {
-            m_Controller = GetComponentInChildren<EnemyController>();
-
-            originalPosition = transform.position;
-
-            meleeWeapon.SetOwner(gameObject);
-
-            m_Controller.animator.Play(hashIdleState, 0, Random.value);
-
-            SceneLinkedSMB<ChomperBehavior>.Initialise(m_Controller.animator, this);
-        }
-        
-        // ----- AUDIO MANAGEMENT ----- //
-        
+                
         public void SFX_Ennemy_Chomper_Grunt_Play()
         {
-            event_Ennemy_Chomper_Grunt_Play.Post(AS_MOUTH);
+            event_Ennemy_Chomper_Idle_Play.Post(AS_MOUTH);
         }
 
         public void SFX_Ennemy_Chomper_IdleScratch_Play()
@@ -110,9 +100,9 @@ namespace Gamekit3D
             event_Ennemy_Chomper_FTSRun_Play.Post(AS_FTS);
         }
         
-        public void SFX_Ennemy_Chomper_BodyFall_Play()
+        public void SFX_Ennemy_Chomper_Death_Play()
         {
-            event_Ennemy_Chomper_BodyFall_Play.Post(AS_MOUTH);
+            event_Ennemy_Chomper_Death_Play.Post(AS_MOUTH);
         }
         
         public void SFX_Ennemy_Chomper_Hit_Play()
@@ -140,7 +130,24 @@ namespace Gamekit3D
         {
             event_Ennemy_Chomper_AttackAllStop_Play.Post(AS_MOUTH);
         }
+
+        // END AUDIO MANAGEMENT METHOD //
         
+        protected void OnEnable()
+        {
+            m_Controller = GetComponentInChildren<EnemyController>();
+
+            originalPosition = transform.position;
+
+            meleeWeapon.SetOwner(gameObject);
+
+            m_Controller.animator.Play(hashIdleState, 0, Random.value);
+
+            SceneLinkedSMB<ChomperBehavior>.Initialise(m_Controller.animator, this);
+        }
+        
+        
+
 
 
      // ----- END AUDIO MANAGEMENT ------ //  
@@ -300,7 +307,7 @@ namespace Gamekit3D
             controller.animator.SetTrigger(hashHit);
             controller.animator.SetTrigger(hashThrown);
             
-            SFX_Ennemy_Chomper_BodyFall_Play();
+            SFX_Ennemy_Chomper_Death_Play(); 
             
             // HERE -> We unparent the hit source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
             // deathAudio.transform.SetParent(null, true);

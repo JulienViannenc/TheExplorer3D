@@ -1717,17 +1717,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505319453408082}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.84345514, z: -0.76423407}
+  m_LocalScale: {x: 1, y: 1.3918381, z: 1.3794839}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2687605842598409740}
   - {fileID: 7545283700256130887}
   - {fileID: 5214484232841443811}
   - {fileID: 829219345754170992}
-  m_Father: {fileID: 4111328061247126}
-  m_RootOrder: 3
+  m_Father: {fileID: 1339313500450145704}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1511091366865180
 GameObject:
@@ -2727,10 +2726,10 @@ Transform:
   - {fileID: 4700803547110376}
   - {fileID: 4230541153036796}
   - {fileID: 4667632706155090}
-  - {fileID: 4558756240328940}
   - {fileID: 4998087950247418}
+  - {fileID: 1339313500450145704}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -148.75801, z: 0}
 --- !u!95 &95449222272042074
 Animator:
@@ -2778,11 +2777,10 @@ MonoBehaviour:
   AS_FTS: {fileID: 3324536638647906138}
   AS_MOUTH: {fileID: 8701067249547832263}
   AS_BODY: {fileID: 5554312056152378989}
-  event_Ennemy_Chomper_Grunt_Play:
+  event_Ennemy_Chomper_Idle_Play:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 1e015940b450df94b954603e7a594c5a,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
   event_Ennemy_Chomper_IdleScratch_Play:
     idInternal: 0
     valueGuidInternal: 
@@ -2827,17 +2825,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: f2f4797d9905bef469823d2b29de6c56,
       type: 2}
-  event_Ennemy_Chomper_HitGrunt_Play:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: c1ed3309a443f804c8564c8ede9ed0a7,
-      type: 2}
-  event_Ennemy_Chomper_DeathGrunt_Play:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: d280d6153c1ee0849a378317cfa81443,
-      type: 2}
-  event_Ennemy_Chomper_BodyFall_Play:
+  event_Ennemy_Chomper_Death_Play:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 563de227a82a9014f9b47db7df42827e,
@@ -3751,7 +3739,7 @@ Transform:
   m_Father: {fileID: 4489283864946906}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -33.421173, y: 4.7166233, z: -69.37963}
---- !u!1 &9131360159586999029
+--- !u!1 &6280375859907441934
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3759,27 +3747,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2687605842598409740}
+  - component: {fileID: 1339313500450145704}
   m_Layer: 23
-  m_Name: --- OLD ---
+  m_Name: --- Audio ---
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2687605842598409740
+--- !u!4 &1339313500450145704
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9131360159586999029}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_GameObject: {fileID: 6280375859907441934}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.6060009, z: 0.55399996}
+  m_LocalScale: {x: 1, y: 0.7184744, z: 0.72490877}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4558756240328940}
+  m_Children:
+  - {fileID: 4558756240328940}
+  m_Father: {fileID: 4111328061247126}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2158711165806945227

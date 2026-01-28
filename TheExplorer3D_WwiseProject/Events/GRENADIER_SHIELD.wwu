@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{53B19988-57C3-4390-93EF-41A4ED866254}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}">
+	<Events>
+		<WorkUnit Name="GRENADIER_SHIELD" ID="{53B19988-57C3-4390-93EF-41A4ED866254}" OwnerID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GRENADIER_ShieldActivate" ID="{66EE9FAB-6B52-4644-B2A3-626EC4487481}">
+					<ChildrenList>
+						<Action Name="" ID="{B2F980B9-A975-46C3-86F2-D778A4011C3D}" ShortID="130539611">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_ShieldActivate" ID="{88981D73-34BC-4F94-87A2-83A4AC9AFA29}" WorkUnitID="{07FD3B23-C9A0-4573-9AE9-707A985F3602}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GRENADIER_ShieldDeactivate" ID="{B0F79F08-0745-45B2-9C94-C56C46F46309}">
+					<ChildrenList>
+						<Action Name="" ID="{CD27943E-27C7-4D0D-B074-35F8557F207A}" ShortID="441548035">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_ShieldDeactivate" ID="{AC7308CD-7658-4F9A-968D-D7997A64E910}" WorkUnitID="{07FD3B23-C9A0-4573-9AE9-707A985F3602}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

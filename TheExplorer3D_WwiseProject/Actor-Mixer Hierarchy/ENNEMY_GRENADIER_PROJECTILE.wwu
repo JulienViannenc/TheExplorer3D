@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9FE51A10-6508-4098-8161-D2B36E6F73AB}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{688CE18D-6297-4E99-B5D9-02ECF37AC03D}">
+	<AudioObjects>
+		<WorkUnit Name="ENNEMY_GRENADIER_PROJECTILE" ID="{9FE51A10-6508-4098-8161-D2B36E6F73AB}" OwnerID="{27F066E2-DC9A-417A-9233-867B3EE776BC}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AM_PROJECTILE" ID="{85175CF5-BADA-4829-9C71-15C9DFAB3945}" ShortID="959457673">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RC_ImpactExplosion" ID="{D6C55DEC-6999-491A-A275-AA7E7DA7BF47}" ShortID="809616721">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="GRENADIER" ID="{E02FC598-0CFE-4246-9F47-B7C9843AEC6F}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_Grenadier_ExplosionProjectile_01" ID="{D5CA3C22-0F43-48E5-A9ED-97EA23B1A233}" ShortID="778323678">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_BallImpactExplosion_01" ID="{55456067-1BDB-4A18-9CF4-6B0C5CC88840}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_BallImpactExplosion_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="534807523"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_BallImpactExplosion_01" ID="{55456067-1BDB-4A18-9CF4-6B0C5CC88840}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_ExplosionProjectile_02" ID="{64033780-8ADE-47D0-877D-A596182AAFD8}" ShortID="368816976">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_BallImpactExplosion_02" ID="{E9BEB61B-3676-4715-AFD2-69458960EB85}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_BallImpactExplosion_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="109859986"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_BallImpactExplosion_02" ID="{E9BEB61B-3676-4715-AFD2-69458960EB85}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_ExplosionProjectile_03" ID="{3E58445F-225E-4CA3-8B08-CF078E4AE22F}" ShortID="418123433">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_BallImpactExplosion_03" ID="{F6A1CAD3-3DF7-48E1-A7C6-41C6F0DD7C05}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_BallImpactExplosion_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="180163168"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_BallImpactExplosion_03" ID="{F6A1CAD3-3DF7-48E1-A7C6-41C6F0DD7C05}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_ExplosionProjectile_04" ID="{A5CB4D68-2CD0-45C9-8829-86939E146410}" ShortID="465186705">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_BallImpactExplosion_04" ID="{5E093C5F-0AA6-4EC7-B95B-A751B2A42670}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_BallImpactExplosion_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="613540026"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_BallImpactExplosion_04" ID="{5E093C5F-0AA6-4EC7-B95B-A751B2A42670}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_ExplosionProjectile_05" ID="{44AB16EC-A6A8-4D92-B948-DA198E9062AB}" ShortID="292285731">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_BallImpactExplosion_05" ID="{2F66A62C-5037-4E68-9701-9C923897D42B}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_BallImpactExplosion_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="139114139"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_BallImpactExplosion_05" ID="{2F66A62C-5037-4E68-9701-9C923897D42B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_Fall" ID="{1271672E-6D94-43FB-8B26-5428837612FD}" ShortID="721185109">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="GRENADIER" ID="{E02FC598-0CFE-4246-9F47-B7C9843AEC6F}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_Grenadier_FallProjectile_05" ID="{AADE6A07-D87D-4A23-AF24-F4F4578B06BC}" ShortID="885644263">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_BallImpactFall_05" ID="{329DB33D-D245-4B77-A3C0-28A21DD1AF83}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_BallImpactFall_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="693566469"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_BallImpactFall_05" ID="{329DB33D-D245-4B77-A3C0-28A21DD1AF83}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_FallProjectile_01" ID="{0D69233E-4F60-478B-92B9-E5B4E3437C79}" ShortID="904372852">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_BallImpactFall_01" ID="{4B3B0D89-1AAD-4D58-A328-7491EB434FF2}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_BallImpactFall_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="431339235"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_BallImpactFall_01" ID="{4B3B0D89-1AAD-4D58-A328-7491EB434FF2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_FallProjectile_02" ID="{3E06E21D-1782-4A5C-B595-87FD6FFDFB80}" ShortID="16937749">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_BallImpactFall_02" ID="{5658AD92-5693-45E6-8A2E-49CB72F2528E}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_BallImpactFall_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="518585429"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_BallImpactFall_02" ID="{5658AD92-5693-45E6-8A2E-49CB72F2528E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_FallProjectile_03" ID="{815E296B-6974-4712-A825-E27397EF1D66}" ShortID="1054883905">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_BallImpactFall_03" ID="{72B428FF-FDB1-4D60-9308-DE634F51EB26}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_BallImpactFall_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="291915137"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_BallImpactFall_03" ID="{72B428FF-FDB1-4D60-9308-DE634F51EB26}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_FallProjectile_04" ID="{504D91BC-0896-4F97-B147-68ABC4538D36}" ShortID="957487003">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_BallImpactFall_04" ID="{79F13B93-8291-4F10-ACF1-04149A10F0E0}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_BallImpactFall_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="916826901"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_BallImpactFall_04" ID="{79F13B93-8291-4F10-ACF1-04149A10F0E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_Charge" ID="{43988864-9290-425E-8622-539F621AAEF7}" ShortID="1055893063">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="GRENADIER" ID="{E02FC598-0CFE-4246-9F47-B7C9843AEC6F}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_Grenadier_ChargeProjectile_01" ID="{9D086B46-DAD8-4F5E-A6D5-8DCCA9BF32B2}" ShortID="946948210">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_LaunchAttack_01" ID="{9B1EECC7-358D-4CB0-889D-1549C921F30E}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_LaunchAttack_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="151567531"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_LaunchAttack_01" ID="{9B1EECC7-358D-4CB0-889D-1549C921F30E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_ChargeProjectile_02" ID="{18AB87F2-347F-4CA5-B710-C13D6575130B}" ShortID="336462455">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_LaunchAttack_02" ID="{023CD222-FB29-478C-A72B-5C009EF5572A}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_LaunchAttack_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="130199280"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_LaunchAttack_02" ID="{023CD222-FB29-478C-A72B-5C009EF5572A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_ChargeProjectile_03" ID="{953C6EF9-7A2B-4EB7-8895-D9CC7435F332}" ShortID="774620647">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_LaunchAttack_03" ID="{D35FFC6A-FD7A-4CE6-B15E-30C6F8CBA5BE}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_LaunchAttack_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="150286859"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_LaunchAttack_03" ID="{D35FFC6A-FD7A-4CE6-B15E-30C6F8CBA5BE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_GruntProjectile" ID="{11901C84-D793-4FC6-8A42-F2D3BD77A50A}" ShortID="284188211">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="GRENADIER" ID="{E02FC598-0CFE-4246-9F47-B7C9843AEC6F}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_Grenadier_VoiceAttackLaunch_01" ID="{AC05F1F6-9AA1-4FFC-88A2-5B4C05DD1864}" ShortID="736834680">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_VoiceAttackLaunch_01" ID="{E7D82DCA-F5F2-4DE1-B5FF-5080191793FD}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceAttackLaunch_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="201808920"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_VoiceAttackLaunch_01" ID="{E7D82DCA-F5F2-4DE1-B5FF-5080191793FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_VoiceAttackLaunch_02" ID="{52DADE8C-D9FE-471D-A17D-AFABCF8E8895}" ShortID="665329154">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_VoiceAttackLaunch_02" ID="{6198A59D-5A04-4833-878F-78E69EB9F908}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceAttackLaunch_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="814366329"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_VoiceAttackLaunch_02" ID="{6198A59D-5A04-4833-878F-78E69EB9F908}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_VoiceAttackLaunch_03" ID="{20412DAB-CFF2-4B25-94A1-38575B3B293C}" ShortID="405557476">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_VoiceAttackLaunch_03" ID="{92A67B95-C7D4-4B40-9497-C8706A76855A}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceAttackLaunch_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1072845035"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_VoiceAttackLaunch_03" ID="{92A67B95-C7D4-4B40-9497-C8706A76855A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

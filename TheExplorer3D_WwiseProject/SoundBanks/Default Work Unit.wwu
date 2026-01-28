@@ -75,7 +75,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="ENNEMY_CHOMPER" ID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" WorkUnitID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CHOMPER" ID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" WorkUnitID="{AB6362AC-935B-4A1E-8599-FEE31E01F62B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -97,7 +97,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="ENNEMY_GRENADIER" ID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" WorkUnitID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GRENADIER" ID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" WorkUnitID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -108,7 +108,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="ENNEMY_SPITTER" ID="{C4034A58-CBE1-49EB-961D-E4CDC688223A}" WorkUnitID="{C4034A58-CBE1-49EB-961D-E4CDC688223A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SPITTER" ID="{C4034A58-CBE1-49EB-961D-E4CDC688223A}" WorkUnitID="{C4034A58-CBE1-49EB-961D-E4CDC688223A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

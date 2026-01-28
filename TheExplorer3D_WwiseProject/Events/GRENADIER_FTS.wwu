@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3CF30510-228C-4DAC-8B30-46FFBCAB626E}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}">
+	<Events>
+		<WorkUnit Name="GRENADIER_FTS" ID="{3CF30510-228C-4DAC-8B30-46FFBCAB626E}" OwnerID="{487C0C3D-D835-4DE2-A359-6A27ABF1FE08}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GRENADIER_FTS_WALK" ID="{7ACB305A-F01A-45DA-8FEA-EE04AAC2DC48}">
+					<ChildrenList>
+						<Action Name="" ID="{0C2120EA-B02C-470A-B625-2CD327B52932}" ShortID="33147628">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SW_WALK" ID="{45590C14-A0CC-4303-901B-54C19BE37F5A}" WorkUnitID="{F820E528-486A-4017-A2E6-CF3C624A2625}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GRENADIER_FTS_WALK_STOP" ID="{F0A14CC1-6F20-407F-BEE4-2057B4AFA382}">
+					<ChildrenList>
+						<Action Name="" ID="{F065C618-FF3A-4DBD-A550-685DE1670710}" ShortID="163006222">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SW_WALK" ID="{45590C14-A0CC-4303-901B-54C19BE37F5A}" WorkUnitID="{F820E528-486A-4017-A2E6-CF3C624A2625}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

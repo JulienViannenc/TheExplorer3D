@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4C5031E3-B4D5-48F8-887F-55C8FC88F428}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{688CE18D-6297-4E99-B5D9-02ECF37AC03D}">
+	<AudioObjects>
+		<WorkUnit Name="ENNEMY_GRENADIER_ATTACK_MELEE" ID="{4C5031E3-B4D5-48F8-887F-55C8FC88F428}" OwnerID="{27F066E2-DC9A-417A-9233-867B3EE776BC}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AM_MELEE" ID="{66F7C3D2-4991-422F-ADAD-E80271122C66}" ShortID="469137539">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RC_MeleeAttack" ID="{4E0102A9-4082-44BA-954C-9FD0916ADB0A}" ShortID="20940569">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="GRENADIER" ID="{E02FC598-0CFE-4246-9F47-B7C9843AEC6F}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_Grenadier_MeleeAttack_01" ID="{8BFAEA00-ECF2-48D9-8C0E-5AB0DEA5E8E7}" ShortID="685463531">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_MeleeAttack_01" ID="{CB1FC786-3AEB-4510-B64E-720573D80DD2}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_MeleeAttack_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="533729810"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_MeleeAttack_01" ID="{CB1FC786-3AEB-4510-B64E-720573D80DD2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_MeleeAttack_02" ID="{384B1BD3-4CA6-4D42-8CEA-659688629EDC}" ShortID="530050608">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_MeleeAttack_02" ID="{D74F62CE-D561-4A35-B22E-3511310F408E}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_MeleeAttack_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="6285223"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_MeleeAttack_02" ID="{D74F62CE-D561-4A35-B22E-3511310F408E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_MeleeAttack_03" ID="{3915F05B-6A8C-4C03-B029-79EEF8737AFB}" ShortID="938569578">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_MeleeAttack_03" ID="{B407B48A-9BC4-42C5-BB42-5EA8169EDE9C}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_MeleeAttack_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="373203116"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_MeleeAttack_03" ID="{B407B48A-9BC4-42C5-BB42-5EA8169EDE9C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_GruntMelee" ID="{118727CC-DD16-4015-81FC-4D0F3B82BA38}" ShortID="47501825">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="GRENADIER" ID="{E02FC598-0CFE-4246-9F47-B7C9843AEC6F}" WorkUnitID="{33298EAF-729A-4258-A331-E630B572A4D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENNEMY_Grenadier_GruntMelee_01" ID="{85DC59FE-E831-4691-85A3-EAABE1E0CA1D}" ShortID="465417225">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_VoiceAttackMelee_01" ID="{449BEA83-820A-47ED-B083-88AAEB81B700}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceAttackMelee_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="456523266"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_VoiceAttackMelee_01" ID="{449BEA83-820A-47ED-B083-88AAEB81B700}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_GruntMelee_02" ID="{564F1DA7-D6ED-4F1A-9B40-40295A04321B}" ShortID="779150399">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_VoiceAttackMelee_02" ID="{04FA0EE7-49DE-44BB-83F9-61F03DA1CC79}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceAttackMelee_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="265631122"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_VoiceAttackMelee_02" ID="{04FA0EE7-49DE-44BB-83F9-61F03DA1CC79}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENNEMY_Grenadier_GruntMelee_03" ID="{08879131-2B9F-43AE-A61E-A3D933176967}" ShortID="348483035">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENNEMY_Grenadier_VoiceAttackMelee_03" ID="{20F27692-2D42-4840-807B-4B2BD49BB08F}">
+											<Language>SFX</Language>
+											<AudioFile>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceAttackMelee_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1059786905"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ENNEMY_Grenadier_VoiceAttackMelee_03" ID="{20F27692-2D42-4840-807B-4B2BD49BB08F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

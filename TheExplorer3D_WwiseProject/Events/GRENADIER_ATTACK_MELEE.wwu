@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{79F91313-8D02-43FD-88A6-AF602D860987}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{80912C5A-B934-47B1-A151-BED6926F29FF}">
+	<Events>
+		<WorkUnit Name="GRENADIER_ATTACK_MELEE" ID="{79F91313-8D02-43FD-88A6-AF602D860987}" OwnerID="{80912C5A-B934-47B1-A151-BED6926F29FF}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GRENADIER_ATTACK_MELEE_GruntMelee" ID="{312FABB5-4A7B-4841-95AB-3D322FB801D7}">
+					<ChildrenList>
+						<Action Name="" ID="{CE1EF5BA-E481-4965-9B74-C3F2616A474E}" ShortID="426919788">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_GruntMelee" ID="{118727CC-DD16-4015-81FC-4D0F3B82BA38}" WorkUnitID="{4C5031E3-B4D5-48F8-887F-55C8FC88F428}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GRENADIER_ATTACK_MELEE_MeleeAttack" ID="{126D46F1-98CE-4F56-BBC2-C2A77EEF6CB2}">
+					<ChildrenList>
+						<Action Name="" ID="{BCCC9B4F-A7C0-41F5-887D-1A7B5FFBFE05}" ShortID="874427075">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_MeleeAttack" ID="{4E0102A9-4082-44BA-954C-9FD0916ADB0A}" WorkUnitID="{4C5031E3-B4D5-48F8-887F-55C8FC88F428}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GRENADIER_ATTACK_MELEE_MeleeAttack_STOP" ID="{2276D873-5A76-4636-AF24-95D9E4402F53}">
+					<ChildrenList>
+						<Action Name="" ID="{31D20C56-55FD-4A03-A3EA-A1D181268819}" ShortID="614717273">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_MeleeAttack" ID="{4E0102A9-4082-44BA-954C-9FD0916ADB0A}" WorkUnitID="{4C5031E3-B4D5-48F8-887F-55C8FC88F428}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GRENADIER_ATTACK_MELEE_GruntMelee_STOP" ID="{6B24BC4E-904F-43AD-926E-F8F670D6474F}">
+					<ChildrenList>
+						<Action Name="" ID="{F51F0E4B-4F38-4D6D-86E9-A49BF0999A82}" ShortID="865257315">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_GruntMelee" ID="{118727CC-DD16-4015-81FC-4D0F3B82BA38}" WorkUnitID="{4C5031E3-B4D5-48F8-887F-55C8FC88F428}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

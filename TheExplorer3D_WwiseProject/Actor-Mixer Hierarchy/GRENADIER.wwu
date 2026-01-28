@@ -16,10 +16,13 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<WorkUnit Name="ENNEMY_GRENADIER_FTS" ID="{97385C6C-A35C-45A4-8263-1647858FD0DC}" PersistMode="Reference"/>
-						<WorkUnit Name="ENNEMY_GRENADIER_FOLEY" ID="{D3CBF843-B3F7-469D-ACDA-8DE2C091CD94}" PersistMode="Reference"/>
-						<WorkUnit Name="ENNEMY_GRENADIER_ATTACKS" ID="{688CE18D-6297-4E99-B5D9-02ECF37AC03D}" PersistMode="Reference"/>
-						<WorkUnit Name="ENNEMY_GRENADIER_VOICES" ID="{AB64D303-8617-4E51-9FFB-8DF71606F944}" PersistMode="Reference"/>
+						<WorkUnit Name="GRENADIER_ATTACK" ID="{688CE18D-6297-4E99-B5D9-02ECF37AC03D}" PersistMode="Reference"/>
+						<WorkUnit Name="GRENADIER_HIT" ID="{6ED988AC-1325-4377-9CB1-A038CCA1D4AD}" PersistMode="Reference"/>
+						<WorkUnit Name="GRENADIER_DEATH" ID="{562C806A-D8F3-4AA2-984F-10C6723D2ACE}" PersistMode="Reference"/>
+						<WorkUnit Name="GRENADIER_FTS" ID="{F820E528-486A-4017-A2E6-CF3C624A2625}" PersistMode="Reference"/>
+						<WorkUnit Name="GRENADIER_IDLE" ID="{5BB10F89-2929-4BF2-9F38-28E40EDB9449}" PersistMode="Reference"/>
+						<WorkUnit Name="GRENADIER_SPOTTED" ID="{47EA87FD-6261-45D8-8B82-C379E4856623}" PersistMode="Reference"/>
+						<WorkUnit Name="GRENADIER_SHIELD" ID="{07FD3B23-C9A0-4573-9AE9-707A985F3602}" PersistMode="Reference"/>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

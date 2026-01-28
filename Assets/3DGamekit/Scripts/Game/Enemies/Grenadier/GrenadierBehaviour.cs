@@ -49,14 +49,57 @@ namespace Gamekit3D
 
         public PlayerController target { get { return m_Target; } }
         public Damageable damageable { get { return m_Damageable; } }
+        
+        
+        // ----- AUDIO MANAGEMENT ----- //
 
-        [Header("Audio")]
-        public RandomAudioPlayer deathAudioPlayer;
-        public RandomAudioPlayer damageAudioPlayer;
-        public RandomAudioPlayer footstepAudioPlayer;
-        public RandomAudioPlayer throwAudioPlayer;
-        public RandomAudioPlayer punchAudioPlayer;
+        [Header("Audio_AS")]
+        // public RandomAudioPlayer deathAudioPlayer;
+        // public RandomAudioPlayer damageAudioPlayer;
+        // public RandomAudioPlayer footstepAudioPlayer;
+        // public RandomAudioPlayer throwAudioPlayer;
+        // public RandomAudioPlayer punchAudioPlayer;
 
+        public GameObject AS_FTS;
+        public GameObject AS_MOUTH;
+        public GameObject AS_BODY; 
+        public GameObject AS_FIST;
+        
+        [Header("Idle")]
+        public AK.Wwise.Event event_Ennemy_Grenadier_Idle_Play;
+        
+        
+        [Header("FTS")]
+        public AK.Wwise.Event event_Ennemy_Grenadier_FTSWalk_Play;
+        
+        [Header("Spotted")]
+        public AK.Wwise.Event event_Ennemy_Grenadier_Spotted_Play;
+        
+        [Header("Attack")]
+        [Header("Melee Attack")]
+        public AK.Wwise.Event event_Ennemy_Grenadier_MeleeAttackBegin_Play;
+        public AK.Wwise.Event event_Ennemy_Grenadier_MeleeAttackEnd_Play;
+        public AK.Wwise.Event event_Ennemy_Grenadier_AttackAllStop_Play;
+        
+        [Header("Projectile Attack")]
+        public AK.Wwise.Event event_Ennemy_Grenadier_ChargeProjectile_Play;
+        
+        
+        [Header("Hit")]
+        public AK.Wwise.Event event_Ennemy_Grenadier_Hit_Play;
+        
+        [Header("Shield")]
+        public AK.Wwise.Event event_Ennemy_Grenadier_Shield_Play;
+        public AK.Wwise.Event event_Ennemy_Grenadier_ShieldActivate_Play;
+        public AK.Wwise.Event event_Ennemy_Grenadier_ShieldDeactivate_Play;
+        
+        [Header("Fall/Death")]
+        public AK.Wwise.Event event_Ennemy_Grenadier_Death_Play;
+        
+        
+        
+        // END AUDIO MANAGEMENT //
+        
         protected PlayerController m_Target;
         //used to store the position of the target when the Grenadier decide to shoot, so if the player
         //move between the start of the animation and the actual grenade launch, it shoot were it was not where it is now
@@ -68,7 +111,67 @@ namespace Gamekit3D
 
         protected float m_ShieldActivationTime;
 
+        
+        // AUDIO MANAGEMENT METHOD //
+        
+        public void SFX_Ennemy_Grenadier_Grunt_Play()
+        {
+            event_Ennemy_Grenadier_Idle_Play.Post(AS_MOUTH);
+        }
 
+        public void SFX_Ennemy_Grenadier_FTSWalk_Play()
+        {
+            event_Ennemy_Grenadier_FTSWalk_Play.Post(AS_FTS);
+        }
+        
+                
+        public void SFX_Ennemy_Grenadier_ShieldActivate_Play()
+        {
+            event_Ennemy_Grenadier_ShieldActivate_Play.Post(AS_BODY);
+        }
+        
+        public void SFX_Ennemy_Grenadier_ShieldDeactivate_Play()
+        {
+            event_Ennemy_Grenadier_Shield_Play.Post(AS_BODY);
+        }
+        
+        public void SFX_Ennemy_Grenadier_Death_Play()
+        {
+            event_Ennemy_Grenadier_Death_Play.Post(AS_MOUTH);
+        }
+        
+        public void SFX_Ennemy_Grenadier_Hit_Play()
+        {
+            event_Ennemy_Grenadier_Hit_Play.Post(AS_BODY);
+        }
+        
+        public void SFX_Ennemy_Grenadier_Spotted_Play()
+        {
+            event_Ennemy_Grenadier_Spotted_Play.Post(AS_MOUTH);
+        }
+        
+        public void SFX_Ennemy_Grenadier_MeleeAttackBegin_Play()
+        {
+            event_Ennemy_Grenadier_MeleeAttackBegin_Play.Post(AS_MOUTH);
+        }
+        
+        public void SFX_Ennemy_Grenadier_MeleeAttackEnd_Play()
+        {
+            event_Ennemy_Grenadier_MeleeAttackEnd_Play.Post(AS_MOUTH);
+        }
+        
+        public void SFX_Ennemy_Grenadier_ChargeProjectAttack_Play()
+        {
+            event_Ennemy_Grenadier_ChargeProjectile_Play.Post(AS_MOUTH);
+        }
+        
+        public void SFX_Ennemy_Grenadier_AttackAll_Stop()
+        {
+            event_Ennemy_Grenadier_AttackAllStop_Play.Post(AS_MOUTH);
+        }
+
+        // END AUDIO MANAGEMENT METHOD //
+        
         void OnEnable()
         {
             m_EnemyController = GetComponent<EnemyController>();
@@ -123,19 +226,20 @@ namespace Gamekit3D
 
         public void EndAttack()
         {
+            SFX_Ennemy_Grenadier_AttackAll_Stop();
             fistWeapon.EndAttack();
         }
 
         public void Hit()
         {
-            damageAudioPlayer.PlayRandomClip();
+            SFX_Ennemy_Grenadier_Hit_Play();
             m_EnemyController.animator.SetTrigger(hashHitParam);
             m_CoreMaterial.SetColor("_Color2", Color.red);
         }
 
         public void Die()
         {
-            deathAudioPlayer.PlayRandomClip();
+            SFX_Ennemy_Grenadier_Death_Play();
             m_EnemyController.animator.SetTrigger(hashDeathParam);
         }
 
@@ -144,12 +248,14 @@ namespace Gamekit3D
             shield.SetActive(true);
             m_ShieldActivationTime = 3.0f;
             m_Damageable.SetColliderState(false);
+            SFX_Ennemy_Grenadier_ShieldActivate_Play();
         }
 
         public void DeactivateShield()
         {
             shield.SetActive(false);
             m_Damageable.SetColliderState(true);
+            SFX_Ennemy_Grenadier_ShieldDeactivate_Play();
         }
 
         public void ReturnVulnerable()
@@ -162,14 +268,9 @@ namespace Gamekit3D
             m_GrenadeTarget = m_Target.transform.position;
         }
 
-        public void PlayStep()
-        {
-            footstepAudioPlayer.PlayRandomClip();
-        }
-
         public void Shoot()
         {
-            throwAudioPlayer.PlayRandomClip();
+            // throwAudioPlayer.PlayRandomClip();
 
             Vector3 toTarget = m_GrenadeTarget - transform.position;
 
