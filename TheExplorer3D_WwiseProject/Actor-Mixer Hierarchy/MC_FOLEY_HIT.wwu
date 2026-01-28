@@ -4,6 +4,37 @@
 		<WorkUnit Name="MC_FOLEY_HIT" ID="{2ECD8DE4-04C6-4AE1-B372-20AEA5F52403}" OwnerID="{65A2E22A-E794-4221-A7A8-FD772806260E}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="AM_HIT" ID="{FD026BCA-E9AD-48A3-88D1-71A60FE93FE0}" ShortID="375093641">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{261FB860-D7A9-4A93-901E-21837233DAC1}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="500"/>
+											<Property Name="Min" Type="Real64" Value="-500"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{52B66741-31D3-4292-A41E-6637D168A094}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="3"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
@@ -17,7 +48,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-16</Value>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

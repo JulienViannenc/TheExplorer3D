@@ -3,7 +3,17 @@
 	<Events>
 		<WorkUnit Name="MC_FOLEY_HIT" ID="{3C3D3414-7942-43F0-B55F-7DD711C97514}" OwnerID="{95486E1B-D63B-4FD9-9B55-8DABB18B1D3B}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="MC_FOLEY_HIT" ID="{0BA418B4-0954-4FA3-8CE0-6F57794087B3}"/>
+				<Event Name="MC_FOLEY_HIT" ID="{0BA418B4-0954-4FA3-8CE0-6F57794087B3}">
+					<ChildrenList>
+						<Action Name="" ID="{3125DA53-1040-4F34-8023-42B1BBD63137}" ShortID="140830813">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_HIT" ID="{69FE31A8-30F0-4B21-BE44-7707BA3375DF}" WorkUnitID="{2ECD8DE4-04C6-4AE1-B372-20AEA5F52403}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

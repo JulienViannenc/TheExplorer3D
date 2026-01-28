@@ -48,6 +48,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{C4864ABE-F9A8-47CC-BF16-D48A426AB836}" ShortID="98214086">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_FOL_Walk" ID="{1579C604-2390-4D1F-8174-D284E68BE14C}" WorkUnitID="{A75B471A-9BCA-4DC8-BB73-BE79103C8A18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="MC_FTS_Run" ID="{A359F91D-84CD-445B-B080-92CB62087E08}">
@@ -56,6 +63,13 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SW_RUN" ID="{E41A5D47-553E-4E8F-93DB-5896354D19CC}" WorkUnitID="{F6547CBB-1B7D-495A-89E4-83DBAB2C2394}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E32800E0-FACA-47E1-8ABA-1303E57210CA}" ShortID="557998188">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_FOL_Walk" ID="{1579C604-2390-4D1F-8174-D284E68BE14C}" WorkUnitID="{A75B471A-9BCA-4DC8-BB73-BE79103C8A18}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
