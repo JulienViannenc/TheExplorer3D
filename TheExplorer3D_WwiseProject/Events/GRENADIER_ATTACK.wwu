@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="GRENADIER_ATTACK_MELEE" ID="{79F91313-8D02-43FD-88A6-AF602D860987}" PersistMode="Reference"/>
 				<WorkUnit Name="GRENADIER_ATTACK_ENERGYWAVE" ID="{F9EF3FC6-A108-4A97-A64F-2034D4CC6506}" PersistMode="Reference"/>
+				<WorkUnit Name="GRENADIER_ATTACK_PROJECTILE" ID="{1DD04281-1218-479A-B2A1-1679AF33B952}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

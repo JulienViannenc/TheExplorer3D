@@ -89,7 +89,6 @@ namespace Gamekit3D
         public AK.Wwise.Event event_Ennemy_Grenadier_Hit_Play;
         
         [Header("Shield")]
-        public AK.Wwise.Event event_Ennemy_Grenadier_Shield_Play;
         public AK.Wwise.Event event_Ennemy_Grenadier_ShieldActivate_Play;
         public AK.Wwise.Event event_Ennemy_Grenadier_ShieldDeactivate_Play;
         
@@ -113,7 +112,7 @@ namespace Gamekit3D
 
         
         // AUDIO MANAGEMENT METHOD //
-        
+         
         public void SFX_Ennemy_Grenadier_Grunt_Play()
         {
             event_Ennemy_Grenadier_Idle_Play.Post(AS_MOUTH);
@@ -132,7 +131,7 @@ namespace Gamekit3D
         
         public void SFX_Ennemy_Grenadier_ShieldDeactivate_Play()
         {
-            event_Ennemy_Grenadier_Shield_Play.Post(AS_BODY);
+            event_Ennemy_Grenadier_ShieldDeactivate_Play.Post(AS_BODY);
         }
         
         public void SFX_Ennemy_Grenadier_Death_Play()

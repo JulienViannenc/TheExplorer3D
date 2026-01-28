@@ -8,7 +8,7 @@
 						<Action Name="" ID="{0C2120EA-B02C-470A-B625-2CD327B52932}" ShortID="33147628">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SW_WALK" ID="{45590C14-A0CC-4303-901B-54C19BE37F5A}" WorkUnitID="{F820E528-486A-4017-A2E6-CF3C624A2625}"/>
+									<ObjectRef Name="RC_Stone" ID="{6C6FD909-EAB7-4F1B-A8F1-56CFCF6D2EAB}" WorkUnitID="{F820E528-486A-4017-A2E6-CF3C624A2625}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

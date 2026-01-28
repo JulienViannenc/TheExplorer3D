@@ -34,7 +34,7 @@ namespace Gamekit3D
         public AK.Wwise.Event event_MC_Ellen_Combo_3_Play;
         public AK.Wwise.Event event_MC_Ellen_Combo_4_Play; 
         
-
+        
         [Header("GAME MANAGEMENT")]
         public float maxForwardSpeed = 8f;        // How fast Ellen can run.
         public float gravity = 20f;               // How fast Ellen accelerates downwards when airborne.
@@ -211,7 +211,7 @@ namespace Gamekit3D
             CacheAnimatorState();
 
             UpdateInputBlocking();
-
+    
             EquipMeleeWeapon(IsWeaponEquiped());
 
             m_Animator.SetFloat(m_HashStateTime, Mathf.Repeat(m_Animator.GetCurrentAnimatorStateInfo(0).normalizedTime, 1f));
@@ -708,61 +708,69 @@ namespace Gamekit3D
             checkFTSSurfaceType();
             event_MC_Ellen_Run_Play.Post(AS_FTS);
         }
-        
+
         public void checkFTSSurfaceType()
         {
             RaycastHit rayCastHit;
-        
-         // Get Raycast Hit and assing it to rayCastHit Variable. Vector3.down is a shortcut for Vector3(0,-1,0)
-         Physics.Raycast(transform.position, Vector3.down,out rayCastHit, 5.0f);
-         
-             currentSurfaceType = rayCastHit.transform.gameObject.tag;
-             
-             if (rayCastHit.transform.gameObject.layer == LayerMask.NameToLayer("Environment") && tmpSurfaceType != currentSurfaceType)
-             {
-                 
-                     switch (currentSurfaceType)
-                     { 
-                         case "MudGrass":
-                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "MudGrass", gameObject);
-                             break;
-                         
-                         case "Grass":
-                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Grass", gameObject);
-                             break;
-                         
-                         case "Mud":
-                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Mud", gameObject);
-                             break;
-                         
-                         case "Stone":
-                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Stone", gameObject);
-                             break;
-                         
-                         case "Water":
-                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Water", gameObject);
-                             break;
-                         
-                         case "Dirt":
-                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Dirt", gameObject);
-                             break;
-                         
-                         // Like in Wwise if not SurfaceType is detected we switch it to Dirt
-                         default:
-                             AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Dirt", gameObject);
-                             break;
-                     }
 
-                     // Avoid sending a switch to Wwise if the currennt SurfaceTypeSwitch is the same as detected by the new RayCast
-                     tmpSurfaceType = currentSurfaceType;
-             }
+            // Get Raycast Hit and assing it to rayCastHit Variable. Vector3.down is a shortcut for Vector3(0,-1,0)
+            Physics.Raycast(transform.position, Vector3.down, out rayCastHit, 4f);
 
+
+            if (rayCastHit.collider != null)
+            {
+                currentSurfaceType = rayCastHit.transform.gameObject.tag;
+                if (currentSurfaceType != tmpSurfaceType)
+                {
+                    Debug.Log(currentSurfaceType);
+
+                    switch (currentSurfaceType)
+                    {
+                        case "MudGrass":
+                            AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "MudGrass", AS_FTS);
+                            break;
+
+                        case "Grass":
+                            AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Grass", AS_FTS);
+                            break;
+
+                        case "Mud":
+                            AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Mud", AS_FTS);
+                            break;
+
+                        case "Stone":
+                            AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Stone", AS_FTS);
+                            break;
+
+                        case "Water":
+                            AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Water", AS_FTS);
+                            break;
+
+                        case "Dirt":
+                            AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Dirt", AS_FTS);
+                            break;
+
+                        // Like in Wwise if not SurfaceType is detected we switch it to Dirt
+                        default:
+                            AkSoundEngine.SetSwitch(FTS_SurfaceType_SwitchGroup, "Dirt", gameObject);
+                            break;
+                    }
+                    // Avoid sending a switch to Wwise if the currennt SurfaceTypeSwitch is the same as detected by the new RayCast
+
+                }
+
+                else
+                {
+                    Debug.Log("Null Raycast");
+                }
+            }   
+
+            tmpSurfaceType = currentSurfaceType;
             
-         
         }
-        
 
-        
+
+
     }
  
 

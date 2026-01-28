@@ -14,12 +14,16 @@
 					</ReferenceList>
 					<ChildrenList>
 						<SwitchContainer Name="SW_WALK" ID="{45590C14-A0CC-4303-901B-54C19BE37F5A}" ShortID="835779905">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="Dirt" ID="{E491084C-1722-45C6-A89C-9EB9CC64C73A}" WorkUnitID="{BA51E674-0078-4B8A-B07C-8D71845603EC}"/>
+									<ObjectRef Name="Stone" ID="{CDEA976F-5E11-4F1C-BC96-16BE8041C81A}" WorkUnitID="{BA51E674-0078-4B8A-B07C-8D71845603EC}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>

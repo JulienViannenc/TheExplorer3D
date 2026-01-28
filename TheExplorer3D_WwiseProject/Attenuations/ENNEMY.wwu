@@ -8,6 +8,7 @@
 			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="CHOMPER" ID="{A497FE11-A645-4B41-A661-24E87662CF45}" PersistMode="Reference"/>
+				<WorkUnit Name="GRENADIER" ID="{A706C5C0-DCF0-4D00-916A-4E5B3FA0A7CF}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Attenuations>

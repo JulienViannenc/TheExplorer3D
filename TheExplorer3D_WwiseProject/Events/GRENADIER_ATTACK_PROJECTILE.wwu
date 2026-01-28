@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1DD04281-1218-479A-B2A1-1679AF33B952}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{80912C5A-B934-47B1-A151-BED6926F29FF}">
+	<Events>
+		<WorkUnit Name="GRENADIER_ATTACK_PROJECTILE" ID="{1DD04281-1218-479A-B2A1-1679AF33B952}" OwnerID="{80912C5A-B934-47B1-A151-BED6926F29FF}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GRENADIER_ATTACK_PROJECTILE_Charge" ID="{FCC360C9-D801-4F85-8FBF-6EB232013D42}">
+					<ChildrenList>
+						<Action Name="" ID="{4B7A4737-B643-4BF2-9095-8C65869B8FC2}" ShortID="705680487">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Charge" ID="{43988864-9290-425E-8622-539F621AAEF7}" WorkUnitID="{9FE51A10-6508-4098-8161-D2B36E6F73AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -95554,16 +95554,18 @@ MonoBehaviour:
   event_Ennemy_Grenadier_FTSWalk_Play:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: ccdf04e3b8a369247832241341bc520a,
+      type: 2}
   event_Ennemy_Grenadier_Spotted_Play:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  event_Ennemy_Grenadier_AttackBegin_Play:
+  event_Ennemy_Grenadier_MeleeAttackBegin_Play:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  event_Ennemy_Grenadier_AttackEnd_Play:
+    WwiseObjectReference: {fileID: 11400000, guid: fb5ce70c3b4bac34d934a13feca4fc4d,
+      type: 2}
+  event_Ennemy_Grenadier_MeleeAttackEnd_Play:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
@@ -95571,14 +95573,31 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  event_Ennemy_Grenadier_ChargeProjectile_Play:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6697ad03d26158449ab12d79944c277e,
+      type: 2}
   event_Ennemy_Grenadier_Hit_Play:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 7c690b510d21461498752d01f8878a08,
+      type: 2}
+  event_Ennemy_Grenadier_ShieldActivate_Play:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 400b6a7b8829b1e438f4835abd421164,
+      type: 2}
+  event_Ennemy_Grenadier_ShieldDeactivate_Play:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 74518d1c4944f104daed9b34797df6ee,
+      type: 2}
   event_Ennemy_Grenadier_Death_Play:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: b64925abaa2e46e45adaf611990ac739,
+      type: 2}
 --- !u!195 &195657170040882262
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -100991,8 +101010,40 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5654591882724648588, guid: 942beb812ba835942b7f3544a1b73f93,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 363292610442017170}
   m_SourcePrefab: {fileID: 100100000, guid: 942beb812ba835942b7f3544a1b73f93, type: 3}
+--- !u!1 &4638065904551194467 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5654591882724648588, guid: 942beb812ba835942b7f3544a1b73f93,
+    type: 3}
+  m_PrefabInstance: {fileID: 1019112066835007983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &363292610442017170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4638065904551194467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d773d0b02b57c3141b961ff584d1d577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!4 &5433571219563820025 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4990957306412857878, guid: 942beb812ba835942b7f3544a1b73f93,
