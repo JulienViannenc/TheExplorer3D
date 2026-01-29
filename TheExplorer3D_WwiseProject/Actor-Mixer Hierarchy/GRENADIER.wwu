@@ -5,9 +5,15 @@
 			<ChildrenList>
 				<ActorMixer Name="AC_GRENADIER" ID="{D3ADE701-5077-4A3C-B581-20EF5F239247}" ShortID="679153636">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ATT_GRENADIER_GENERAL" ID="{70C25A20-4D7D-4430-AC4B-96773C924AB8}" WorkUnitID="{A706C5C0-DCF0-4D00-916A-4E5B3FA0A7CF}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
 						</Reference>

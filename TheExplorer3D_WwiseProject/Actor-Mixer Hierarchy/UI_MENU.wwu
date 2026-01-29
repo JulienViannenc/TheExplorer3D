@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5E36E4CF-9AE9-44C5-8BD9-B7D22A9A5BAC}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{D4EFDD2E-1939-4F73-9F24-B033526E8B2A}">
+	<AudioObjects>
+		<WorkUnit Name="UI_MENU" ID="{5E36E4CF-9AE9-44C5-8BD9-B7D22A9A5BAC}" OwnerID="{D4EFDD2E-1939-4F73-9F24-B033526E8B2A}" PersistMode="Nested"/>
+	</AudioObjects>
+</WwiseDocument>

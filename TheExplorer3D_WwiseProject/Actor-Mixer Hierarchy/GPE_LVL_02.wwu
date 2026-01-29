@@ -12,6 +12,11 @@
 							<ObjectRef Name="GPE_LVL_02" ID="{A001116E-7E7E-4F12-B97A-6D4F527870C2}" WorkUnitID="{74AB6A32-C097-4D6E-98DD-5F785D8D80CD}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="GPE_BUTTON" ID="{97EBE074-8BA7-4FAB-A878-326C1F4BEBCC}" PersistMode="Reference"/>
+						<WorkUnit Name="GPE_DOOR_LVL_02" ID="{1734C5E4-E60B-4EA8-9020-D906B9BDD87C}" PersistMode="Reference"/>
+						<WorkUnit Name="GPE_PLATEFORM" ID="{893F1FD2-EB75-4086-8F19-9E08F1408248}" PersistMode="Reference"/>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

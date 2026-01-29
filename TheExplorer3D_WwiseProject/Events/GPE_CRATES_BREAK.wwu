@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{04ADFA17-5B9F-453A-AB1D-62EFC53CB3D9}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{05951F2D-F2FB-4DCF-91D1-B55A87637E44}">
+	<Events>
+		<WorkUnit Name="GPE_CRATES_BREAK" ID="{04ADFA17-5B9F-453A-AB1D-62EFC53CB3D9}" OwnerID="{05951F2D-F2FB-4DCF-91D1-B55A87637E44}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GPE_CratesBreak" ID="{4B673518-FF97-4A45-A752-2FF7DD54E282}">
+					<ChildrenList>
+						<Action Name="" ID="{908C6F64-80C5-4E56-8411-C0DD3674471B}" ShortID="684329562">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_CratesBreak" ID="{286E8FFA-3FBB-4F50-8834-7CB4EAE07EF9}" WorkUnitID="{EDF07F27-DB21-4F02-B786-930FE5DD5521}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

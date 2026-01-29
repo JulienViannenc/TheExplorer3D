@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8DBCE72B-4AD8-43E5-ADFE-D8329EA2078D}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{6FBDF1EB-D61A-4595-BEBD-6B878DBEEC8C}">
+	<AudioObjects>
+		<WorkUnit Name="GPE_SWITCH" ID="{8DBCE72B-4AD8-43E5-ADFE-D8329EA2078D}" OwnerID="{6C1DFFCF-A8E7-4D0F-B790-701066A74848}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AM_SWITCH" ID="{4BE74271-22B3-4B57-A664-6F1FC3DDF4F2}" ShortID="67569354">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RC_SwitchIdle" ID="{A139D757-028D-4A79-926E-C9BFB6926DA1}" ShortID="92316812">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GPE_SwitchIdle_LP" ID="{EED50688-F7A2-467C-813A-6FF4A0163DE7}" ShortID="670329898">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_SwitchIdle_LP" ID="{D3BC19C3-A3F3-463A-9DCC-4F118700B7E3}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_SwitchIdle_LP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1004804420"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_SwitchIdle_LP" ID="{D3BC19C3-A3F3-463A-9DCC-4F118700B7E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_SwitchActivate" ID="{D206E13D-1B72-419F-96C1-F1E99A27DC8C}" ShortID="298182954">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GPE_SwitchActivate_03" ID="{D4A48B72-265A-4815-BEFF-5BB52AACEF06}" ShortID="865805960">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_SwitchActivate_03" ID="{771DEF21-3B96-4E5E-B580-1EB26DFAD1FA}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_SwitchActivate_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="871365457"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_SwitchActivate_03" ID="{771DEF21-3B96-4E5E-B580-1EB26DFAD1FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GPE_SwitchActivate_02" ID="{66FDE723-60B6-431C-86BB-597FFBC2079F}" ShortID="909195164">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_SwitchActivate_02" ID="{FF2D5887-1A45-40F9-AA8C-6736C49C197F}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_SwitchActivate_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="658524535"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_SwitchActivate_02" ID="{FF2D5887-1A45-40F9-AA8C-6736C49C197F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GPE_SwitchActivate_01" ID="{68F7CC39-46C6-4885-9947-15F65A7C8B93}" ShortID="736815292">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_SwitchActivate_01" ID="{AB1F900F-15B8-4382-A7B6-7D00631DA746}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_SwitchActivate_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986579273"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_SwitchActivate_01" ID="{AB1F900F-15B8-4382-A7B6-7D00631DA746}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A32A1B13-6F1E-44BD-AEA1-F2CB272EF439}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{3FDE78F9-B477-466B-BB8A-3AEF57C9AD5B}">
+	<Events>
+		<WorkUnit Name="GPE_DOOR_LVL_02" ID="{A32A1B13-6F1E-44BD-AEA1-F2CB272EF439}" OwnerID="{3FDE78F9-B477-466B-BB8A-3AEF57C9AD5B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GPE_MoveDoor02" ID="{1566D995-0EF1-41EF-B2A6-D3675D57062C}">
+					<ChildrenList>
+						<Action Name="" ID="{C7848163-6A0B-4B71-81DE-BF0CF8B12AC1}" ShortID="100677083">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_DoorMove" ID="{5512CB87-C68C-4173-9514-A5E1D06BCD81}" WorkUnitID="{1734C5E4-E60B-4EA8-9020-D906B9BDD87C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GPE_StartDoor02" ID="{F7C3AF0D-2F24-4B0E-94E7-2D2DB6809D7C}">
+					<ChildrenList>
+						<Action Name="" ID="{C48076A0-ABC2-4C2B-97A4-13B68C94B8DD}" ShortID="732324852">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_DoorStart" ID="{48FD8E43-DEDF-4B4C-B941-FD9D725762D6}" WorkUnitID="{1734C5E4-E60B-4EA8-9020-D906B9BDD87C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GPE_StopDoor02" ID="{1421F38E-96A9-4B54-ABAC-A8D4A23F75B3}">
+					<ChildrenList>
+						<Action Name="" ID="{5F4D88AD-1E61-46A2-AC23-16920BAADE8A}" ShortID="987989325">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_DoorStop" ID="{EECAA3B9-2168-4903-905E-316862535995}" WorkUnitID="{1734C5E4-E60B-4EA8-9020-D906B9BDD87C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

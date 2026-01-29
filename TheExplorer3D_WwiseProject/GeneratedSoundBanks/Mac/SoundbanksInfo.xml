@@ -9,13 +9,217 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85035280" Type="User" Language="SFX" Hash="{D5A34C87-9E37-52BA-E2E0-5A833FF38B92}">
+		<SoundBank Id="85035280" Type="User" Language="SFX" Hash="{A508FB5E-9CC3-647C-DCAC-FB9DDC2BA716}">
 			<ShortName>GPE_LVL_01</ShortName>
 			<Path>GPE_LVL_01.bnk</Path>
+			<Media>
+				<File Id="94715260" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_CratesHealsBreaks_02.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_CratesHealsBreaks_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="164059021" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_CratesHealsIdle_LP.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_CratesHealsIdle_LP_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="190476544" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_Crates_Breaks_02.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_Crates_Breaks_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="346089246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_CratesHealsBreaks_03.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_CratesHealsBreaks_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="349293864" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_Crates_Breaks_04.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_Crates_Breaks_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="482248592" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_1st_Zone_DoorMove_LP.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_1st_Zone_DoorMove_LP_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="658524535" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_SwitchActivate_02.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_SwitchActivate_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="812940083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_1st_Zone_DoorStart.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_1st_Zone_DoorStart_10C4C929.wem</CachePath>
+				</File>
+				<File Id="854537887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_Crates_Breaks_01.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_Crates_Breaks_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="871365457" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_SwitchActivate_03.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_SwitchActivate_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="873284796" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_CratesHealsBreaks_01.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_CratesHealsBreaks_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="874318896" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_Crates_Breaks_03.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_Crates_Breaks_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="978419175" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_1st_Zone_DoorClose.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_1st_Zone_DoorClose_10C4C929.wem</CachePath>
+				</File>
+				<File Id="986579273" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_SwitchActivate_01.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_SwitchActivate_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1004804420" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_SwitchIdle_LP.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_SwitchIdle_LP_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3250759686" Name="GPE_BreakHeals" DurationType="OneShot" DurationMin="2.4166667" DurationMax="2.8333333">
+					<MediaRefs>
+						<MediaRef Id="94715260"/>
+						<MediaRef Id="346089246"/>
+						<MediaRef Id="873284796"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2413915973" Name="GPE_CratesBreak" DurationType="OneShot" DurationMin="1.6833333" DurationMax="2.6666667">
+					<MediaRefs>
+						<MediaRef Id="190476544"/>
+						<MediaRef Id="349293864"/>
+						<MediaRef Id="854537887"/>
+						<MediaRef Id="874318896"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4007179743" Name="GPE_IdleHeals" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="164059021"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="732318602" Name="GPE_MoveDoor01" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="482248592"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2005152933" Name="GPE_StartDoor01" DurationType="OneShot" DurationMin="1.3" DurationMax="1.3">
+					<MediaRefs>
+						<MediaRef Id="812940083"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="935105681" Name="GPE_StopDoor01" DurationType="OneShot" DurationMin="2.4833333" DurationMax="2.4833333">
+					<MediaRefs>
+						<MediaRef Id="978419175"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2609067447" Name="GPE_SwitchActivate" DurationType="OneShot" DurationMin="1" DurationMax="1.0666667">
+					<MediaRefs>
+						<MediaRef Id="658524535"/>
+						<MediaRef Id="871365457"/>
+						<MediaRef Id="986579273"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3369982202" Name="GPE_Switchidle" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1004804420"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
-		<SoundBank Id="85035283" Type="User" Language="SFX" Hash="{93A6ECB8-B631-EBDC-382D-F50AC8A173F4}">
+		<SoundBank Id="85035283" Type="User" Language="SFX" Hash="{99DA9D32-A3CC-2AC7-AF44-AAAFAB89282D}">
 			<ShortName>GPE_LVL_02</ShortName>
 			<Path>GPE_LVL_02.bnk</Path>
+			<Media>
+				<File Id="51540848" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_Button_04.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_Button_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="61168473" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_PlateformStop_03.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_PlateformStop_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="111054161" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_Button_02.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_Button_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="122246086" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_PlateformMove.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_PlateformMove_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="233749599" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_2nd_Zone_DoorClose.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_2nd_Zone_DoorClose_10C4C929.wem</CachePath>
+				</File>
+				<File Id="388936945" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_Button_05.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_Button_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="464012625" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_PlateformStop_04.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_PlateformStop_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="480124733" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_PlateformStop_01.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_PlateformStop_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="668480194" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_Button_01.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_Button_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="696370825" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_Button_03.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_Button_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="752046556" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_2nd_Zone_DoorOpen.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_2nd_Zone_DoorOpen_10C4C929.wem</CachePath>
+				</File>
+				<File Id="874724290" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_PlateformStop_02.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_PlateformStop_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1005956539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GPE\GPE_2nd_Zone_Door_LP.wav</ShortName>
+					<CachePath>SFX/GPE/GPE_2nd_Zone_Door_LP_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="732318601" Name="GPE_MoveDoor02" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1005956539"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2628193989" Name="GPE_PlateformMove" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="122246086"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2391005534" Name="GPE_PlateformStop" DurationType="OneShot" DurationMin="2.9166667" DurationMax="3.3333333">
+					<MediaRefs>
+						<MediaRef Id="61168473"/>
+						<MediaRef Id="464012625"/>
+						<MediaRef Id="480124733"/>
+						<MediaRef Id="874724290"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3059470485" Name="GPE_PressButton" DurationType="OneShot" DurationMin="1.1" DurationMax="1.3">
+					<MediaRefs>
+						<MediaRef Id="51540848"/>
+						<MediaRef Id="111054161"/>
+						<MediaRef Id="388936945"/>
+						<MediaRef Id="668480194"/>
+						<MediaRef Id="696370825"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2005152934" Name="GPE_StartDoor02" DurationType="OneShot" DurationMin="1.3166667" DurationMax="1.3166667">
+					<MediaRefs>
+						<MediaRef Id="752046556"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="935105682" Name="GPE_StopDoor02" DurationType="OneShot" DurationMin="1.1166667" DurationMax="1.1166667">
+					<MediaRefs>
+						<MediaRef Id="233749599"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="239935045" Type="User" Language="SFX" Hash="{1562EB01-D9A8-81BB-DDA7-78433465687D}">
 			<ShortName>AMB_COMMON</ShortName>
@@ -87,11 +291,106 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{736452D1-0DCF-6CE7-7006-D60C27662B66}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{C5829FCB-1B89-3D6C-11F9-0F19BDC03AA8}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
+			<Media>
+				<File Id="56862839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonOpen_03.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonOpen_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="111040257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonHover_04.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonHover_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="251504332" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonClose_02.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonClose_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="345745993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonClose_03.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonClose_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="454593073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonHover_03.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonHover_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="457769577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonOpen_01.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonOpen_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="502033291" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonClick_02.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonClick_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="515572875" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonClick_03.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonClick_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="660421703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonHover_02.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonHover_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="741172127" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonClick_01.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonClick_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="749317402" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonOpen_02.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonOpen_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="873147616" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonOpen_04.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonOpen_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="880274384" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonClose_04.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonClose_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="980732138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonHover_01.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonHover_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1033926887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_ButtonClose_01.wav</ShortName>
+					<CachePath>SFX/UI/UI_ButtonClose_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2249769530" Name="UI_Click" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.26666668">
+					<MediaRefs>
+						<MediaRef Id="502033291"/>
+						<MediaRef Id="515572875"/>
+						<MediaRef Id="741172127"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2519197294" Name="UI_Close" DurationType="OneShot" DurationMin="0.71666664" DurationMax="0.71666664">
+					<MediaRefs>
+						<MediaRef Id="251504332"/>
+						<MediaRef Id="345745993"/>
+						<MediaRef Id="880274384"/>
+						<MediaRef Id="1033926887"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2118900976" Name="UI_Hover" DurationType="OneShot" DurationMin="0.2" DurationMax="0.2">
+					<MediaRefs>
+						<MediaRef Id="111040257"/>
+						<MediaRef Id="454593073"/>
+						<MediaRef Id="660421703"/>
+						<MediaRef Id="980732138"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3282376362" Name="UI_Open" DurationType="OneShot" DurationMin="0.6333333" DurationMax="0.6333333">
+					<MediaRefs>
+						<MediaRef Id="56862839"/>
+						<MediaRef Id="457769577"/>
+						<MediaRef Id="749317402"/>
+						<MediaRef Id="873147616"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{7CED5635-EC94-CDE3-C42C-FBDC728AB76C}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{66517629-D85F-64D3-5C4D-024CC22DDD21}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -99,9 +398,17 @@
 					<ShortName>MC\FTS\MC_FTS_LandStone_07.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_FTS_LandStone_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="23279497" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\FTS\MC_WalkFoley_01.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/FTS/MC_WalkFoley_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="40273937" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_FTS_WalkDirt_06.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_FTS_WalkDirt_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="57182371" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\FTS\MC_WalkFoley_03.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/FTS/MC_WalkFoley_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="57989408" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_FTS_WalkMud_02.wav</ShortName>
@@ -126,6 +433,10 @@
 				<File Id="67949743" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_FTS_WalkGrass_03.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_FTS_WalkGrass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="78698309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\FTS\MC_WalkFoley_05.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/FTS/MC_WalkFoley_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="85728624" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_03.wav</ShortName>
@@ -179,6 +490,10 @@
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_08.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_08_10C4C929.wem</CachePath>
 				</File>
+				<File Id="151591418" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\FTS\MC_WalkFoley_06.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/FTS/MC_WalkFoley_06_10C4C929.wem</CachePath>
+				</File>
 				<File Id="152163036" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_FTS_JumpDirt_05.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_FTS_JumpDirt_05_10C4C929.wem</CachePath>
@@ -195,6 +510,10 @@
 					<ShortName>MC\FTS\MC_FTS_JumpMud_09.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_FTS_JumpMud_09_10C4C929.wem</CachePath>
 				</File>
+				<File Id="158952073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\HIT\MC_Hit_02.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/HIT/MC_Hit_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="161936741" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_04.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_04_10C4C929.wem</CachePath>
@@ -202,6 +521,10 @@
 				<File Id="167498722" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_FTS_RunStone_01.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_FTS_RunStone_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="181616246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\HIT\MC_Hit_03.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/HIT/MC_Hit_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="187075449" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_FTS_JumpMud_10.wav</ShortName>
@@ -299,6 +622,10 @@
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_04.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_JumpFoley_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="366576204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\FTS\MC_WalkFoley_02.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/FTS/MC_WalkFoley_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="367314626" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_05.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_05_10C4C929.wem</CachePath>
@@ -387,6 +714,10 @@
 					<ShortName>MC\FTS\MC_FTS_LandMud_03.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_FTS_LandMud_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="498153670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\FTS\MC_WalkFoley_10.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/FTS/MC_WalkFoley_10_10C4C929.wem</CachePath>
+				</File>
 				<File Id="501857201" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_02.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_02_10C4C929.wem</CachePath>
@@ -467,6 +798,10 @@
 					<ShortName>MC\FTS\MC_FTS_JumpDirt_01.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_FTS_JumpDirt_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="606580953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\FTS\MC_WalkFoley_09.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/FTS/MC_WalkFoley_09_10C4C929.wem</CachePath>
+				</File>
 				<File Id="618556018" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\ATTACK\STICK\MC_Combo_02.wav</ShortName>
 					<CachePath>SFX/MC/ATTACK/STICK/MC_Combo_02_10C4C929.wem</CachePath>
@@ -494,6 +829,10 @@
 				<File Id="674474459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_FTS_JumpMud_01.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_FTS_JumpMud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="677176119" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\HIT\MC_Hit_04.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/HIT/MC_Hit_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="678317064" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_FTS_WalkGrass_09.wav</ShortName>
@@ -683,6 +1022,10 @@
 					<ShortName>MC\FTS\MC_FTS_JumpMud_03.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_FTS_JumpMud_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="952887422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\FTS\MC_WalkFoley_04.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/FTS/MC_WalkFoley_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="958002252" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FOLEY\FTS\MC_LandFoley_01.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_LandFoley_01_10C4C929.wem</CachePath>
@@ -695,9 +1038,21 @@
 					<ShortName>MC\FOLEY\FTS\MC_JumpFoley_05.wav</ShortName>
 					<CachePath>SFX/MC/FOLEY/FTS/MC_JumpFoley_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="978903050" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\FTS\MC_WalkFoley_08.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/FTS/MC_WalkFoley_08_10C4C929.wem</CachePath>
+				</File>
 				<File Id="985397720" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_FTS_RunGrass_02.wav</ShortName>
 					<CachePath>SFX/MC/FTS/MC_FTS_RunGrass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="985977685" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\FTS\MC_WalkFoley_07.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/FTS/MC_WalkFoley_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="987795360" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC\FOLEY\HIT\MC_Hit_01.wav</ShortName>
+					<CachePath>SFX/MC/FOLEY/HIT/MC_Hit_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="988479557" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC\FTS\MC_FTS_WalkGrass_08.wav</ShortName>
@@ -788,7 +1143,14 @@
 				</Event>
 				<Event Id="2197135454" Name="MC_FOL_FTS_Jump" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1530274047" Name="MC_FOL_FTS_Landing" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2895583815" Name="MC_FOLEY_HIT" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2895583815" Name="MC_FOLEY_HIT" DurationType="OneShot" DurationMin="0.6742382" DurationMax="1.2013558">
+					<MediaRefs>
+						<MediaRef Id="158952073"/>
+						<MediaRef Id="181616246"/>
+						<MediaRef Id="677176119"/>
+						<MediaRef Id="987795360"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4146202944" Name="MC_FTS_Jump" DurationType="OneShot" DurationMin="0.46666667" DurationMax="0.46666667">
 					<MediaRefs>
 						<MediaRef Id="357388531"/>
@@ -928,7 +1290,19 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="621912139" Name="MC_FTS_Run" DurationType="OneShot" DurationMin="0" DurationMax="0.58796316">
+				<Event Id="621912139" Name="MC_FTS_Run" DurationType="OneShot" DurationMin="0.45" DurationMax="0.58796316">
+					<MediaRefs>
+						<MediaRef Id="23279497"/>
+						<MediaRef Id="57182371"/>
+						<MediaRef Id="78698309"/>
+						<MediaRef Id="151591418"/>
+						<MediaRef Id="366576204"/>
+						<MediaRef Id="498153670"/>
+						<MediaRef Id="606580953"/>
+						<MediaRef Id="952887422"/>
+						<MediaRef Id="978903050"/>
+						<MediaRef Id="985977685"/>
+					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="4248645337"/>
@@ -992,7 +1366,19 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1508294759" Name="MC_FTS_Walk" DurationType="OneShot" DurationMin="0" DurationMax="0.46666667">
+				<Event Id="1508294759" Name="MC_FTS_Walk" DurationType="OneShot" DurationMin="0.45" DurationMax="0.46666667">
+					<MediaRefs>
+						<MediaRef Id="23279497"/>
+						<MediaRef Id="57182371"/>
+						<MediaRef Id="78698309"/>
+						<MediaRef Id="151591418"/>
+						<MediaRef Id="366576204"/>
+						<MediaRef Id="498153670"/>
+						<MediaRef Id="606580953"/>
+						<MediaRef Id="952887422"/>
+						<MediaRef Id="978903050"/>
+						<MediaRef Id="985977685"/>
+					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3090884174" Id="4248645337"/>
@@ -1070,7 +1456,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2535170914" Type="User" Language="SFX" Hash="{93F82D1D-5FBA-3C08-0E90-D139357EB4EB}">
+		<SoundBank Id="2535170914" Type="User" Language="SFX" Hash="{DAE5E2A6-6045-7F36-455A-5AA5ADA5A7BC}">
 			<ShortName>ENNEMY_CHOMPER</ShortName>
 			<Path>ENNEMY_CHOMPER.bnk</Path>
 			<Media>
@@ -1307,7 +1693,7 @@
 				<Event Id="3526276424" Name="CHOMPER_VOICE_Grunt_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2634244267" Type="User" Language="SFX" Hash="{134221E3-5EE8-276F-7A4B-D5731E608F1C}">
+		<SoundBank Id="2634244267" Type="User" Language="SFX" Hash="{6DC3D26E-56E9-9D8D-6D02-07BBAA82FDE0}">
 			<ShortName>ENNEMY_GRENADIER</ShortName>
 			<Path>ENNEMY_GRENADIER.bnk</Path>
 			<Media>
@@ -1334,6 +1720,10 @@
 				<File Id="305789152" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\GRENADIER\FTS\ENNEMY_Grenadier_WalkStone_05.wav</ShortName>
 					<CachePath>SFX/ENNEMY/GRENADIER/FTS/ENNEMY_Grenadier_WalkStone_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="327674449" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\GRENADIER\SFX\ENEMY_Grenadier_EnergyShield_STOP.wav</ShortName>
+					<CachePath>SFX/ENNEMY/GRENADIER/SFX/ENEMY_Grenadier_EnergyShield_STOP_10C4C929.wem</CachePath>
 				</File>
 				<File Id="366110730" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceDeath.wav</ShortName>
@@ -1423,20 +1813,24 @@
 					<ShortName>ENNEMY\GRENADIER\FTS\ENNEMY_Grenadier_WalkStone_07.wav</ShortName>
 					<CachePath>SFX/ENNEMY/GRENADIER/FTS/ENNEMY_Grenadier_WalkStone_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1045644415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ENNEMY\GRENADIER\SFX\ENNEMY_Grenadier_EnergyShield_LP.wav</ShortName>
+					<CachePath>SFX/ENNEMY/GRENADIER/SFX/ENNEMY_Grenadier_EnergyShield_LP_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="1059786905" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ENNEMY\GRENADIER\VOICES\ENNEMY_Grenadier_VoiceAttackMelee_03.wav</ShortName>
 					<CachePath>SFX/ENNEMY/GRENADIER/VOICES/ENNEMY_Grenadier_VoiceAttackMelee_03_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3720004231" Name="GRENADIER_ATTACK_ENERGYWAVE_EnergyWave" DurationType="OneShot" DurationMin="4.05" DurationMax="6">
+				<Event Id="3720004231" Name="GRENADIER_ATTACK_ENERGYWAVE_EnergyWave" MaxAttenuation="65" DurationType="OneShot" DurationMin="4.05" DurationMax="6">
 					<MediaRefs>
 						<MediaRef Id="884297059"/>
 						<MediaRef Id="962320185"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3498160770" Name="GRENADIER_ATTACK_ENERGYWAVE_EnergyWave_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="532878879" Name="GRENADIER_ATTACK_MELEE_MeleeAttack" DurationType="OneShot" DurationMin="4" DurationMax="4.5">
+				<Event Id="532878879" Name="GRENADIER_ATTACK_MELEE_MeleeAttack" MaxAttenuation="65" DurationType="OneShot" DurationMin="4" DurationMax="4.5">
 					<MediaRefs>
 						<MediaRef Id="6285223"/>
 						<MediaRef Id="265631122"/>
@@ -1447,20 +1841,20 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="3854106794" Name="GRENADIER_ATTACK_MELEE_MeleeAttack_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4086690666" Name="GRENADIER_ATTACK_PROJECTILE_Charge" DurationType="OneShot" DurationMin="3.3666666" DurationMax="3.8666666">
+				<Event Id="4086690666" Name="GRENADIER_ATTACK_PROJECTILE_Charge" MaxAttenuation="65" DurationType="OneShot" DurationMin="3.3666666" DurationMax="3.8666666">
 					<MediaRefs>
 						<MediaRef Id="130199280"/>
 						<MediaRef Id="150286859"/>
 						<MediaRef Id="151567531"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3955951548" Name="GRENADIER_DEATH_Death" DurationType="OneShot" DurationMin="6.6666665" DurationMax="6.6666665">
+				<Event Id="3955951548" Name="GRENADIER_DEATH_Death" MaxAttenuation="65" DurationType="OneShot" DurationMin="6.6666665" DurationMax="6.6666665">
 					<MediaRefs>
 						<MediaRef Id="366110730"/>
 						<MediaRef Id="423206502"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1326145388" Name="GRENADIER_FTS_WALK" DurationType="OneShot" DurationMin="1" DurationMax="1.3">
+				<Event Id="1326145388" Name="GRENADIER_FTS_WALK" MaxAttenuation="25" DurationType="OneShot" DurationMin="0.74915355" DurationMax="1.7352917">
 					<MediaRefs>
 						<MediaRef Id="305789152"/>
 						<MediaRef Id="372190407"/>
@@ -1473,7 +1867,7 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="523680603" Name="GRENADIER_FTS_WALK_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2951423360" Name="GRENADIER_HIT_Hit" DurationType="OneShot" DurationMin="1.2666667" DurationMax="1.4833333">
+				<Event Id="2951423360" Name="GRENADIER_HIT_Hit" MaxAttenuation="65" DurationType="OneShot" DurationMin="1.2666667" DurationMax="1.4833333">
 					<MediaRefs>
 						<MediaRef Id="428135072"/>
 						<MediaRef Id="450523000"/>
@@ -1486,8 +1880,16 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1154937519" Name="GRENADIER_HIT_Hit_STOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="398021083" Name="GRENADIER_ShieldActivate" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3838366834" Name="GRENADIER_ShieldDeactivate" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="398021083" Name="GRENADIER_ShieldActivate" MaxAttenuation="65" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1045644415"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3838366834" Name="GRENADIER_ShieldDeactivate" MaxAttenuation="65" DurationType="OneShot" DurationMin="1.4983071" DurationMax="2.6696796">
+					<MediaRefs>
+						<MediaRef Id="327674449"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="3390404720" Name="SW_ENNEMY_GRENADIER_FTS_SURFACETYPE">
@@ -1533,5 +1935,5 @@
 			<Path>MUSIC.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{036719CB-34F7-0AA1-7059-4490CFB9CACF}</FileHash>
+	<FileHash>{FDDB7C23-ECCF-E120-C046-EEB3064BD46C}</FileHash>
 </SoundBanksInfo>

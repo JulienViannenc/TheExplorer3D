@@ -33,6 +33,20 @@ namespace AK
         static const AkUniqueID CHOMPER_VOICE_GRUNT = 1143561925U;
         static const AkUniqueID CHOMPER_VOICE_GRUNT_STOP = 3526276424U;
         static const AkUniqueID DUCKSOUND = 3169408195U;
+        static const AkUniqueID GPE_BREAKHEALS = 3250759686U;
+        static const AkUniqueID GPE_CRATESBREAK = 2413915973U;
+        static const AkUniqueID GPE_IDLEHEALS = 4007179743U;
+        static const AkUniqueID GPE_MOVEDOOR01 = 732318602U;
+        static const AkUniqueID GPE_MOVEDOOR02 = 732318601U;
+        static const AkUniqueID GPE_PLATEFORMMOVE = 2628193989U;
+        static const AkUniqueID GPE_PLATEFORMSTOP = 2391005534U;
+        static const AkUniqueID GPE_PRESSBUTTON = 3059470485U;
+        static const AkUniqueID GPE_STARTDOOR01 = 2005152933U;
+        static const AkUniqueID GPE_STARTDOOR02 = 2005152934U;
+        static const AkUniqueID GPE_STOPDOOR01 = 935105681U;
+        static const AkUniqueID GPE_STOPDOOR02 = 935105682U;
+        static const AkUniqueID GPE_SWITCHACTIVATE = 2609067447U;
+        static const AkUniqueID GPE_SWITCHIDLE = 3369982202U;
         static const AkUniqueID GRENADIER_ATTACK_ENERGYWAVE_ENERGYWAVE = 3720004231U;
         static const AkUniqueID GRENADIER_ATTACK_ENERGYWAVE_ENERGYWAVE_STOP = 3498160770U;
         static const AkUniqueID GRENADIER_ATTACK_MELEE_MELEEATTACK = 532878879U;
@@ -58,6 +72,10 @@ namespace AK
         static const AkUniqueID MC_FTS_RUN = 621912139U;
         static const AkUniqueID MC_FTS_WALK = 1508294759U;
         static const AkUniqueID STOP_DUCKSOUND = 973396280U;
+        static const AkUniqueID UI_CLICK = 2249769530U;
+        static const AkUniqueID UI_CLOSE = 2519197294U;
+        static const AkUniqueID UI_HOVER = 2118900976U;
+        static const AkUniqueID UI_OPEN = 3282376362U;
     } // namespace EVENTS
 
     namespace SWITCHES

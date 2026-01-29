@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{60F7B26C-D15B-4AB3-9CA5-D6D00E8DAFCA}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{3FDE78F9-B477-466B-BB8A-3AEF57C9AD5B}">
+	<Events>
+		<WorkUnit Name="GPE_BUTTON" ID="{60F7B26C-D15B-4AB3-9CA5-D6D00E8DAFCA}" OwnerID="{3FDE78F9-B477-466B-BB8A-3AEF57C9AD5B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GPE_PressButton" ID="{FAC0AAD2-C4F4-4FE6-8D9E-F0B312C35759}">
+					<ChildrenList>
+						<Action Name="" ID="{8AEF3B93-668F-46F2-B6FB-7AC58ECD8B09}" ShortID="259743698">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_Button" ID="{29749616-AE82-42E5-8E87-300F7F45E8C8}" WorkUnitID="{97EBE074-8BA7-4FAB-A878-326C1F4BEBCC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

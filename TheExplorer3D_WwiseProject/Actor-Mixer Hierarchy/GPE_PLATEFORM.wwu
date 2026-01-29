@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{893F1FD2-EB75-4086-8F19-9E08F1408248}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{9DEF562C-C454-4C9F-B147-C3A9F30C4D61}">
+	<AudioObjects>
+		<WorkUnit Name="GPE_PLATEFORM" ID="{893F1FD2-EB75-4086-8F19-9E08F1408248}" OwnerID="{9BAE57CE-0739-499D-8D2C-E5FEE83B2374}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AM_PLATEFORM" ID="{C15F82FB-5B3D-4110-A7B2-39FAF8E69301}" ShortID="432340149">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RC_PlaterformMove" ID="{E2B79C7F-F0BD-443C-B41A-FAF52B89864C}" ShortID="1068233089">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GPE_PlateformMove" ID="{DE00E71B-38DB-4F37-81DF-A8D0E2C937D1}" ShortID="375856974">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_PlateformMove" ID="{C0E53269-3C9D-4489-9457-C002C9B0F329}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_PlateformMove.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="122246086"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_PlateformMove" ID="{C0E53269-3C9D-4489-9457-C002C9B0F329}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_PlaterformStop" ID="{EAA3F86C-E521-41BC-BCE4-F40C6CE5BCAF}" ShortID="555304444">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GPE_PlateformStop_04" ID="{62BD4978-6BC7-44C7-A608-E62B4935B50E}" ShortID="183423866">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_PlateformStop_04" ID="{E133E644-2891-48D6-A97C-85FDE0931F72}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_PlateformStop_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="464012625"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_PlateformStop_04" ID="{E133E644-2891-48D6-A97C-85FDE0931F72}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GPE_PlateformStop_03" ID="{EF9553F0-4548-4266-BCB1-D7CB504CAD08}" ShortID="526552174">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_PlateformStop_03" ID="{E2891ECF-D06D-4CEB-BECA-CD3EC7270EFA}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_PlateformStop_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="61168473"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_PlateformStop_03" ID="{E2891ECF-D06D-4CEB-BECA-CD3EC7270EFA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GPE_PlateformStop_02" ID="{F70FF8B2-A18A-4448-A7DA-487C3348E972}" ShortID="825456539">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_PlateformStop_02" ID="{5393DAD0-2AA3-42AB-BA99-2E4B8647EBC3}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_PlateformStop_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="874724290"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_PlateformStop_02" ID="{5393DAD0-2AA3-42AB-BA99-2E4B8647EBC3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GPE_PlateformStop_01" ID="{25C7F7FB-5A72-45EA-BF69-138C3090FC47}" ShortID="691504658">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_PlateformStop_01" ID="{ECDB5421-736A-47D9-8ABA-7F068A7CD8D6}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_PlateformStop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="480124733"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_PlateformStop_01" ID="{ECDB5421-736A-47D9-8ABA-7F068A7CD8D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

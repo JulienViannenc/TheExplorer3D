@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{61C680BA-5FCD-4A2A-A991-42C185C3B44C}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{05951F2D-F2FB-4DCF-91D1-B55A87637E44}">
+	<Events>
+		<WorkUnit Name="GPE_CRATES_HEALS" ID="{61C680BA-5FCD-4A2A-A991-42C185C3B44C}" OwnerID="{05951F2D-F2FB-4DCF-91D1-B55A87637E44}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GPE_BreakHeals" ID="{64FC06DD-DC4E-44D3-B70C-8C398AA5B8E4}">
+					<ChildrenList>
+						<Action Name="" ID="{055AB496-5798-495D-A6D2-55FCE9DC7569}" ShortID="161110680">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_CratesHealsBreak" ID="{23551B81-EC01-49F6-AA9F-07197B41C7ED}" WorkUnitID="{EDF07F27-DB21-4F02-B786-930FE5DD5521}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GPE_IdleHeals" ID="{62E174F2-96F4-4651-BF1F-757CB9D986A9}">
+					<ChildrenList>
+						<Action Name="" ID="{3E7F6772-EE1E-4E58-8BA2-1733693191AD}" ShortID="876991790">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_CratesHealsIdle" ID="{04F8EAD9-19CD-4028-AD68-59B98ACBAA12}" WorkUnitID="{EDF07F27-DB21-4F02-B786-930FE5DD5521}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

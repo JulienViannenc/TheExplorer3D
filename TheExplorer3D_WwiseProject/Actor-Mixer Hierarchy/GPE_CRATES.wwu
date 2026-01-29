@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EDF07F27-DB21-4F02-B786-930FE5DD5521}" SchemaVersion="110" RootDocumentID="{67120D0F-7B64-4064-B540-8126AB07DC91}" ParentDocumentID="{6FBDF1EB-D61A-4595-BEBD-6B878DBEEC8C}">
+	<AudioObjects>
+		<WorkUnit Name="GPE_CRATES" ID="{EDF07F27-DB21-4F02-B786-930FE5DD5521}" OwnerID="{6C1DFFCF-A8E7-4D0F-B790-701066A74848}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AM_CRATES" ID="{1903DAF8-4851-407B-806C-C64CD0091D00}" ShortID="305888045">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RC_CratesBreak" ID="{286E8FFA-3FBB-4F50-8834-7CB4EAE07EF9}" ShortID="874848637">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="GPE_LVL_01" ID="{7C7E0066-3D3C-451B-AFBD-E6952597E280}" WorkUnitID="{74AB6A32-C097-4D6E-98DD-5F785D8D80CD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GPE_Crates_Breaks_01" ID="{0358404B-467F-44F4-90F1-B1F180676E3C}" ShortID="449983326">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_Crates_Breaks_01" ID="{E819ECF3-A981-4F06-B935-5DBFDAAE0A22}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_Crates_Breaks_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="854537887"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_Crates_Breaks_01" ID="{E819ECF3-A981-4F06-B935-5DBFDAAE0A22}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GPE_Crates_Breaks_02" ID="{84BEC2D9-58EF-4EC7-A306-D9A2D9295B8E}" ShortID="125210838">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_Crates_Breaks_02" ID="{8F385357-5EDF-4138-AB64-039CD5C6A18A}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_Crates_Breaks_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="190476544"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_Crates_Breaks_02" ID="{8F385357-5EDF-4138-AB64-039CD5C6A18A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GPE_Crates_Breaks_03" ID="{EB25A96F-7F3B-4475-A2B8-6D6A5200FED4}" ShortID="213600585">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_Crates_Breaks_03" ID="{F168550A-7B48-4B7D-9E3F-C8343C31F727}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_Crates_Breaks_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="874318896"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_Crates_Breaks_03" ID="{F168550A-7B48-4B7D-9E3F-C8343C31F727}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GPE_Crates_Breaks_04" ID="{CF22FAD4-CF4F-4417-913C-70539B8B2595}" ShortID="911892291">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_Crates_Breaks_04" ID="{48C5BF1C-9543-4D7A-B965-96BE2E90FCC4}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_Crates_Breaks_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="349293864"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_Crates_Breaks_04" ID="{48C5BF1C-9543-4D7A-B965-96BE2E90FCC4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_CratesHealsIdle" ID="{04F8EAD9-19CD-4028-AD68-59B98ACBAA12}" ShortID="395265600">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="GPE_LVL_01" ID="{7C7E0066-3D3C-451B-AFBD-E6952597E280}" WorkUnitID="{74AB6A32-C097-4D6E-98DD-5F785D8D80CD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GPE_CratesHealsIdle_LP" ID="{B9F24B96-A9B5-422B-A0A3-805007AA22B3}" ShortID="466594739">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_CratesHealsIdle_LP" ID="{F97A5AE1-9C45-404D-8FF6-CAA2138C4251}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_CratesHealsIdle_LP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="164059021"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_CratesHealsIdle_LP" ID="{F97A5AE1-9C45-404D-8FF6-CAA2138C4251}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RC_CratesHealsBreak" ID="{23551B81-EC01-49F6-AA9F-07197B41C7ED}" ShortID="123387232">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="GPE_LVL_01" ID="{7C7E0066-3D3C-451B-AFBD-E6952597E280}" WorkUnitID="{74AB6A32-C097-4D6E-98DD-5F785D8D80CD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GPE_CratesHealsBreaks_03" ID="{853EEDFB-40DF-44BC-B8F0-DCC4595E6271}" ShortID="229636643">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_CratesHealsBreaks_03" ID="{1DA9B12C-8AC2-45BF-BB9A-A7FD4873C89D}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_CratesHealsBreaks_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="346089246"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_CratesHealsBreaks_03" ID="{1DA9B12C-8AC2-45BF-BB9A-A7FD4873C89D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GPE_CratesHealsBreaks_02" ID="{8F853E6A-466E-41B0-9B9B-C58F9E164207}" ShortID="792281279">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_CratesHealsBreaks_02" ID="{B240AFA5-106B-441E-9C6F-F2ECA9B4BC1E}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_CratesHealsBreaks_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="94715260"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_CratesHealsBreaks_02" ID="{B240AFA5-106B-441E-9C6F-F2ECA9B4BC1E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GPE_CratesHealsBreaks_01" ID="{F06D8585-4DD7-4F80-9DDA-70B06636F9B9}" ShortID="284273790">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F39361A-C322-46AB-B7EE-DDFCA10025A8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GPE_CratesHealsBreaks_01" ID="{28E95305-1E88-4F5F-8878-AF4E54B9AFF4}">
+											<Language>SFX</Language>
+											<AudioFile>GPE\GPE_CratesHealsBreaks_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="873284796"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GPE_CratesHealsBreaks_01" ID="{28E95305-1E88-4F5F-8878-AF4E54B9AFF4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

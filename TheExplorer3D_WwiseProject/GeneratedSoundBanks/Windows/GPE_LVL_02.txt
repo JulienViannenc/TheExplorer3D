@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	732318601	GPE_MoveDoor02			\Default Work Unit\GPE\GPE_LVL_02\GPE_DOOR_LVL_02\GPE_MoveDoor02	
+	935105682	GPE_StopDoor02			\Default Work Unit\GPE\GPE_LVL_02\GPE_DOOR_LVL_02\GPE_StopDoor02	
+	2005152934	GPE_StartDoor02			\Default Work Unit\GPE\GPE_LVL_02\GPE_DOOR_LVL_02\GPE_StartDoor02	
+	2391005534	GPE_PlateformStop			\Default Work Unit\GPE\GPE_LVL_02\GPE_PLATEFORM\GPE_PlateformStop	
+	2628193989	GPE_PlateformMove			\Default Work Unit\GPE\GPE_LVL_02\GPE_PLATEFORM\GPE_PlateformMove	
+	3059470485	GPE_PressButton			\Default Work Unit\GPE\GPE_LVL_02\GPE_BUTTON\GPE_PressButton	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	51540848	GPE_Button_04	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\GPE\GPE_Button_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GPE\GPE_LVL_02\AM_LVL_02\GPE_BUTTON\AM_BUTTON\RC_Button\GPE_Button_04		249696
+	61168473	GPE_PlateformStop_03	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\GPE\GPE_PlateformStop_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GPE\GPE_LVL_02\AM_LVL_02\GPE_PLATEFORM\AM_PLATEFORM\RC_PlaterformStop\GPE_PlateformStop_03		592096
+	111054161	GPE_Button_02	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\GPE\GPE_Button_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GPE\GPE_LVL_02\AM_LVL_02\GPE_BUTTON\AM_BUTTON\RC_Button\GPE_Button_02		249696
+	122246086	GPE_PlateformMove	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\GPE\GPE_PlateformMove_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\GPE\GPE_LVL_02\AM_LVL_02\GPE_PLATEFORM\AM_PLATEFORM\RC_PlaterformMove\GPE_PlateformMove		4144096
+	233749599	GPE_2nd_Zone_DoorClose	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\GPE\GPE_2nd_Zone_DoorClose_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GPE\GPE_LVL_02\AM_LVL_02\GPE_DOOR_LVL_02\AM_DOOR\RC_DoorStop\GPE_2nd_Zone_DoorClose		214496
+	388936945	GPE_Button_05	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\GPE\GPE_Button_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GPE\GPE_LVL_02\AM_LVL_02\GPE_BUTTON\AM_BUTTON\RC_Button\GPE_Button_05		211296
+	464012625	GPE_PlateformStop_04	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\GPE\GPE_PlateformStop_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GPE\GPE_LVL_02\AM_LVL_02\GPE_PLATEFORM\AM_PLATEFORM\RC_PlaterformStop\GPE_PlateformStop_04		608096
+	480124733	GPE_PlateformStop_01	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\GPE\GPE_PlateformStop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GPE\GPE_LVL_02\AM_LVL_02\GPE_PLATEFORM\AM_PLATEFORM\RC_PlaterformStop\GPE_PlateformStop_01		640096
+	668480194	GPE_Button_01	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\GPE\GPE_Button_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GPE\GPE_LVL_02\AM_LVL_02\GPE_BUTTON\AM_BUTTON\RC_Button\GPE_Button_01		240096
+	696370825	GPE_Button_03	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\GPE\GPE_Button_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GPE\GPE_LVL_02\AM_LVL_02\GPE_BUTTON\AM_BUTTON\RC_Button\GPE_Button_03		211296
+	752046556	GPE_2nd_Zone_DoorOpen	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\GPE\GPE_2nd_Zone_DoorOpen_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GPE\GPE_LVL_02\AM_LVL_02\GPE_DOOR_LVL_02\AM_DOOR\RC_DoorStart\GPE_2nd_Zone_DoorOpen		252896
+	874724290	GPE_PlateformStop_02	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\GPE\GPE_PlateformStop_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GPE\GPE_LVL_02\AM_LVL_02\GPE_PLATEFORM\AM_PLATEFORM\RC_PlaterformStop\GPE_PlateformStop_02		560096
+	1005956539	GPE_2nd_Zone_Door_LP	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Windows\SFX\GPE\GPE_2nd_Zone_Door_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\GPE\GPE_LVL_02\AM_LVL_02\GPE_DOOR_LVL_02\AM_DOOR\RC_DoorMove\GPE_2nd_Zone_Door_LP		1142496
+

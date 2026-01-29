@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{05951F2D-F2FB-4DCF-91D1-B55A87637E44}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{8DD24F24-DB22-47AA-9452-797272C92CFC}">
 	<Events>
-		<WorkUnit Name="GPE_LVL_01" ID="{05951F2D-F2FB-4DCF-91D1-B55A87637E44}" OwnerID="{8DD24F24-DB22-47AA-9452-797272C92CFC}" PersistMode="Nested"/>
+		<WorkUnit Name="GPE_LVL_01" ID="{05951F2D-F2FB-4DCF-91D1-B55A87637E44}" OwnerID="{8DD24F24-DB22-47AA-9452-797272C92CFC}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="GPE_CRATES_BREAK" ID="{04ADFA17-5B9F-453A-AB1D-62EFC53CB3D9}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE_CRATES_HEALS" ID="{61C680BA-5FCD-4A2A-A991-42C185C3B44C}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE_DOOR_LVL_01" ID="{8264EDC9-35B7-4A0A-95EB-4C2D34A6ACC6}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE_SWITCH" ID="{9E73BEFF-FCD3-4C12-A757-29B3654C9782}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3FDE78F9-B477-466B-BB8A-3AEF57C9AD5B}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{8DD24F24-DB22-47AA-9452-797272C92CFC}">
 	<Events>
-		<WorkUnit Name="GPE_LVL_02" ID="{3FDE78F9-B477-466B-BB8A-3AEF57C9AD5B}" OwnerID="{8DD24F24-DB22-47AA-9452-797272C92CFC}" PersistMode="Nested"/>
+		<WorkUnit Name="GPE_LVL_02" ID="{3FDE78F9-B477-466B-BB8A-3AEF57C9AD5B}" OwnerID="{8DD24F24-DB22-47AA-9452-797272C92CFC}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="GPE_BUTTON" ID="{60F7B26C-D15B-4AB3-9CA5-D6D00E8DAFCA}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE_DOOR_LVL_02" ID="{A32A1B13-6F1E-44BD-AEA1-F2CB272EF439}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE_PLATEFORM" ID="{DF574280-557D-4BFD-A745-C9D7DB884E97}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

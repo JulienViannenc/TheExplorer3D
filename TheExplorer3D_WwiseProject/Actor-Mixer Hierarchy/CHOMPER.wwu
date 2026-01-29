@@ -5,12 +5,14 @@
 			<ChildrenList>
 				<ActorMixer Name="AC_CHOMPER" ID="{747F1DF1-43DD-42FC-A1E3-F28D145DEDA6}" ShortID="7093315">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>5</Value>
 							</ValueList>
 						</Property>
 						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2118900976	UI_Hover			\Default Work Unit\UI\UI_MENU\UI_Hover	
+	2249769530	UI_Click			\Default Work Unit\UI\UI_MENU\UI_Click	
+	2519197294	UI_Close			\Default Work Unit\UI\UI_MENU\UI_Close	
+	3282376362	UI_Open			\Default Work Unit\UI\UI_MENU\UI_Open	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	56862839	UI_ButtonOpen_03	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonOpen_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonOpen\UI_ButtonOpen_03		121696
+	111040257	UI_ButtonHover_04	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonHover_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonHover\UI_ButtonHover_04		38496
+	251504332	UI_ButtonClose_02	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonClose_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonClose\UI_ButtonClose_02		137696
+	345745993	UI_ButtonClose_03	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonClose_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonClose\UI_ButtonClose_03		137696
+	454593073	UI_ButtonHover_03	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonHover_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonHover\UI_ButtonHover_03		38496
+	457769577	UI_ButtonOpen_01	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonOpen_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonOpen\UI_ButtonOpen_01		121696
+	502033291	UI_ButtonClick_02	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonClick_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonClick\UI_ButtonClick_02		51296
+	515572875	UI_ButtonClick_03	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonClick_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonClick\UI_ButtonClick_03		51296
+	660421703	UI_ButtonHover_02	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonHover_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonHover\UI_ButtonHover_02		38496
+	741172127	UI_ButtonClick_01	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonClick_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonClick\UI_ButtonClick_01		51296
+	749317402	UI_ButtonOpen_02	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonOpen_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonOpen\UI_ButtonOpen_02		121696
+	873147616	UI_ButtonOpen_04	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonOpen_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonOpen\UI_ButtonOpen_04		121696
+	880274384	UI_ButtonClose_04	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonClose_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonClose\UI_ButtonClose_04		137696
+	980732138	UI_ButtonHover_01	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonHover_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonHover\UI_ButtonHover_01		38496
+	1033926887	UI_ButtonClose_01	C:\Users\ninol\Documents\SLOPE\UNITY\TheExplorer3D\TheExplorer3D\TheExplorer3D_WwiseProject\.cache\Mac\SFX\UI\UI_ButtonClose_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_MENU\AM_MENU\RC_ButtonClose\UI_ButtonClose_01		137696
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9E73BEFF-FCD3-4C12-A757-29B3654C9782}" SchemaVersion="110" RootDocumentID="{1279BB73-610B-4B39-833E-BEC908E07C89}" ParentDocumentID="{05951F2D-F2FB-4DCF-91D1-B55A87637E44}">
+	<Events>
+		<WorkUnit Name="GPE_SWITCH" ID="{9E73BEFF-FCD3-4C12-A757-29B3654C9782}" OwnerID="{05951F2D-F2FB-4DCF-91D1-B55A87637E44}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="GPE_Switchidle" ID="{96487764-01F2-45B5-B5E7-B4E6BCD56E6E}">
+					<ChildrenList>
+						<Action Name="" ID="{2390463F-42B0-4BE7-926B-A29BB0E8CC5F}" ShortID="1068470619">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_SwitchIdle" ID="{A139D757-028D-4A79-926E-C9BFB6926DA1}" WorkUnitID="{8DBCE72B-4AD8-43E5-ADFE-D8329EA2078D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GPE_SwitchActivate" ID="{C52122B6-AF2D-40E4-8A49-15A85510C00E}">
+					<ChildrenList>
+						<Action Name="" ID="{9674D64E-E0D4-4591-9270-7F65076E89D1}" ShortID="144399549">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC_SwitchActivate" ID="{D206E13D-1B72-419F-96C1-F1E99A27DC8C}" WorkUnitID="{8DBCE72B-4AD8-43E5-ADFE-D8329EA2078D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -12,6 +12,12 @@
 							<ObjectRef Name="GPE_LVL_01" ID="{7C7E0066-3D3C-451B-AFBD-E6952597E280}" WorkUnitID="{74AB6A32-C097-4D6E-98DD-5F785D8D80CD}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="GPE_CRATES" ID="{EDF07F27-DB21-4F02-B786-930FE5DD5521}" PersistMode="Reference"/>
+						<WorkUnit Name="GPE_DOOR_LVL_01" ID="{3BDDEB96-5A54-4B20-93A4-7E521A76CF09}" PersistMode="Reference"/>
+						<WorkUnit Name="GPE_SWITCH" ID="{8DBCE72B-4AD8-43E5-ADFE-D8329EA2078D}" PersistMode="Reference"/>
+						<WorkUnit Name="GPE_PORTAL" ID="{B6C38D5C-ED31-4D48-BF75-E4AEE9BB8615}" PersistMode="Reference"/>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

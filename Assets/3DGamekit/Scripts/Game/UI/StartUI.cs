@@ -17,6 +17,11 @@ namespace Gamekit3D
         public GameObject controlsCanvas;
         public GameObject audioCanvas;
 
+        public AK.Wwise.Event PauseMenuOpen;
+        public AK.Wwise.Event PauseMenuClose;
+        public AK.Wwise.Event ButtonClick;
+        public AK.Wwise.Event ButtonHover;
+
         protected bool m_InPause;
         protected PlayableDirector[] m_Directors;
 
@@ -33,29 +38,44 @@ namespace Gamekit3D
                 Cursor.visible = true;
             }
 
-            m_Directors = FindObjectsOfType<PlayableDirector> ();
+            m_Directors = FindObjectsOfType<PlayableDirector>();
         }
 
         public void Quit()
         {
+            if (ButtonClick.IsValid())
+                ButtonClick.Post(gameObject);
+
 #if UNITY_EDITOR
             EditorApplication.isPlaying = false;
 #else
-		    Application.Quit();
+            Application.Quit();
 #endif
         }
 
         public void ExitPause()
         {
+            if (ButtonClick.IsValid())
+                ButtonClick.Post(gameObject);
+
             m_InPause = true;
             SwitchPauseState();
         }
 
         public void RestartLevel()
         {
+            if (ButtonClick.IsValid())
+                ButtonClick.Post(gameObject);
+
             m_InPause = true;
             SwitchPauseState();
             SceneController.RestartZone();
+        }
+
+        public void OnButtonHover()
+        {
+            if (ButtonHover.IsValid())
+                ButtonHover.Post(gameObject);
         }
 
         void Update()
@@ -68,7 +88,7 @@ namespace Gamekit3D
 
         protected void SwitchPauseState()
         {
-            if (m_InPause && Time.timeScale > 0 || !m_InPause && ScreenFader.IsFading)
+            if ((m_InPause && Time.timeScale > 0) || (!m_InPause && ScreenFader.IsFading))
                 return;
 
             if (!alwaysDisplayMouse)
@@ -81,33 +101,40 @@ namespace Gamekit3D
             {
                 if (m_Directors[i].state == PlayState.Playing && !m_InPause)
                 {
-                    m_Directors[i].Pause ();
+                    m_Directors[i].Pause();
                 }
-                else if(m_Directors[i].state == PlayState.Paused && m_InPause)
+                else if (m_Directors[i].state == PlayState.Paused && m_InPause)
                 {
-                    m_Directors[i].Resume ();
+                    m_Directors[i].Resume();
                 }
             }
-            
-            if(!m_InPause)
-                CameraShake.Stop ();
+
+            if (!m_InPause)
+                CameraShake.Stop();
 
             if (m_InPause)
+            {
                 PlayerInput.Instance.GainControl();
+
+                if (PauseMenuClose.IsValid())
+                    PauseMenuClose.Post(gameObject);
+            }
             else
+            {
                 PlayerInput.Instance.ReleaseControl();
+
+                if (PauseMenuOpen.IsValid())
+                    PauseMenuOpen.Post(gameObject);
+            }
 
             Time.timeScale = m_InPause ? 1 : 0;
 
             if (pauseCanvas)
                 pauseCanvas.SetActive(!m_InPause);
-
             if (optionsCanvas)
                 optionsCanvas.SetActive(false);
-
             if (controlsCanvas)
                 controlsCanvas.SetActive(false);
-
             if (audioCanvas)
                 audioCanvas.SetActive(false);
 

@@ -44,6 +44,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_GRENADIER_WALK" ID="{83F2FCF0-B6AD-4457-A80D-AC840BC85F31}" WorkUnitID="{A706C5C0-DCF0-4D00-916A-4E5B3FA0A7CF}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CC86540E-B221-4193-8E08-685074706E50}"/>
 								</Reference>
